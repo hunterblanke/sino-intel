@@ -69,7 +69,6 @@ def fetch_articles(max_per_feed=15):
             except Exception as e:
                 print(f"  [WARN] Failed to fetch {url}: {e}")
 
-    # Remove duplicates by title
     seen = set()
     unique = []
     for a in raw:
@@ -105,7 +104,7 @@ For severity use only one of: high, medium, low"""
 
     try:
         message = ANTHROPIC_CLIENT.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-haiku-4-5-20251001",
             max_tokens=400,
             messages=[{"role": "user", "content": prompt}]
         )
