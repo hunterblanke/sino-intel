@@ -1,11 +1,461 @@
 {
   "date": "2026-06-06",
   "metrics": {
-    "sources_scanned": 0,
-    "articles_total": 0,
-    "high_priority": 0,
-    "by_category": {},
-    "updated_at": "2026-06-06T21:42:34.115284Z"
+    "sources_scanned": 4,
+    "articles_total": 37,
+    "high_priority": 1,
+    "by_category": {
+      "economy": 20,
+      "foreign_relations": 7,
+      "military": 1,
+      "cross_reference": 9
+    },
+    "updated_at": "2026-06-06T22:03:24.889051Z"
   },
-  "articles": []
+  "articles": [
+    {
+      "headline": "Regional Powers Escalate Land Reclamation in South China Sea",
+      "brief": "Following China's years of artificial island construction to support territorial claims, other regional actors are now undertaking similar land reclamation projects in the South China Sea. This escalation represents a shift in the strategic competition, as neighboring countries adopt China's tactics to advance their own maritime claims. The development increases the risk of militarization and territorial disputes in one of the world's most contested waters.",
+      "category": "military",
+      "severity": "high",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/cy823n3ln29o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 03 Jun 2026 22:00:21 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "British Heart Foundation to close 150 charity shops",
+      "brief": "The British Heart Foundation announced plans to close 150 charity shops due to challenging trading conditions. This closure reflects broader pressures on UK retail and charitable sector operations. The move may impact fundraising capabilities and community service delivery for the health charity.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/cvgzg48d9q0o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 05 Jun 2026 02:32:16 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "China Regulates Viral Micro Drama Content on Digital Platforms",
+      "brief": "Chinese authorities are cracking down on popular short-form micro dramas for containing explicit content, violence, and materialism. This regulatory action reflects Beijing's broader content control strategy and may impact the digital entertainment industry's creative output and platform business models. The crackdown signals tightening restrictions on user-generated content across social media platforms.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/clypy34pj6yo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 05 Jun 2026 05:16:54 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "UK Government Invests \u00a31.3bn in Universal Theme Park Development",
+      "brief": "The UK government is committing \u00a31.3 billion in funding toward the construction of a Universal Studios theme park in Bedfordshire. This substantial public investment reflects the government's strategy to stimulate regional economic growth and create employment opportunities through major infrastructure projects.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/c1e2wdzn751o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 04 Jun 2026 04:00:23 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "China to Tighten Regulation of Algorithmic Programme Trading",
+      "brief": "Chinese securities regulators announced plans to enhance oversight of programme trading, an increasingly popular automated investment method used by hedge funds and institutional investors. The regulatory enhancement aims to address market misconduct risks associated with algorithm-based securities trading, which has grown significantly in China's financial markets.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3356217/china-will-enhance-regulation-programme-trading-csrc-chairman?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 11:51:21 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong Banks Maintain Mainland Account Openings Under New Rules",
+      "brief": "The Hong Kong Monetary Authority (HKMA) confirmed that mainland Chinese customers can continue opening bank accounts in Hong Kong, though banks must implement stricter compliance procedures. The new regulatory requirements aim to ensure account opening processes remain orderly while maintaining financial system integrity. This development balances cross-border financial access with enhanced regulatory oversight in Hong Kong's banking sector.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3356201/mainlanders-can-still-open-bank-accounts-hong-kong-despite-new-rules-hkma?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 07:24:07 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Foreign investors return to Chinese assets via IPOs and convertibles",
+      "brief": "Foreign investors are increasing exposure to Chinese companies through convertible bonds and IPOs in Hong Kong, particularly in AI, semiconductors, and advanced manufacturing sectors. Chinese companies raised approximately US$43 billion through equity capital market transactions in Hong Kong during the first five months of 2026, representing a 54% increase from US$28 billion in the same period the previous year. This capital market revival signals renewed international confidence in China's technology-driven economic sectors.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/china-business/article/3356097/china-sees-revival-foreign-investors-through-ipos-convertibles-ubs?utm_source=rss_feed",
+      "published": "Fri, 05 Jun 2026 10:00:16 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong proposes tax break on fund manager bonuses to attract talent",
+      "brief": "Hong Kong is introducing a proposed tax exemption on performance-linked bonuses for fund managers meeting specified criteria, positioning itself as the first major Asian financial center to offer such relief. The measure aims to attract top global fund managers and reinforce Hong Kong's competitive advantage in offshore wealth management against regional rival Singapore. The proposal requires Legislative Council approval before implementation.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3356061/hong-kongs-proposed-bonus-tax-break-fund-talent-set-sharpen-edge-over-singapore?utm_source=rss_feed",
+      "published": "Fri, 05 Jun 2026 06:30:27 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Jiangsu brokerages merge in 11.5 billion yuan regional consolidation",
+      "brief": "Soochow Securities has announced plans to acquire an 83.68 percent stake in Donghai Securities for 11.52 billion yuan, marking accelerated financial sector integration in China's second-largest provincial economy. The merger reflects an ongoing consolidation trend in China's regional brokerage industry, potentially strengthening financial sector efficiency and market competitiveness in Jiangsu province.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3355809/jiangsu-115b-yuan-brokerage-merger-marks-new-phase-consolidation?utm_source=rss_feed",
+      "published": "Wed, 03 Jun 2026 08:30:08 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Tiger Brokers reports 17.5% profit growth despite regulatory scrutiny",
+      "brief": "Tiger Brokers announced strong first-quarter results with operating profit reaching US$47.6 million and revenue climbing 26.3% year-on-year, primarily driven by a 536% surge in Hong Kong trading. The company notably omitted any discussion of an impending regulatory punishment from China's securities regulator regarding alleged unlicensed cross-border trading services, suggesting potential ongoing compliance risks despite financial performance.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3355729/chinas-tiger-brokers-reports-strong-results-no-mention-trading-crackdown?utm_source=rss_feed",
+      "published": "Tue, 02 Jun 2026 13:00:18 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "General Mills transfers Haagen-Dazs China operations to local lemon tea chain",
+      "brief": "General Mills is divesting its struggling China Haagen-Dazs business to an investor group led by Ningji Lemon Tea, following similar moves by Starbucks and Burger King. The transaction reflects foreign companies adapting business models to intensifying competition from domestic Chinese brands in the rapidly evolving consumer market. Analysts expect the restructuring to improve profitability through localized management.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/china-business/article/3355718/big-scoop-lemon-tea-chain-ningji-revamp-haagen-dazs-struggling-china-business?utm_source=rss_feed",
+      "published": "Tue, 02 Jun 2026 10:45:50 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Chinese AI firms reverse Hong Kong listing strategy to access global capital",
+      "brief": "Chinese artificial intelligence companies are reversing traditional dual-listing practices by listing in Hong Kong first before mainland China, rather than the conventional domestic-first approach. This shift allows AI firms like MiniMax Group and Zhipu to obtain market-based valuations from global investors and access more sophisticated capital to support expansion. The trend indicates China's AI sector is pursuing international capital markets earlier in their development cycles.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/china-business/article/3355676/why-hong-kong-now-launch-pad-mainland-chinas-ai-champions?utm_source=rss_feed",
+      "published": "Tue, 02 Jun 2026 10:00:15 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong hotel closure reflects shift toward student housing sector",
+      "brief": "Casa Hotel, a 162-room boutique property in Yau Ma Tei that operated for nearly two decades, ceased operations on May 31 after failing to sell. The building's lease to a student-housing operator signals a significant sectoral shift in Hong Kong's real estate market as traditional hospitality assets face conversion pressure amid challenging market conditions.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3355583/closure-hong-kongs-casa-hotel-tied-student-housing-trend-after-failed-sale-attempts?utm_source=rss_feed",
+      "published": "Mon, 01 Jun 2026 11:30:20 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Chinese humanoid robot firm Unitree clears Shanghai IPO regulatory hurdle",
+      "brief": "Unitree Robotics, a leading Chinese humanoid robot manufacturer, has passed a Shanghai Stock Exchange listing committee hearing, advancing toward its anticipated IPO on the Star Market. The approval follows regulatory inquiries and inspections, positioning the company to proceed to registration and issuance phases. The development reflects China's accelerating commercialization of humanoid robotics technology and growing investor interest in the sector.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/tech/big-tech/article/3355538/unitree-clears-key-hurdle-shanghai-ipo-chinas-humanoid-robot-wave-gathers-pace?utm_source=rss_feed",
+      "published": "Mon, 01 Jun 2026 09:17:28 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "China index reshuffle to increase tech sector weighting, attract capital inflows",
+      "brief": "A semi-annual reshuffle of China's key stock indices will increase technology company representation, expected to drive approximately $3.1 billion in inflows to hardware and semiconductor sectors. The restructuring is anticipated to boost investor confidence in Chinese tech stocks and enhance the sector's overall market appeal through increased institutional weighting.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/china-business/article/3355523/china-index-reshuffle-entrench-tech-trades-and-boost-ai-rally-brokerages?utm_source=rss_feed",
+      "published": "Mon, 01 Jun 2026 09:00:06 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong government venture fund seeks expansion after strong returns",
+      "brief": "Hong Kong Investment Corporation achieved double-digit internal rate of return in 2024, earning HK$2.3 billion while avoiding typical venture fund performance losses. The strong performance has positioned the government's investment arm to pursue larger capital allocations, potentially expanding Hong Kong's role in regional venture capital markets.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/article/3355522/hong-kong-governments-venture-fund-eyes-bigger-bankroll-after-double-digit-return?utm_source=rss_feed",
+      "published": "Mon, 01 Jun 2026 06:24:26 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong insurance sales face slowdown as China tightens cross-border fund controls",
+      "brief": "Hong Kong's booming insurance sector faces potential contraction as mainland Chinese visitors encounter regulatory barriers preventing large fund transfers across the border to purchase policies. Beijing and Hong Kong authorities have implemented stricter rules on cross-border capital flows, with regulators actively monitoring these transactions. This regulatory tightening could significantly impact Hong Kong's insurance market growth and cross-border financial activity.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3355451/hong-kongs-insurance-boom-risks-cooling-regulators-curb-mainland-china-fund-flows?utm_source=rss_feed",
+      "published": "Mon, 01 Jun 2026 02:30:05 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Xi Jinping to visit North Korea in rare diplomatic meeting",
+      "brief": "Chinese President Xi Jinping is preparing a rare visit to North Korea to meet with Kim Jong Un, occurring shortly after Xi's separate meetings with US and Russian leaders. The timing suggests China is reinforcing its strategic position on the Korean Peninsula amid great power competition. This visit underscores Beijing's efforts to maintain influence over Pyongyang's foreign policy alignment.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/clypym3q7p1o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 05 Jun 2026 05:17:13 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "China positioned to expand health influence as US presence recedes",
+      "brief": "China has the capacity to assist in controlling Ebola outbreaks in East Africa, potentially filling a leadership vacuum created by reduced U.S. engagement in the region. This development could enhance China's soft power and influence in African nations during a critical health crisis.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "NYT > World News"
+      ],
+      "original_link": "https://www.nytimes.com/2026/06/06/world/asia/as-ebola-spreads-in-east-africa-will-china-step-up.html",
+      "published": "Sat, 06 Jun 2026 13:15:45 +0000",
+      "raw_source": "NYT > World News"
+    },
+    {
+      "headline": "US denies Iranian technical staff visas despite approving players",
+      "brief": "Iran reports that US authorities have blocked visas for Iranian technical staff attending the World Cup, contradicting earlier US approval for Iranian players to enter the country. The selective visa denials suggest underlying tensions in US-Iran relations and could complicate Iran's World Cup participation. This diplomatic inconsistency may indicate continued restrictions on Iran-related travel despite the player approvals.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/cy8286nqz87o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 06 Jun 2026 21:31:16 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "US confronts screwworm outbreak, first detected since 1966",
+      "brief": "The US is addressing a flesh-eating screwworm infestation detected in the southern United States for the first time in nearly 60 years, utilizing innovative control methods including specialized flies and dogs. This agricultural and public health challenge represents a significant pest management concern that could have implications for regional food security and animal health if not contained.",
+      "category": "cross_reference",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/c7v9vz1gd76o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 06 Jun 2026 01:55:03 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "Hong Kong Leader Signs 96 Central Asia Deals, Restores Flight Routes",
+      "brief": "Hong Kong Chief Executive John Lee Ka-chiu concluded a Central Asia visit with nearly 100 partnership agreements designed to facilitate Chinese business expansion into the region and restore direct flight connections. The agreements represent a strategic effort to deepen economic ties between Hong Kong, mainland China, and Central Asia, though successful implementation will depend on coordinated follow-up actions by authorities and private stakeholders.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356215/96-deals-signed-flights-planned-whats-next-hong-kong-and-central-asia?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 10:53:23 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong faces rising flu cases as vaccine immunity declines",
+      "brief": "Hong Kong is experiencing increased influenza cases, particularly among children and elderly populations, attributed to waning vaccine effectiveness and declining community immunity levels. Leading infectious disease experts have urged high-risk groups to receive seasonal flu vaccinations. The outbreak reflects broader public health challenges in maintaining disease control through vaccination coverage.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/health-environment/article/3356191/flu-cases-rise-hong-kong-immunity-wanes-expert-warns?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 05:07:33 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong child welfare case highlights parental assessment complexities",
+      "brief": "A Hong Kong infant's birth registration remains incomplete as welfare authorities assess parental capability following the parents' arrest on suspected child neglect charges and their initial resistance to DNA testing on religious grounds. The case underscores ongoing tensions between individual rights and child protection protocols within Hong Kong's administrative systems. The outcome may influence future welfare assessment procedures in the territory.",
+      "category": "cross_reference",
+      "severity": "medium",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356187/hong-kong-baby-dannys-future-remains-unclear-despite-birth-registration-progress?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 03:31:49 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Mainland Chinese students reconsider Hong Kong studies due to costs",
+      "brief": "Mainland Chinese graduates are increasingly choosing to return to China rather than remain in Hong Kong, citing high living costs that consume significant portions of local salaries. This trend reflects changing economic calculations for students, with opportunities in major Chinese cities offering better financial prospects. The shift may impact Hong Kong's appeal as an international education hub and reduce cross-strait talent flow to the territory.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356168/dont-dream-its-over-mainland-students-rethink-hong-kong-over-costs-culture?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 01:00:10 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong positions itself as gateway for Central Asian business expansion",
+      "brief": "Hong Kong Chief Executive John Lee promoted the city as a platform for Uzbek enterprises to access international markets, leveraging its professional services and business environment. Lee invited Uzbekistan's Prime Minister Abdulla Aripov to keynote the September Belt and Road Summit in Hong Kong, signaling efforts to strengthen economic ties with Central Asia and expand the Belt and Road Initiative network.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356166/hong-kong-ideal-platform-uzbek-firms-spread-wings-globally-john-lee-says?utm_source=rss_feed",
+      "published": "Fri, 05 Jun 2026 14:59:03 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "CLP director sells Hong Kong luxury property amid market recovery",
+      "brief": "A non-executive director of CLP Holdings sold a Mid-Levels luxury flat for HK$51 million, reflecting improving sentiment in Hong Kong's high-end real estate market. The transaction signals renewed confidence among prominent property owners to liquidate premium assets. This activity suggests potential stabilization in Hong Kong's luxury property sector after recent market weakness.",
+      "category": "economy",
+      "severity": "low",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/article/3355978/clp-director-betty-yuen-sells-mid-levels-flat-hong-kong-luxury-market-improves?utm_source=rss_feed",
+      "published": "Thu, 04 Jun 2026 11:30:13 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "NBA star Curry signs endorsement deal with Chinese sportswear firm",
+      "brief": "Steph Curry has signed an endorsement agreement with a Chinese sportswear brand following his departure from Under Armour, reflecting intensified competition among Chinese firms to secure high-profile global athletes for brand elevation. This development demonstrates China's strategic focus on leveraging celebrity partnerships to expand international market presence and soft power influence through sports marketing.",
+      "category": "economy",
+      "severity": "low",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/cj9pky3ldddo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 02 Jun 2026 06:29:35 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "Hong Kong Golf Club Patrons Challenge Rosewood Hotel Group Management Changes",
+      "brief": "Members of the exclusive Hong Kong Golf & Tennis Academy have filed complaints with the Consumer Council and threatened legal action against Rosewood Hotel Group's proposed operational changes to the club's Central location clubhouse. While the hospitality firm claims to have made refinements to its plans, the dispute reflects tensions between foreign hospitality operators and established Hong Kong institutions over management and service standards.",
+      "category": "economy",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356204/hong-kong-sports-club-patrons-threaten-legal-action-over-operational-changes?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 12:49:51 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong designates historic temple and mosque as statutory monuments",
+      "brief": "Hong Kong's government has recommended that Hung Shing Temple in Wan Chai and Stanley Mosque at Stanley Prison receive statutory monument status, the city's highest level of heritage protection. Both structures, currently Grade 1 historic buildings, reflect Hong Kong's diverse religious and cultural heritage spanning nearly 180 years. The designation underscores Hong Kong's commitment to preserving its multicultural identity and historical architecture.",
+      "category": "cross_reference",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356213/wan-chai-temple-and-stanley-mosque-set-highest-level-heritage-protection?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 10:34:46 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong transport subsidy reform saves HK$69 million monthly",
+      "brief": "Hong Kong's revised public transport subsidy scheme, affecting 2.7 million users, generated HK$69 million in government savings during its first month of operation in April. The welfare minister announced the cost reduction while lawmakers raised concerns about long-term fiscal sustainability as the aging population increases demand for such programs. The reform represents efforts to balance social welfare commitments with budgetary constraints.",
+      "category": "economy",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356211/hong-kong-saves-hk69-million-first-month-after-hk2-fare-scheme-revamp?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 10:11:38 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong dancer Mo Li honours late father at funeral service",
+      "brief": "Reverend Derek Li Shing-lam, a prominent Christian ministry figure and advocate for his paralyzed son Mo Li Kai-yin, has passed away after nearly four years of public support for the dancer injured in a 2022 Mirror concert accident. The funeral drew dignitaries and public attendance, with Mo Li delivering a video tribute acknowledging his father's dedication. The incident reflects ongoing public interest in workplace safety and disability advocacy within Hong Kong society.",
+      "category": "cross_reference",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356208/injured-mirror-dancer-mo-li-honours-late-father-reverend-derek-li-funeral?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 09:56:24 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong police arrest taxi driver in fatal pedestrian collision",
+      "brief": "Hong Kong authorities arrested a 69-year-old taxi driver after a fatal collision with a 34-year-old woman in Tsim Sha Tsui early Saturday morning. The incident occurred near Park Lane Shopper's Boulevard when the taxi struck the pedestrian as she crossed Nathan Road. This appears to be a localized traffic incident with no broader geopolitical implications.",
+      "category": "cross_reference",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3356195/taxi-driver-69-arrested-after-woman-killed-tsim-sha-tsui-collision?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 05:47:57 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong Observatory cancels rainstorm warnings after Saturday downpour",
+      "brief": "Hong Kong's Observatory cancelled all rainstorm signals on Saturday evening after issuing multiple alerts throughout the day in response to heavy rainfall exceeding 30mm. The rapid succession of warning upgrades and downgrades\u2014from amber to red to amber within hours\u2014reflects dynamic weather conditions. This domestic weather event has no significant foreign relations implications.",
+      "category": "cross_reference",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/health-environment/article/3356186/hong-kong-issues-amber-rainstorm-warning-storms-follow-record-heat?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 02:43:21 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong parents obtain infant's birth certificate amid custody case",
+      "brief": "Unmarried parents in Hong Kong obtained a birth certificate for their two-month-old son after their arrest on child neglect suspicion, but custody remains contingent on passing home visits and assessments. The case reflects Hong Kong's child welfare enforcement procedures and regulatory oversight of parental guardianship.",
+      "category": "cross_reference",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356172/hong-kong-parents-undocumented-baby-danny-confident-regaining-custody?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 00:00:26 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong police arrest man for alleged indecent assault on bus",
+      "brief": "Hong Kong authorities arrested a 65-year-old suspect at the Hong Kong-Zhuhai-Macau Bridge checkpoint following an alleged indecent assault on a 17-year-old schoolgirl aboard a public bus in Mong Kok. The incident was documented in online footage that prompted police response. This case reflects ongoing law enforcement operations in Hong Kong's public spaces.",
+      "category": "cross_reference",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3356171/hong-kong-man-arrested-allegedly-groping-schoolgirl-bus?utm_source=rss_feed",
+      "published": "Fri, 05 Jun 2026 15:33:29 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong court reduces murder plot organizer's sentence by three years",
+      "brief": "A Hong Kong court reduced the 27-year sentence of Stephen So Hon-to, a private tutor convicted of orchestrating a failed murder plot against his business partner, by three years while upholding his conviction. The Court of Appeal determined the original sentence was excessive despite acknowledging the serious nature of the crime and public safety concerns. The case demonstrates ongoing judicial review processes within Hong Kong's legal system.",
+      "category": "cross_reference",
+      "severity": "low",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3356156/hong-kong-tutor-who-plotted-murder-flight-attendant-gets-3-year-jail-term-reduction?utm_source=rss_feed",
+      "published": "Fri, 05 Jun 2026 12:44:54 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    }
+  ]
 }
