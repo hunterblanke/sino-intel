@@ -8,11 +8,14 @@ name: Daily Intelligence Update
 
 on:
   schedule:
-    - cron: "0 10 * * *"   # 10:00 UTC = 6:00 AM EDT every day
-  workflow_dispatch:        # allows manual run from GitHub UI
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
-  contents: write           # needed to commit the updated articles.json
+  contents: write
 
 jobs:
   update:
@@ -20,30 +23,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Check out your repo
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
-      # 2. Set up Python
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0
         with:
           python-version: "3.11"
           cache: "pip"
 
-      # 3. Install dependencies
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      # 4. Run the pipeline
-      #    ANTHROPIC_API_KEY is stored as a GitHub Secret (see setup guide below)
       - name: Run daily pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python daily_pipeline.py
 
-      # 5. Commit the new articles.json back to the repo
-      #    Vercel will auto-redeploy when it detects this commit
       - name: Commit updated data
         run: |
           git config --global user.name  "sino-intel-bot"
