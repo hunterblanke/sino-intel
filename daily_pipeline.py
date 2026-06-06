@@ -34,7 +34,9 @@ CHINA_KEYWORDS = [
     "shanghai", "shenzhen", "politburo", "people's republic"
 ]
 
-ANTHROPIC_CLIENT = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+api_key = os.environ.get("ANTHROPIC_API_KEY", "NOT_FOUND")
+print(f"  API key loaded: {api_key[:15]}..." if api_key != "NOT_FOUND" else "  ERROR: API key not found in environment")
+ANTHROPIC_CLIENT = anthropic.Anthropic(api_key=api_key)
 
 
 def is_china_relevant(title, summary):
