@@ -1,92 +1,11 @@
 {
   "date": "2026-06-06",
   "metrics": {
-    "sources_scanned": 12,
-    "articles_total": 8,
-    "high_priority": 2,
-    "by_category": { "economy": 3, "military": 2, "foreign_relations": 2, "cross_reference": 1 },
-    "updated_at": "2026-06-06T10:00:00Z"
+    "sources_scanned": 0,
+    "articles_total": 0,
+    "high_priority": 0,
+    "by_category": {},
+    "updated_at": "2026-06-06T20:22:57.478831Z"
   },
-  "articles": [
-    {
-      "headline": "PLA Navy conducts unannounced exercises near Spratly Islands",
-      "brief": "Satellite imagery confirms a carrier group deployment 140km from disputed reefs in the South China Sea. The exercise coincides with scheduled US-Philippine joint drills, marking the third such overlap this quarter. CSIS analysts assess this as a deliberate signaling operation.",
-      "category": "military",
-      "severity": "high",
-      "sources_used": ["CSIS", "AP", "USNI News"],
-      "original_link": "https://news.usni.org",
-      "published": "Sat, 06 Jun 2026 08:00:00 GMT",
-      "raw_source": "USNI News"
-    },
-    {
-      "headline": "USS Ronald Reagan carrier group transits Taiwan Strait",
-      "brief": "The USS Ronald Reagan and its battle group completed a routine freedom-of-navigation transit through the Taiwan Strait, the first in three months. China's PLA Eastern Theater Command issued a statement calling the transit 'provocative.' The US Navy described it as consistent with international law.",
-      "category": "military",
-      "severity": "high",
-      "sources_used": ["AP", "Reuters", "USNI News"],
-      "original_link": "https://apnews.com",
-      "published": "Sat, 06 Jun 2026 06:00:00 GMT",
-      "raw_source": "AP"
-    },
-    {
-      "headline": "PBOC holds rate steady as export figures disappoint",
-      "brief": "China's central bank opted against further rate cuts even as export data came in below analyst expectations for the third consecutive month. Trade friction with EU partners continues to weigh on manufacturing output. IMF analysts revised China's 2026 growth forecast down to 4.5%.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": ["Reuters", "FT", "IMF"],
-      "original_link": "https://reuters.com",
-      "published": "Sat, 06 Jun 2026 04:00:00 GMT",
-      "raw_source": "Reuters"
-    },
-    {
-      "headline": "Wang Yi extends Belt and Road commitments in Africa tour",
-      "brief": "China's foreign minister concluded a three-nation African tour with expanded BRI commitments totaling $8.4B through 2032. Brookings analysts note the terms include more concessional lending than previous agreements, a possible response to Western debt-trap criticism. Kenya and Tanzania are the primary beneficiaries.",
-      "category": "foreign_relations",
-      "severity": "medium",
-      "sources_used": ["Brookings", "Reuters", "SCMP"],
-      "original_link": "https://brookings.edu",
-      "published": "Fri, 05 Jun 2026 20:00:00 GMT",
-      "raw_source": "Brookings"
-    },
-    {
-      "headline": "Semiconductor fab capacity rises 18% as domestic alternatives scale",
-      "brief": "New MOFCOM data cross-referenced with RAND analysis shows domestic wafer production now covers 61% of advanced node demand, up from 43% in 2024. The acceleration follows tightened US export controls on EUV lithography equipment. The World Bank flags this shift as a key variable in long-term US technology leverage.",
-      "category": "cross_reference",
-      "severity": "medium",
-      "sources_used": ["RAND", "World Bank", "MOFCOM"],
-      "original_link": "https://rand.org",
-      "published": "Fri, 05 Jun 2026 18:00:00 GMT",
-      "raw_source": "RAND"
-    },
-    {
-      "headline": "Yuan hits 4-month low amid capital outflow concerns",
-      "brief": "The renminbi fell to its weakest level against the dollar in four months, driven by persistent capital outflows and weaker-than-expected PMI data. The PBOC set the daily fixing at the lower bound of market expectations, signaling tolerance for gradual depreciation.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": ["Reuters", "FT"],
-      "original_link": "https://ft.com",
-      "published": "Fri, 05 Jun 2026 14:00:00 GMT",
-      "raw_source": "Financial Times"
-    },
-    {
-      "headline": "China-EU summit dates confirmed for September in Brussels",
-      "brief": "EU and Chinese officials confirmed a bilateral summit for September 18-19 in Brussels, the first in-person leaders' meeting since 2023. Key agenda items include EV tariff disputes, human rights concerns, and coordination on the Russia-Ukraine conflict.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": ["AFP", "SCMP"],
-      "original_link": "https://scmp.com",
-      "published": "Fri, 05 Jun 2026 12:00:00 GMT",
-      "raw_source": "SCMP"
-    },
-    {
-      "headline": "China's property sector stabilization remains fragile, World Bank warns",
-      "brief": "A World Bank assessment finds that while major developers have avoided defaults following 2025 restructuring, new home sales remain 34% below their 2021 peak. Local government revenues tied to land sales are under sustained pressure, complicating fiscal stimulus options.",
-      "category": "economy",
-      "severity": "low",
-      "sources_used": ["World Bank", "Reuters"],
-      "original_link": "https://worldbank.org",
-      "published": "Thu, 04 Jun 2026 10:00:00 GMT",
-      "raw_source": "World Bank"
-    }
-  ]
+  "articles": []
 }
