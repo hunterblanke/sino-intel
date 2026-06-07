@@ -1,3 +1,13 @@
 *, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; background: #faf9f7; transition: background 0.2s; }
-body.dark { background: #0f0f0f; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: #faf9f7;
+  transition: background 0.2s;
+}
+
+body.dark {
+  background: #0f0f0f;
+}
