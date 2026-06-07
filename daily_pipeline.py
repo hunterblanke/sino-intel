@@ -93,10 +93,6 @@ def fetch_articles(max_per_feed=15):
 
 
 def ai_rank_articles(articles):
-    """
-    Ask AI to rank all fetched articles by geopolitical importance
-    and return only the top 25 most significant ones.
-    """
     if len(articles) <= 25:
         return articles
 
@@ -118,7 +114,7 @@ Articles:
 
 Respond ONLY with valid JSON, no extra text, no markdown:
 {{
-  "top_indices": [1, 4, 7, 12, ...]
+  "top_indices": [1, 4, 7, 12]
 }}
 
 Return exactly 25 index numbers from the list above (1-based). Order them from most to least important."""
@@ -136,13 +132,11 @@ Return exactly 25 index numbers from the list above (1-based). Order them from m
                 text = text[4:]
         parsed = json.loads(text.strip())
         indices = parsed.get("top_indices", [])
-        # Convert 1-based to 0-based, filter valid indices
         selected = []
         for idx in indices:
             i = int(idx) - 1
             if 0 <= i < len(articles):
                 selected.append(articles[i])
-        # Ensure we have exactly 25
         if len(selected) < 25:
             for a in articles:
                 if a not in selected:
@@ -196,6 +190,49 @@ For severity use only one of: high, medium, low"""
         return parsed
     except Exception as e:
         print(f"  [WARN] AI failed for '{article['title'][:50]}': {e}")
+        return None
+
+
+def generate_deep_dive(article):
+    """Generate a full analytical deep dive on the most important article of the day."""
+    prompt = f"""You are a senior China intelligence analyst writing a daily deep dive briefing.
+Analyze the following article in depth for a professional intelligence audience.
+
+Source: {article['source']}
+Title: {article['title']}
+Text: {article['summary']}
+
+Respond ONLY with valid JSON, no extra text, no markdown:
+{{
+  "headline": "Deep dive headline under 12 words",
+  "category": "military",
+  "overview": "2-3 sentence overview of the situation and why it matters today.",
+  "background": "2-3 sentences of essential historical or political context a reader needs to understand this story.",
+  "key_players": "1-2 sentences identifying the main actors and their positions or interests.",
+  "implications": "2-3 sentences analyzing the short and long term geopolitical implications.",
+  "risk_assessment": "1-2 sentences rating the risk level and what to watch for next.",
+  "source": "{article['source']}"
+}}
+
+For category use only one of: economy, military, foreign_relations"""
+
+    try:
+        message = ANTHROPIC_CLIENT.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=800,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        text = message.content[0].text.strip()
+        if "```" in text:
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
+        parsed = json.loads(text.strip())
+        parsed["original_link"] = article.get("link", "")
+        print(f"  Generated deep dive: {parsed['headline'][:60]}")
+        return parsed
+    except Exception as e:
+        print(f"  [WARN] Deep dive generation failed: {e}")
         return None
 
 
@@ -265,6 +302,7 @@ def main():
             "metrics": generate_metrics([]),
             "articles": [],
             "relations": [],
+            "deep_dive": None,
         }
         Path(OUTPUT_FILE).parent.mkdir(parents=True, exist_ok=True)
         with open(OUTPUT_FILE, "w") as f:
@@ -284,18 +322,23 @@ def main():
 
     print(f"\n  Processed {len(processed)} articles successfully.")
 
-    print("\nStep 4: Building output JSON...")
+    print("\nStep 4: Generating daily deep dive...")
+    # Use the first (highest ranked) article for the deep dive
+    deep_dive = generate_deep_dive(top_articles[0]) if top_articles else None
+
+    print("\nStep 5: Building output JSON...")
     metrics = generate_metrics(processed)
     sev_order = {"high": 0, "medium": 1, "low": 2}
     processed.sort(key=lambda x: sev_order.get(x.get("severity", "low"), 2))
 
-    print("\nStep 5: Generating bilateral relations status...")
+    print("\nStep 6: Generating bilateral relations status...")
     relations = generate_bilateral_relations()
 
     output = {
         "date":      today,
         "metrics":   metrics,
         "articles":  processed,
+        "deep_dive": deep_dive,
         "relations": relations,
     }
 
