@@ -50,6 +50,7 @@ export default function Home() {
         <title>Great Wall Dispatch — Daily China Briefing</title>
         <meta name="description" content="AI-curated daily intelligence on China's economy, military, and foreign relations." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </Head>
 
       <div className={`${styles.root} ${dark ? styles.rootDark : ""}`}>
