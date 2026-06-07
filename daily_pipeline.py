@@ -13,17 +13,27 @@ RSS_FEEDS = {
         "https://www.ft.com/rss/home/world",
         "https://feeds.bbci.co.uk/news/business/rss.xml",
         "https://www.scmp.com/rss/11/feed",
+        "https://www.brookings.edu/topic/economy/feed/",
+        "https://foreignaffairs.com/rss.xml",
     ],
     "military": [
         "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
         "https://feeds.reuters.com/Reuters/worldNews",
         "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "https://www.csis.org/rss.xml",
+        "https://sipri.org/rss.xml",
+        "https://thediplomat.com/feed/",
     ],
     "foreign_relations": [
         "https://feeds.reuters.com/Reuters/worldNews",
         "https://feeds.bbci.co.uk/news/world/rss.xml",
         "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
         "https://www.scmp.com/rss/2/feed",
+        "https://www.brookings.edu/topic/china/feed/",
+        "https://www.rfa.org/english/rss2.xml",
+        "https://thediplomat.com/feed/",
+        "https://foreignaffairs.com/rss.xml",
+        "https://www.csis.org/rss.xml",
     ],
 }
 
@@ -31,7 +41,9 @@ CHINA_KEYWORDS = [
     "china", "chinese", "beijing", "pla", "prc", "xi jinping",
     "ccp", "yuan", "renminbi", "taiwan", "south china sea",
     "belt and road", "pboc", "bri", "sino", "hong kong",
-    "shanghai", "shenzhen", "politburo", "people's republic"
+    "shanghai", "shenzhen", "politburo", "people's republic",
+    "people's liberation", "mao", "deng", "zhao", "uyghur",
+    "xinjiang", "tibet", "macau", "huawei", "tiktok", "bytedance"
 ]
 
 api_key = os.environ.get("ANTHROPIC_API_KEY", "NOT_FOUND")
@@ -195,10 +207,10 @@ def main():
             json.dump(output, f, indent=2)
         return
 
-    print(f"\nStep 2: AI summarization ({min(len(raw_articles), 40)} articles)...")
+    print(f"\nStep 2: AI summarization ({min(len(raw_articles), 50)} articles)...")
     processed = []
-    for i, article in enumerate(raw_articles[:40]):
-        print(f"  [{i+1}/{min(len(raw_articles),40)}] {article['title'][:60]}...")
+    for i, article in enumerate(raw_articles[:50]):
+        print(f"  [{i+1}/{min(len(raw_articles),50)}] {article['title'][:60]}...")
         result = ai_summarize(article)
         if result:
             processed.append(result)
