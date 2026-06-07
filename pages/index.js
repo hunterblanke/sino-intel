@@ -55,7 +55,11 @@ export default function Home() {
       <div className={`${styles.root} ${dark ? styles.rootDark : ""}`}>
         <header className={styles.header}>
           <div className={styles.headerLeft}>
-            <img src="/logo.svg" alt="Great Wall Dispatch" style={{ height: "90px", width: "auto" }} />
+            <img
+              src={dark ? "/logo-dark.svg" : "/logo.svg"}
+              alt="Great Wall Dispatch"
+              style={{ height: "90px", width: "auto" }}
+            />
           </div>
           <div className={styles.headerRight}>
             <button className={styles.themeToggle} onClick={toggleDark}>
@@ -73,7 +77,6 @@ export default function Home() {
           <MetricCard label="Last Updated"    value={new Date(metrics.updated_at).toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" })} />
         </div>
 
-        {/* ── Deep Dive Section ── */}
         {deep_dive && <DeepDive dive={deep_dive} />}
 
         <nav className={styles.tabs}>
@@ -196,10 +199,10 @@ function DeepDive({ dive }) {
         gridTemplateColumns: "1fr 1fr",
         gap: "1rem",
       }}>
-        <DeepDiveBlock label="Overview"        text={dive.overview} color={meta.color} />
-        <DeepDiveBlock label="Background"      text={dive.background} color={meta.color} />
-        <DeepDiveBlock label="Key Players"     text={dive.key_players} color={meta.color} />
-        <DeepDiveBlock label="Implications"    text={dive.implications} color={meta.color} />
+        <DeepDiveBlock label="Overview"     text={dive.overview}     color={meta.color} />
+        <DeepDiveBlock label="Background"   text={dive.background}   color={meta.color} />
+        <DeepDiveBlock label="Key Players"  text={dive.key_players}  color={meta.color} />
+        <DeepDiveBlock label="Implications" text={dive.implications} color={meta.color} />
       </div>
 
       <div style={{ marginTop: "1rem" }}>
