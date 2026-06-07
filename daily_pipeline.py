@@ -99,7 +99,7 @@ Respond ONLY with valid JSON in this exact format, no extra text, no markdown:
   "sources_used": ["{article['source']}"]
 }}
 
-For category use only one of: economy, military, foreign_relations, cross_reference
+For category use only one of: economy, military, foreign_relations
 For severity use only one of: high, medium, low"""
 
     try:
