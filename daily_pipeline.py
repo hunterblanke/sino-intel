@@ -81,7 +81,7 @@ def fetch_articles(max_per_feed=15):
 
 
 def ai_summarize(article):
-    prompt = f"""You are an intelligence analyst. Summarize the following news article 
+    prompt = f"""You are an intelligence analyst. Summarize the following news article
 about China in 2-3 sentences for a professional intelligence briefing website.
 Be factual and neutral. Focus on the most significant implication.
 
@@ -123,6 +123,43 @@ For severity use only one of: high, medium, low"""
         return None
 
 
+def generate_bilateral_relations():
+    prompt = """You are a China foreign policy analyst. For each country listed, assess China's current bilateral relationship status in one sentence. Be factual and current.
+
+Countries: United States, Russia, European Union, Taiwan, Japan, India, Saudi Arabia, Philippines, Brazil, Australia
+
+Respond ONLY with valid JSON, no extra text, no markdown:
+{
+  "relations": [
+    {
+      "country": "United States",
+      "status": "Tense",
+      "summary": "One sentence description of current relationship state."
+    }
+  ]
+}
+
+For status use only one of: Cooperative, Neutral, Tense, Hostile"""
+
+    try:
+        message = ANTHROPIC_CLIENT.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=800,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        text = message.content[0].text.strip()
+        if "```" in text:
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
+        parsed = json.loads(text.strip())
+        print(f"  Generated relations for {len(parsed['relations'])} countries.")
+        return parsed["relations"]
+    except Exception as e:
+        print(f"  [WARN] Bilateral relations generation failed: {e}")
+        return []
+
+
 def generate_metrics(articles):
     high_count = sum(1 for a in articles if a.get("severity") == "high")
     cats = {}
@@ -151,6 +188,7 @@ def main():
             "date": today,
             "metrics": generate_metrics([]),
             "articles": [],
+            "relations": [],
         }
         Path(OUTPUT_FILE).parent.mkdir(parents=True, exist_ok=True)
         with open(OUTPUT_FILE, "w") as f:
@@ -172,10 +210,14 @@ def main():
     sev_order = {"high": 0, "medium": 1, "low": 2}
     processed.sort(key=lambda x: sev_order.get(x.get("severity", "low"), 2))
 
+    print("\nStep 4: Generating bilateral relations status...")
+    relations = generate_bilateral_relations()
+
     output = {
-        "date":     today,
-        "metrics":  metrics,
-        "articles": processed,
+        "date":      today,
+        "metrics":   metrics,
+        "articles":  processed,
+        "relations": relations,
     }
 
     Path(OUTPUT_FILE).parent.mkdir(parents=True, exist_ok=True)
