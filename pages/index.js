@@ -20,13 +20,21 @@ export default function Home() {
 
   useEffect(() => {
     const saved = localStorage.getItem("gwd-theme");
-    if (saved === "dark") setDark(true);
+    if (saved === "dark") {
+      setDark(true);
+      document.body.classList.add("dark");
+    }
   }, []);
 
   const toggleDark = () => {
     const next = !dark;
     setDark(next);
     localStorage.setItem("gwd-theme", next ? "dark" : "light");
+    if (next) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
   };
 
   const filtered = active === "all"
