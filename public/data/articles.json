@@ -2,31 +2,19 @@
   "date": "2026-06-07",
   "metrics": {
     "sources_scanned": 7,
-    "articles_total": 50,
-    "high_priority": 5,
+    "articles_total": 25,
+    "high_priority": 4,
     "by_category": {
-      "economy": 26,
-      "foreign_relations": 18,
-      "military": 6
+      "foreign_relations": 13,
+      "military": 3,
+      "economy": 9
     },
-    "updated_at": "2026-06-07T04:43:58.925909Z"
+    "updated_at": "2026-06-07T04:51:47.459015Z"
   },
   "articles": [
     {
-      "headline": "China employs AI model distillation to access advanced foreign technology",
-      "brief": "China is using unauthorized AI model distillation techniques to extract capabilities from advanced foreign AI systems without permission or licensing fees. This practice represents a significant intellectual property concern for Western technology companies and highlights vulnerabilities in AI security. The method allows China to reverse-engineer proprietary AI models at minimal cost, potentially accelerating its AI development while undermining Western competitive advantages.",
-      "category": "economy",
-      "severity": "high",
-      "sources_used": [
-        "FA RSS"
-      ],
-      "original_link": "https://www.foreignaffairs.com/china/chinas-ai-heist",
-      "published": "Fri, 29 May 2026 00:00:00 -0400",
-      "raw_source": "FA RSS"
-    },
-    {
       "headline": "Regional Powers Mirror China's Land Reclamation Strategy in South China Sea",
-      "brief": "In response to China's years of artificial island construction to support territorial claims in the South China Sea, other regional actors are now undertaking similar land reclamation projects. This escalation represents a shift toward competitive militarization of disputed areas, as countries seek to establish their own physical presence and strengthen claims. The development signals increased tensions and a potential arms race dynamic in one of the world's most strategically important maritime regions.",
+      "brief": "Multiple countries are now engaging in artificial land creation in the South China Sea, mirroring China's decades-long practice of building artificial islands to substantiate territorial claims. This escalating competition for territorial control through land reclamation represents a significant shift in regional power dynamics and increases the risk of maritime disputes. The development signals a potential arms race in territorial assertion that could destabilize the strategically critical waterway.",
       "category": "military",
       "severity": "high",
       "sources_used": [
@@ -37,20 +25,32 @@
       "raw_source": "BBC News"
     },
     {
-      "headline": "China Promotes Internet Sovereignty as Global Governance Model",
-      "brief": "China is advancing 'Internet sovereignty' as a key governing concept for the global Internet, representing a challenge to existing international Internet governance frameworks. This initiative has significant implications for cybersecurity, data control, and the balance of power in cyberspace between state and non-state actors. The concept prioritizes national control over information flows and digital infrastructure within borders.",
+      "headline": "Beijing integrates Taiwan into broader South China Sea strategic doctrine",
+      "brief": "Recent Xi-Trump discussions have highlighted Beijing's approach to Taiwan as part of a comprehensive maritime strategy against U.S. interests in the region. Analysts assess that China views both Taiwan and the South China Sea as interconnected components of strategic competition with the United States. This integrated approach suggests potential implications for U.S.-China relations and regional stability across multiple maritime domains.",
       "category": "foreign_relations",
       "severity": "high",
       "sources_used": [
-        "CSIS"
+        "Radio Free Asia"
       ],
-      "original_link": "https://www.csis.org/events/china-reality-check-chinas-internet-sovereignty-initiative-origins-and-consequences",
-      "published": "Tue, 16 Feb 2016 16:49:43 +0000",
-      "raw_source": "CSIS"
+      "original_link": "https://rfa.org/english/southchinasea/2026/05/19/xi-trump-taiwan-five-year-plan/",
+      "published": "Tue, 19 May 2026 22:22:38 +0000",
+      "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "U.S.-China Rivalry Risks Dominating Global Political Order",
-      "brief": "According to The Diplomat, the primary strategic challenge between the United States and China extends beyond preventing direct military conflict to managing their competition's broader impact on international politics. The article warns that U.S.-China rivalry could become the sole organizing principle of global affairs, with significant implications for international stability and multilateral cooperation.",
+      "headline": "Filipino national admits to espionage for China, military confirms additional cases",
+      "brief": "A Filipino man identified as \"Danny\" has disclosed that he provided intelligence to Chinese authorities, with Philippine military officials indicating multiple similar cases exist. Information he allegedly transmitted may have facilitated the 2024 Sabina Shoal ramming incident, suggesting Beijing's use of human intelligence networks to support assertive maritime operations in disputed waters.",
+      "category": "foreign_relations",
+      "severity": "high",
+      "sources_used": [
+        "Radio Free Asia"
+      ],
+      "original_link": "https://rfa.org/english/southchinasea/2026/05/07/philippines-china-spy-espionage-recruitment/",
+      "published": "Thu, 07 May 2026 20:10:18 +0000",
+      "raw_source": "Radio Free Asia"
+    },
+    {
+      "headline": "U.S.-China Rivalry Risk of Becoming Sole International Organizing Principle",
+      "brief": "According to The Diplomat, the primary challenge in U.S.-China relations extends beyond preventing direct military conflict to preventing their bilateral competition from dominating global geopolitical dynamics. The article suggests that allowing the Trump-Xi era rivalry to become the sole organizing principle of international politics poses significant structural risks to the broader international system.",
       "category": "foreign_relations",
       "severity": "high",
       "sources_used": [
@@ -61,224 +61,8 @@
       "raw_source": "The Diplomat"
     },
     {
-      "headline": "Xi Jinping visits North Korea, strengthening China-Russia-DPRK alignment",
-      "brief": "Chinese President Xi Jinping will visit Pyongyang on June 8, marking his first trip to North Korea in seven years, occurring shortly after separate summits with U.S. and Russian leaders. The visit signals deepening trilateral coordination between China, Russia, and North Korea, potentially indicating consolidated alignment among these powers amid broader geopolitical tensions.",
-      "category": "foreign_relations",
-      "severity": "high",
-      "sources_used": [
-        "The Diplomat"
-      ],
-      "original_link": "https://thediplomat.com/2026/06/xi-jinping-to-visit-north-korea-amid-deepening-three-way-alliance/",
-      "published": "Fri, 05 Jun 2026 21:13:00 +0900",
-      "raw_source": "The Diplomat"
-    },
-    {
-      "headline": "British Heart Foundation to close 150 charity shops amid economic pressures",
-      "brief": "The British Heart Foundation announced plans to close 150 charity shops due to an exceptionally challenging trading environment. This closure reflects broader economic headwinds affecting retail and charitable organizations in the UK. The move may impact charity fundraising capabilities and employment in the retail sector.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "BBC News"
-      ],
-      "original_link": "https://www.bbc.com/news/articles/cvgzg48d9q0o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 05 Jun 2026 02:32:16 GMT",
-      "raw_source": "BBC News"
-    },
-    {
-      "headline": "China Implements Content Restrictions on Viral Micro Drama Platforms",
-      "brief": "Chinese authorities are cracking down on micro dramas\u2014short-form video content that has surged in popularity\u2014by restricting material containing adult content, violence, and materialism. This regulatory action signals Beijing's tightening control over digital media consumption and online content creation. The move could impact the growing micro drama industry's business models and advertiser relationships while reflecting broader government concerns about cultural influence on consumers.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "BBC News"
-      ],
-      "original_link": "https://www.bbc.com/news/articles/clypy34pj6yo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 05 Jun 2026 05:16:54 GMT",
-      "raw_source": "BBC News"
-    },
-    {
-      "headline": "UK Government Invests \u00a31.3bn in Bedfordshire Theme Park",
-      "brief": "The UK government is committing \u00a31.3 billion in public funding toward the development of Universal UK, a major theme park project planned for Bedfordshire. This significant investment reflects government prioritization of large-scale infrastructure and entertainment sector development, with potential implications for regional economic growth, employment, and public sector spending allocation.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "BBC News"
-      ],
-      "original_link": "https://www.bbc.com/news/articles/c1e2wdzn751o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 04 Jun 2026 04:00:23 GMT",
-      "raw_source": "BBC News"
-    },
-    {
-      "headline": "Stock Connect Restrictions Limit Cross-Border Access to Mainland AI IPOs",
-      "brief": "Hong Kong and international investors face restrictions accessing recent Chinese mainland AI company listings through the Stock Connect scheme, while mainland investors similarly cannot access Hong Kong-listed AI firms. This regulatory barrier may limit capital flows to China's high-growth AI sector and reduce market integration between Hong Kong and mainland exchanges.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/markets/article/3356193/why-cant-investors-buy-mainlands-hottest-ai-stocks-stock-connect?utm_source=rss_feed",
-      "published": "Sun, 07 Jun 2026 02:30:07 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "China to tighten regulation of algorithmic programme trading",
-      "brief": "Chinese securities regulators announced plans to enhance oversight of programme trading, which uses algorithms to automatically execute large volumes of securities orders. The measure targets institutional investors and hedge funds whose increasing use of this trading method has prompted authorities to clamp down on potential market misconduct. Enhanced regulation could impact trading efficiency and strategies of foreign institutional investors operating in Chinese markets.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3356217/china-will-enhance-regulation-programme-trading-csrc-chairman?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 11:51:21 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong maintains mainland account opening access under stricter controls",
-      "brief": "Hong Kong's monetary authority confirmed mainland customers can continue opening bank accounts, though banks must implement enhanced compliance procedures. The regulatory adjustment aims to ensure account opening processes remain orderly while maintaining cross-border financial access, reflecting Hong Kong's balancing act between regulatory tightening and maintaining its role as a financial hub for mainland transactions.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3356201/mainlanders-can-still-open-bank-accounts-hong-kong-despite-new-rules-hkma?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 07:24:07 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Foreign investors resume China exposure via Hong Kong IPOs, convertibles",
-      "brief": "Foreign investors are returning to Chinese assets through convertible bonds and IPOs in Hong Kong, with Chinese companies raising US$43 billion in equity transactions during the first five months of 2026, a 54% increase year-over-year. This capital inflow reflects renewed international investor confidence in China's AI, semiconductor, and advanced manufacturing sectors. The fundraising rebound signals potential stabilization in China's capital markets and renewed foreign participation in the country's technology-driven economic growth.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/china-business/article/3356097/china-sees-revival-foreign-investors-through-ipos-convertibles-ubs?utm_source=rss_feed",
-      "published": "Fri, 05 Jun 2026 10:00:16 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong proposes tax breaks on fund manager bonuses to boost competitiveness",
-      "brief": "Hong Kong is proposing a tax exemption on performance-linked bonuses for fund managers meeting specified criteria, positioning itself as the first major Asian financial center to offer such relief. If passed, the measure aims to attract top global fund talent and reinforce Hong Kong's status as the world's largest offshore wealth management hub, potentially shifting competitive dynamics with regional rival Singapore.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3356061/hong-kongs-proposed-bonus-tax-break-fund-talent-set-sharpen-edge-over-singapore?utm_source=rss_feed",
-      "published": "Fri, 05 Jun 2026 06:30:27 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Jiangsu brokerages merge in 11.5 billion yuan consolidation deal",
-      "brief": "Soochow Securities plans to acquire an 83.68 percent stake in Donghai Securities for 11.52 billion yuan, marking accelerated financial sector integration in China's second-largest provincial economy. The merger reflects Beijing's broader strategy of consolidating regional financial institutions to enhance efficiency and reduce redundancy in the brokerage sector.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3355809/jiangsu-115b-yuan-brokerage-merger-marks-new-phase-consolidation?utm_source=rss_feed",
-      "published": "Wed, 03 Jun 2026 08:30:08 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Tiger Brokers reports 17.5% profit growth despite regulatory scrutiny",
-      "brief": "Tiger Brokers announced strong first-quarter results with operating profit reaching US$47.6 million and revenue climbing 26.3% year-on-year, driven primarily by a 536% surge in Hong Kong trading. The company notably omitted any discussion of an impending investigation by China's securities regulator regarding alleged unlicensed cross-border trading services, signaling potential tensions between financial performance and regulatory compliance in China's brokerage sector.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3355729/chinas-tiger-brokers-reports-strong-results-no-mention-trading-crackdown?utm_source=rss_feed",
-      "published": "Tue, 02 Jun 2026 13:00:18 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "General Mills transfers China Haagen-Dazs operations to local lemon tea chain",
-      "brief": "General Mills has divested its struggling Haagen-Dazs China business to an investor group led by Ningji Lemon Tea, following similar actions by Starbucks and Burger King. The transaction reflects foreign companies' strategic adaptation to China's intensifying competitive environment dominated by homegrown brands and rapidly shifting consumer preferences. Analysts expect the restructuring to improve profitability through localized management.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/china-business/article/3355718/big-scoop-lemon-tea-chain-ningji-revamp-haagen-dazs-struggling-china-business?utm_source=rss_feed",
-      "published": "Tue, 02 Jun 2026 10:45:50 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Chinese AI firms reverse Hong Kong listing sequence for global valuations",
-      "brief": "Chinese artificial intelligence companies are shifting their listing strategy by going public in Hong Kong before mainland China, reversing decades-old practice. This approach allows them to establish market-based valuations from global investors and access more sophisticated capital for growth. The trend, led by MiniMax Group and Zhipu, reflects increasing confidence in China's AI sector and changing capital market dynamics.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/china-business/article/3355676/why-hong-kong-now-launch-pad-mainland-chinas-ai-champions?utm_source=rss_feed",
-      "published": "Tue, 02 Jun 2026 10:00:15 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong hotel closure reflects shift toward student housing demand",
-      "brief": "Casa Hotel, a 162-room boutique property in Yau Ma Tei, has closed after nearly two decades of operations, with the building reportedly leased to a student-housing operator following failed sale attempts. The closure reflects changing commercial real estate dynamics in Hong Kong, where traditional hospitality assets are being repurposed to meet alternative accommodation demand. This trend suggests structural shifts in Hong Kong's tourism and real estate sectors amid evolving market conditions.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3355583/closure-hong-kongs-casa-hotel-tied-student-housing-trend-after-failed-sale-attempts?utm_source=rss_feed",
-      "published": "Mon, 01 Jun 2026 11:30:20 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Unitree Robotics advances toward Shanghai IPO amid China's robotics boom",
-      "brief": "Unitree Robotics, a leading Chinese humanoid robot manufacturer, cleared regulatory approval for its Shanghai Star Market IPO listing after passing a committee hearing on Monday. The approval allows the Hangzhou-based company to proceed toward registration and issuance, reflecting China's accelerating development in the robotics sector. This milestone indicates growing investor confidence in China's advanced manufacturing capabilities and emerging technology commercialization.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/tech/big-tech/article/3355538/unitree-clears-key-hurdle-shanghai-ipo-chinas-humanoid-robot-wave-gathers-pace?utm_source=rss_feed",
-      "published": "Mon, 01 Jun 2026 09:17:28 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "China index reshuffle to increase tech sector weighting, attract capital inflows",
-      "brief": "A semi-annual reshuffle of major Chinese stock indices will increase technology company representation, expected to drive approximately $3.1 billion in inflows to hardware and semiconductor makers according to Goldman Sachs. This structural change is anticipated to boost investor confidence in the tech sector and entrench technology as a dominant component of China's equity market weighting.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/china-business/article/3355523/china-index-reshuffle-entrench-tech-trades-and-boost-ai-rally-brokerages?utm_source=rss_feed",
-      "published": "Mon, 01 Jun 2026 09:00:06 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong government venture fund seeks expansion after strong returns",
-      "brief": "Hong Kong Investment Corporation achieved double-digit returns and earned HK$2.3 billion in 2024, outperforming typical newly established venture capital funds. The strong performance has positioned the fund to seek increased capital allocation, suggesting Hong Kong's continued efforts to strengthen its position as a financial hub through strategic technology and innovation investments.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/article/3355522/hong-kong-governments-venture-fund-eyes-bigger-bankroll-after-double-digit-return?utm_source=rss_feed",
-      "published": "Mon, 01 Jun 2026 06:24:26 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Chinese Leadership's Misperceptions Obstacle to Economic Reform",
-      "brief": "According to Foreign Affairs reporting, Beijing's institutional blind spots and self-misperceptions are preventing necessary economic reforms. These cognitive barriers limit the government's ability to accurately assess domestic economic challenges and implement effective policy solutions. The persistence of these perceptual constraints has significant implications for China's long-term economic competitiveness and reform trajectory.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "FA RSS"
-      ],
-      "original_link": "https://www.foreignaffairs.com/china/how-china-misperceives-itself",
-      "published": "Fri, 05 Jun 2026 00:00:00 -0400",
-      "raw_source": "FA RSS"
-    },
-    {
-      "headline": "Xi Jinping to visit North Korea in rare diplomatic trip",
-      "brief": "Chinese President Xi Jinping is conducting a rare visit to North Korea to meet with Kim Jong Un, occurring shortly after Xi's meetings with US and Russian leaders. The timing suggests China is reasserting its regional influence and managing diplomatic relationships with key powers whose policies significantly impact North Korea's strategic position. This visit underscores Beijing's efforts to maintain its influence over Pyongyang amid broader geopolitical competition.",
+      "headline": "Xi Jinping visits North Korea amid great power diplomacy",
+      "brief": "Chinese President Xi Jinping is conducting a rare visit to North Korea, occurring shortly after meeting with US and Russian leaders. The timing suggests Beijing is actively managing diplomatic relationships across major powers that significantly influence North Korean policy. This engagement underscores China's strategic positioning and its efforts to maintain influence over Pyongyang's foreign relations.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -289,92 +73,116 @@
       "raw_source": "BBC News"
     },
     {
-      "headline": "China positioned to expand health diplomacy role in East Africa",
-      "brief": "China has the capacity and opportunity to provide medical assistance during an Ebola outbreak in East Africa, potentially filling a void created by reduced U.S. engagement in the region. This development could enhance China's influence and soft power in East Africa while addressing a critical public health crisis.",
+      "headline": "Xi Jinping visits North Korea for first time in seven years",
+      "brief": "Chinese President Xi Jinping will visit Pyongyang on June 8, marking his first trip to North Korea in seven years, occurring shortly after separate summits with U.S. and Russian leaders. The visit signals China's effort to strengthen trilateral coordination among Beijing, Pyongyang, and Moscow, potentially reflecting alignment on geopolitical challenges and regional security matters.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
-        "NYT > World News"
+        "The Diplomat"
       ],
-      "original_link": "https://www.nytimes.com/2026/06/06/world/asia/as-ebola-spreads-in-east-africa-will-china-step-up.html",
-      "published": "Sat, 06 Jun 2026 13:15:45 +0000",
-      "raw_source": "NYT > World News"
+      "original_link": "https://thediplomat.com/2026/06/xi-jinping-to-visit-north-korea-amid-deepening-three-way-alliance/",
+      "published": "Fri, 05 Jun 2026 21:13:00 +0900",
+      "raw_source": "The Diplomat"
     },
     {
-      "headline": "CSIS Hosts Conference on FY2017 U.S. Defense Budget Strategy",
-      "brief": "CSIS's International Security Program convened a Defense360 conference in February 2016 to analyze the newly released FY2017 U.S. defense budget request and strategic priorities. The conference examined budgetary allocations and strategic posture during a period of significant military competition in Asia-Pacific and other regions. The analysis of defense spending priorities during this fiscal year provides insights into U.S. military readiness and strategic focus areas.",
-      "category": "military",
+      "headline": "North Korea-Russia bridge nearing completion amid deepening ties",
+      "brief": "Satellite imagery indicates a new bridge between North Korea and Russia is approaching completion, with experts interpreting the accelerated timeline as evidence of Kim Jong Un's commitment to strengthened cooperation with Moscow. The infrastructure project suggests deepening bilateral engagement between the two nations, potentially facilitating increased trade, military coordination, or strategic alignment.",
+      "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
-        "CSIS"
+        "Radio Free Asia"
       ],
-      "original_link": "https://www.csis.org/events/fy2017-defense-budget-and-strategic-outlook",
-      "published": "Mon, 29 Feb 2016 18:48:29 +0000",
-      "raw_source": "CSIS"
+      "original_link": "https://rfa.org/english/korea/2026/05/21/tumen-river-bridge-russia-north-korea-putin/",
+      "published": "Thu, 21 May 2026 00:44:51 +0000",
+      "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "ARPA-E Director Discusses Future Energy Grid Development",
-      "brief": "CSIS hosted a discussion with ARPA-E Director Ellen Williams on advancing energy grid technology and infrastructure. The event focused on energy innovation and national security implications of grid modernization. Grid resilience and energy independence have strategic significance for U.S. defense and economic capabilities.",
+      "headline": "U.S. arms sales to Taiwan reflect security arrangement amid delays",
+      "brief": "Recent delays in U.S. military aid packages to Taiwan have highlighted the strategic security relationship between Washington and Taipei. The United States supplies defensive weapons to Taiwan under the framework of the Taiwan Relations Act, balancing commitments to both Taiwan's security and managing tensions with Beijing. This arrangement remains a significant point of contention in U.S.-China relations.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Radio Free Asia"
+      ],
+      "original_link": "https://rfa.org/english/southchinasea/2026/05/26/usa-taiwan-weapons-sales-china/",
+      "published": "Tue, 26 May 2026 03:18:46 +0000",
+      "raw_source": "Radio Free Asia"
+    },
+    {
+      "headline": "Philippines expands military infrastructure on Spratly Islands",
+      "brief": "Satellite imagery reveals Philippine runway and port expansion projects on two disputed Spratly Islands, intended to enhance military readiness in response to Chinese activities in the South China Sea. The construction demonstrates Manila's effort to strengthen its physical presence and operational capability in the contested waterway, where competing territorial claims create ongoing regional tensions.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Radio Free Asia"
+      ],
+      "original_link": "https://rfa.org/english/southchinasea/2026/05/08/philippines-satellite-spratlys-infrastructure-upgrade/",
+      "published": "Fri, 08 May 2026 15:30:12 +0000",
+      "raw_source": "Radio Free Asia"
+    },
+    {
+      "headline": "Quad nations plan Fiji port project to counter Chinese Pacific influence",
+      "brief": "The United States, Japan, India, and Australia are pursuing a port development project in Fiji as part of efforts to reduce China's dominance in Pacific supply-chain infrastructure. Experts view the initiative as a signal to regional states that the Quad partnership can provide viable alternatives to Chinese investments and development projects.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Radio Free Asia"
+      ],
+      "original_link": "https://rfa.org/english/pacific/2026/05/29/quad-port-fiji-supply-chain-us-japan-india/",
+      "published": "Fri, 29 May 2026 20:35:15 +0000",
+      "raw_source": "Radio Free Asia"
+    },
+    {
+      "headline": "Stock Connect scheme excludes mainland AI IPOs from foreign investors",
+      "brief": "Hong Kong and international investors cannot access recent blockbuster AI company listings on mainland Chinese exchanges through the Stock Connect mechanism, while mainland investors similarly cannot participate in Hong Kong AI IPOs. This bidirectional access restriction may limit capital flows to China's artificial intelligence sector and represents a potential constraint on cross-border investment in strategically important technology companies.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
-        "CSIS"
+        "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://www.csis.org/events/future-grid-view-arpa-e",
-      "published": "Thu, 25 Feb 2016 19:15:03 +0000",
-      "raw_source": "CSIS"
+      "original_link": "https://www.scmp.com/business/markets/article/3356193/why-cant-investors-buy-mainlands-hottest-ai-stocks-stock-connect?utm_source=rss_feed",
+      "published": "Sun, 07 Jun 2026 02:30:07 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "U.S. Pacific Command Discusses Indo-Asia-Pacific Strategic Priorities",
-      "brief": "Admiral Harry B. Harris, Commander of U.S. Pacific Command, participated in a CSIS discussion on strategic opportunities in the Indo-Asia-Pacific region. The discussion reflects U.S. military focus on regional stability and strategic positioning in a key geopolitical area amid evolving power dynamics.",
-      "category": "military",
+      "headline": "China Employs AI Model Distillation to Access Western Technology",
+      "brief": "China is utilizing unauthorized AI model distillation techniques to extract capabilities from Western artificial intelligence systems without proper licensing or payment. This practice allows Chinese entities to reverse-engineer advanced AI models at significantly reduced cost, potentially undermining Western companies' competitive advantages and intellectual property protections. The technique represents a systematic approach to technology acquisition that could reshape the global AI competitive landscape.",
+      "category": "economy",
       "severity": "medium",
       "sources_used": [
-        "CSIS"
+        "FA RSS"
       ],
-      "original_link": "https://www.csis.org/events/strategic-opportunities-indo-asia-pacific-admiral-harry-b-harris",
-      "published": "Tue, 26 Jan 2016 16:20:53 +0000",
-      "raw_source": "CSIS"
+      "original_link": "https://www.foreignaffairs.com/china/chinas-ai-heist",
+      "published": "Fri, 29 May 2026 00:00:00 -0400",
+      "raw_source": "FA RSS"
     },
     {
-      "headline": "U.S. Defense Secretary Omits Taiwan from Major Asia Security Speech",
-      "brief": "U.S. Defense Secretary Pete Hegseth made no mention of Taiwan during his address at the Shangri-La Dialogue, a significant regional security forum. The omission represents a missed opportunity to publicly reinforce U.S. commitment to Taiwan and deter Chinese military action, potentially signaling reduced prioritization of Taiwan in current U.S. defense strategy.",
-      "category": "military",
+      "headline": "Chinese AI firms reverse listing sequence, prioritizing Hong Kong over mainland",
+      "brief": "Leading Chinese artificial intelligence companies including MiniMax Group and Zhipu are reversing traditional dual-listing practices by listing in Hong Kong first before mainland China, seeking global investor valuations and more sophisticated capital access. This strategic shift reflects China's AI sector seeking international validation and funding mechanisms to support rapid growth and global competitiveness.",
+      "category": "economy",
       "severity": "medium",
       "sources_used": [
-        "The Diplomat"
+        "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://thediplomat.com/2026/06/pete-hegseths-missed-chance-to-reassure-and-deter-on-taiwan/",
-      "published": "Fri, 05 Jun 2026 22:17:00 +0900",
-      "raw_source": "The Diplomat"
+      "original_link": "https://www.scmp.com/business/china-business/article/3355676/why-hong-kong-now-launch-pad-mainland-chinas-ai-champions?utm_source=rss_feed",
+      "published": "Tue, 02 Jun 2026 10:00:15 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "Democratic midterm victory could destabilize U.S.-China relations",
-      "brief": "A Democratic takeover of the House in November midterm elections could introduce significant volatility into U.S.-China policy, according to analysis from The Diplomat. The shift in congressional control may disrupt the current relatively stable bilateral relationship between the two powers.",
+      "headline": "China Promotes Internet Sovereignty as Global Governance Framework",
+      "brief": "China is advancing an 'Internet sovereignty' initiative to reshape global internet governance principles, positioning state control as a key governing concept. This represents a strategic effort to challenge existing international norms and establish alternative standards for information control and digital governance that align with Beijing's domestic policies.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
-        "The Diplomat"
+        "CSIS"
       ],
-      "original_link": "https://thediplomat.com/2026/06/could-a-democratic-mid-term-win-upset-the-china-us-detente/",
-      "published": "Fri, 05 Jun 2026 21:56:00 +0900",
-      "raw_source": "The Diplomat"
+      "original_link": "https://www.csis.org/events/china-reality-check-chinas-internet-sovereignty-initiative-origins-and-consequences",
+      "published": "Tue, 16 Feb 2016 16:49:43 +0000",
+      "raw_source": "CSIS"
     },
     {
-      "headline": "Pacific Nations Establish First Regional Climate Relocation Framework",
-      "brief": "Pacific governments have adopted the world's first coordinated regional framework for managing planned climate-induced relocation of communities facing displacement from rising seas and coastal erosion. The framework provides guidance for addressing climate migration challenges across the Pacific region. This development could influence geopolitical dynamics as climate displacement may create strategic challenges for regional stability and security.",
-      "category": "foreign_relations",
-      "severity": "medium",
-      "sources_used": [
-        "The Diplomat"
-      ],
-      "original_link": "https://thediplomat.com/2026/06/pacific-nations-adopt-first-regional-climate-relocation-framework/",
-      "published": "Fri, 05 Jun 2026 22:39:00 +0900",
-      "raw_source": "The Diplomat"
-    },
-    {
-      "headline": "China Leverages Thucydides Trap Concept in Strategic Messaging",
-      "brief": "China is adopting the Thucydides Trap framework\u2014the theory that conflict between rising and established powers is inevitable\u2014as a strategic narrative tool. By embracing this construct, Beijing seeks to reframe responsibility for maintaining stability and preventing escalation onto the United States. This rhetorical shift has significant implications for how China positions itself in great power competition messaging.",
+      "headline": "China Leverages Thucydides Trap Framework to Shift Stability Burden",
+      "brief": "China is adopting the Thucydides Trap construct\u2014the concept that conflict between rising and established powers is inevitable\u2014to reframe geopolitical tensions as structurally predetermined rather than a result of its own strategic choices. By weaponizing this theoretical framework, Beijing attempts to redirect responsibility for maintaining stability and preventing escalation onto the United States. This rhetorical strategy has significant implications for U.S.-China strategic competition and crisis management dynamics.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -385,56 +193,56 @@
       "raw_source": "The Diplomat"
     },
     {
-      "headline": "China's Influence in Bolivia Declines from Previous Peak",
-      "brief": "Chinese activities and influence in Bolivia have significantly diminished compared to their prominence during the leftist administrations of Evo Morales and Luis Arce. This deterioration suggests shifting geopolitical dynamics in South America and reduced Chinese leverage in a strategically important regional partner. The decline may have implications for China's broader Latin American engagement strategy.",
-      "category": "foreign_relations",
+      "headline": "U.S. Defense Secretary Omits Taiwan Reference at Regional Forum",
+      "brief": "U.S. Defense Secretary Pete Hegseth failed to mention Taiwan during his speech at the Shangri-La Dialogue, a closely-watched regional security forum. The omission represents a missed opportunity to publicly reaffirm U.S. commitment to Taiwan and potentially deter Chinese military assertiveness in the region.",
+      "category": "military",
       "severity": "medium",
       "sources_used": [
         "The Diplomat"
       ],
-      "original_link": "https://thediplomat.com/2026/06/bolivias-troubled-path-with-china/",
-      "published": "Sat, 06 Jun 2026 00:07:00 +0900",
+      "original_link": "https://thediplomat.com/2026/06/pete-hegseths-missed-chance-to-reassure-and-deter-on-taiwan/",
+      "published": "Fri, 05 Jun 2026 22:17:00 +0900",
       "raw_source": "The Diplomat"
     },
     {
-      "headline": "Iran accuses US of blocking World Cup technical staff visas",
-      "brief": "Iranian officials report that technical staff members have been denied US visas, contradicting earlier US approval for Iranian players to enter the country for World Cup participation. The visa denial represents a potential diplomatic friction point between the two nations despite the apparent initial agreement to allow the athletic delegation entry. This suggests inconsistent or coordinated policy implementation regarding Iranian participation in international sporting events.",
+      "headline": "U.S. Pacific Command Discusses Indo-Asia-Pacific Strategic Priorities",
+      "brief": "Admiral Harry B. Harris, Commander of U.S. Pacific Command, participated in a CSIS discussion on strategic opportunities in the Indo-Asia-Pacific region. The forum reflects ongoing U.S. focus on regional military engagement and strategic positioning in Asia.",
+      "category": "military",
+      "severity": "medium",
+      "sources_used": [
+        "CSIS"
+      ],
+      "original_link": "https://www.csis.org/events/strategic-opportunities-indo-asia-pacific-admiral-harry-b-harris",
+      "published": "Tue, 26 Jan 2016 16:20:53 +0000",
+      "raw_source": "CSIS"
+    },
+    {
+      "headline": "PRC Foreign Minister Wang Yi Discusses China-US Relations",
+      "brief": "China's Minister of Foreign Affairs Wang Yi participated in a CSIS Statesmen's Forum webcast discussion on Chinese foreign policy and US-China relations in February 2016. The forum provided a platform for high-level dialogue on bilateral relations during a period of strategic competition and regional tensions.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
-        "BBC News"
+        "CSIS"
       ],
-      "original_link": "https://www.bbc.com/news/articles/cy8286nqz87o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 06 Jun 2026 22:38:36 GMT",
-      "raw_source": "BBC News"
+      "original_link": "https://www.csis.org/events/statesmens-forum-wang-yi-minister-foreign-affairs-prc",
+      "published": "Fri, 19 Feb 2016 22:13:26 +0000",
+      "raw_source": "CSIS"
     },
     {
-      "headline": "US Addresses Flesh-Eating Screwworm Outbreak After 58-Year Absence",
-      "brief": "The United States is implementing control measures against the screwworm insect, which has re-emerged in the southern US for the first time since 1966. The outbreak poses agricultural and public health concerns, prompting authorities to deploy biological and canine-based intervention strategies. The reappearance of this parasitic pest may have implications for regional agricultural trade and cross-border disease management protocols.",
+      "headline": "China to strengthen oversight of algorithmic programme trading",
+      "brief": "The China Securities Regulatory Commission announced plans to enhance regulation of programme trading, a method increasingly used by hedge funds and institutional investors to execute large volumes of securities orders through algorithms. The regulatory move aims to address market misconduct risks as algorithmic trading becomes more prevalent in Chinese financial markets.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
-        "BBC News"
+        "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://www.bbc.com/news/articles/c7v9vz1gd76o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 06 Jun 2026 01:55:03 GMT",
-      "raw_source": "BBC News"
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3356217/china-will-enhance-regulation-programme-trading-csrc-chairman?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 11:51:21 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "Hong Kong reviews child protection rules following abuse cases",
-      "brief": "Hong Kong authorities face growing pressure to strengthen child protection guidelines and expand mandatory abuse reporting requirements across more professions following recent cases, including one involving parents refusing DNA testing for home-born baby registration. The review addresses gaps in the Mandatory Reporting of Child Abuse Ordinance implemented in January, which currently applies to 25 designated professions. Strengthened protections could affect Hong Kong's child welfare administration and professional compliance frameworks.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Hong Kong - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356237/calls-grow-tighten-child-protection-rules-after-baby-danny-case-hong-kong?utm_source=rss_feed",
-      "published": "Sun, 07 Jun 2026 04:06:46 +0000",
-      "raw_source": "Hong Kong - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong Leader Secures 96 Central Asia Deals, Restores Regional Flights",
-      "brief": "Hong Kong Chief Executive John Lee Ka-chiu concluded a Central Asia visit with nearly 100 partnership agreements designed to facilitate business expansion for Hong Kong and mainland Chinese enterprises into the region. Direct flights to Central Asia have been restored as a key outcome. Analysts emphasize that substantive progress depends on effective implementation by authorities and business stakeholders in the coming period.",
+      "headline": "Hong Kong signs 96 Central Asia deals, restores regional air routes",
+      "brief": "Hong Kong Chief Executive John Lee concluded a Central Asia visit with nearly 100 partnership agreements designed to facilitate Chinese business expansion into the region and restore direct flight connections. While the agreements represent significant diplomatic engagement, observers emphasize that successful implementation will require sustained follow-up efforts from both authorities and participating businesses. The initiative signals China's strategy to strengthen economic and connectivity ties with Central Asia.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -445,10 +253,22 @@
       "raw_source": "Hong Kong - South China Morning Post"
     },
     {
-      "headline": "Hong Kong luxury property market shows recovery as executives divest assets",
-      "brief": "CLP Holdings director Betty Yuen sold a Mid-Levels luxury apartment for HK$51 million, reflecting improved sentiment in Hong Kong's high-end real estate market. The transaction is part of a broader trend among prominent property owners capitalizing on market recovery to liquidate premium properties. The sale suggests stabilizing conditions in Hong Kong's luxury sector after prolonged weakness.",
+      "headline": "China's Unitree Robotics clears Shanghai IPO listing hurdle",
+      "brief": "Unitree Robotics, a leading Chinese humanoid robot manufacturer, has passed its Shanghai Star Market listing committee hearing, advancing toward IPO registration and issuance. The approval reflects China's accelerating development of robotics technology and growing investor interest in the sector. This signals continued capital mobilization in China's advanced manufacturing and automation industries.",
       "category": "economy",
-      "severity": "low",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/tech/big-tech/article/3355538/unitree-clears-key-hurdle-shanghai-ipo-chinas-humanoid-robot-wave-gathers-pace?utm_source=rss_feed",
+      "published": "Mon, 01 Jun 2026 09:17:28 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong luxury property market shows recovery signs amid elite sales",
+      "brief": "CLP Holdings director Betty Yuen sold a Mid-Levels luxury apartment for HK$51 million, reflecting improved sentiment in Hong Kong's high-end real estate market. The transaction is part of a broader trend among prominent property owners liquidating premium assets, suggesting renewed confidence in the territory's luxury housing sector despite broader economic pressures.",
+      "category": "economy",
+      "severity": "medium",
       "sources_used": [
         "Banking & Finance - South China Morning Post"
       ],
@@ -457,20 +277,32 @@
       "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "NBA star Curry signs endorsement deal with Chinese sportswear firm",
-      "brief": "Stephen Curry has signed an endorsement agreement with a Chinese sportswear brand following his split from Under Armour, reflecting intensified competition among Chinese companies to establish global market presence through high-profile athlete partnerships. This trend demonstrates China's strategic investment in international brand building and soft power expansion through sports marketing.",
+      "headline": "Foreign investors returning to Chinese markets via IPOs and convertibles",
+      "brief": "Foreign investors are increasing exposure to Chinese assets through convertible bonds and initial public offerings, particularly in artificial intelligence, semiconductors, and advanced manufacturing sectors. Chinese companies raised US$43 billion through equity transactions in Hong Kong during the first five months of 2026, a 54 percent increase from the prior year period. This capital influx signals renewed investor confidence in China's strategic technology sectors despite prior market uncertainty.",
       "category": "economy",
-      "severity": "low",
+      "severity": "medium",
       "sources_used": [
-        "BBC News"
+        "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://www.bbc.com/news/articles/cj9pky3ldddo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 02 Jun 2026 06:29:35 GMT",
-      "raw_source": "BBC News"
+      "original_link": "https://www.scmp.com/business/china-business/article/3356097/china-sees-revival-foreign-investors-through-ipos-convertibles-ubs?utm_source=rss_feed",
+      "published": "Fri, 05 Jun 2026 10:00:16 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "CSIS hosts forum on bio-pharma industry societal responsibilities",
-      "brief": "The CSIS Global Health Policy Center is hosting a March 17 discussion on how private bio-pharmaceutical firms can support affordability, access, quality, and innovation in healthcare. The event addresses the role of private industry in achieving critical public health objectives.",
+      "headline": "China's Self-Perception Gaps Impede Economic Reform Efforts",
+      "brief": "According to Foreign Affairs, Chinese leadership's misperceptions about its own economic situation are creating obstacles to necessary structural reforms. These cognitive blind spots limit Beijing's ability to accurately assess challenges and implement effective policy adjustments, potentially constraining long-term economic competitiveness and growth.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "FA RSS"
+      ],
+      "original_link": "https://www.foreignaffairs.com/china/how-china-misperceives-itself",
+      "published": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "raw_source": "FA RSS"
+    },
+    {
+      "headline": "CSIS Convenes Forum on Bio-Pharma Industry Social Responsibility",
+      "brief": "The CSIS Global Health Policy Center is hosting a March 2016 discussion on how private bio-pharmaceutical firms can improve affordability, access, quality, and innovation in healthcare. The forum addresses the intersection of commercial interests and public health objectives in the pharmaceutical sector.",
       "category": "economy",
       "severity": "low",
       "sources_used": [
@@ -479,190 +311,58 @@
       "original_link": "https://www.csis.org/events/bio-pharma-industry-and-society",
       "published": "Thu, 03 Mar 2016 20:36:33 +0000",
       "raw_source": "CSIS"
-    },
-    {
-      "headline": "CSIS Hosts U.S.-Japan Security Seminar Discussion",
-      "brief": "The Center for Strategic and International Studies (CSIS) hosted a 2016 security seminar featuring an interview between Michael J. Green and Japan Institute of International Affairs (JIIA) President Yoshiji Nogami. The seminar reflects ongoing U.S.-Japan security dialogue and coordination on regional defense matters.",
-      "category": "military",
-      "severity": "low",
-      "sources_used": [
-        "CSIS"
-      ],
-      "original_link": "https://www.csis.org/events/2016-us-japan-security-seminar",
-      "published": "Fri, 26 Feb 2016 17:54:32 +0000",
-      "raw_source": "CSIS"
-    },
-    {
-      "headline": "Chinese Foreign Minister Wang Yi discusses bilateral relations at CSIS",
-      "brief": "China's Foreign Minister Wang Yi participated in a CSIS Statesmen's Forum to discuss Chinese foreign policy and US-China relations. The forum provided an official platform for Beijing to articulate its strategic perspectives on bilateral engagement to American policymakers and analysts.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": [
-        "CSIS"
-      ],
-      "original_link": "https://www.csis.org/events/statesmens-forum-wang-yi-minister-foreign-affairs-prc",
-      "published": "Fri, 19 Feb 2016 22:13:26 +0000",
-      "raw_source": "CSIS"
-    },
-    {
-      "headline": "Unable to provide summary - article content about China not found",
-      "brief": "The provided text does not contain substantive information about China. The article appears to be an event listing for a CSIS forum featuring UK Home Secretary Theresa May discussing counter-terrorism policy, with no China-related content or military implications evident.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": [
-        "CSIS"
-      ],
-      "original_link": "https://www.csis.org/events/statesmens-forum-right-honourable-theresa-may-mp-home-secretary-united-kingdom",
-      "published": "Fri, 12 Feb 2016 21:08:04 +0000",
-      "raw_source": "CSIS"
-    },
-    {
-      "headline": "CSIS Hosts Terrorism Discussion Series with Journalist Bob Schieffer",
-      "brief": "The TCU Bob Schieffer College of Communication and CSIS launched a monthly dialogue series featuring award-winning journalist Bob Schieffer to discuss pressing foreign and domestic issues. The January 2016 installment focused on terrorism as a key security concern. This represents continued institutional engagement on counterterrorism policy analysis.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": [
-        "CSIS"
-      ],
-      "original_link": "https://www.csis.org/events/schieffer-series-discussion-terrorism",
-      "published": "Thu, 21 Jan 2016 18:20:39 +0000",
-      "raw_source": "CSIS"
-    },
-    {
-      "headline": "CSIS Launches Defense Strategy Initiative Examining U.S. Armed Forces",
-      "brief": "The Center for Strategic and International Studies (CSIS) initiated a Defense Outlook program in January 2016 to analyze the interconnections between military strategy, budget allocation, force structure, and acquisition processes affecting U.S. defense capabilities. This analytical framework examines both current and future implications for American military readiness and defense planning.",
-      "category": "military",
-      "severity": "low",
-      "sources_used": [
-        "CSIS"
-      ],
-      "original_link": "https://www.csis.org/events/defense-outlook-csis-series-strategy-budget-forces-and-acquisition",
-      "published": "Fri, 15 Jan 2016 20:33:17 +0000",
-      "raw_source": "CSIS"
-    },
-    {
-      "headline": "Uzbekistan and Russia Celebrate Nuclear Plant Construction Start Twice",
-      "brief": "Uzbekistan and Russia held a second ceremonial groundbreaking for a nuclear power plant construction project, occurring two months after an initial celebration by the companies involved. The duplicate ceremony suggests potential coordination issues or symbolic political significance between the two nations. This development indicates Russia's continued nuclear infrastructure expansion in Central Asia despite international scrutiny.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": [
-        "The Diplomat"
-      ],
-      "original_link": "https://thediplomat.com/2026/06/uzbekistan-russia-celebrate-start-of-nuclear-power-plant-construction-again/",
-      "published": "Sat, 06 Jun 2026 00:07:00 +0900",
-      "raw_source": "The Diplomat"
-    },
-    {
-      "headline": "Hong Kong travel permit eases border crossings for foreign passport holders",
-      "brief": "A travel permit scheme has significantly simplified border crossings for Hong Kong residents with foreign passports, enabling easier weekend travel to nearby mainland cities for leisure activities. However, implementation challenges persist, including inconsistent recognition of the permit by some mainland immigration officials, potentially affecting its long-term effectiveness and the facilitation of cross-border mobility.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": [
-        "Hong Kong - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356226/how-travel-permit-non-chinese-hong-kong-has-redefined-weekends-over-border?utm_source=rss_feed",
-      "published": "Sun, 07 Jun 2026 01:00:13 +0000",
-      "raw_source": "Hong Kong - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong Golf Club Patrons Challenge Rosewood Hotel Management Changes",
-      "brief": "Members of the Hong Kong Golf & Tennis Academy have escalated disputes over planned operational changes to their Central clubhouse by filing complaints with the Consumer Council and threatening legal action. Rosewood Hotel Group, which operates the facility, claims to have made refinements to its proposed arrangement. The dispute reflects tensions between foreign hospitality operators and local stakeholders over property management decisions in Hong Kong.",
-      "category": "economy",
-      "severity": "low",
-      "sources_used": [
-        "Hong Kong - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356204/hong-kong-sports-club-patrons-threaten-legal-action-over-operational-changes?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 12:49:51 +0000",
-      "raw_source": "Hong Kong - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong designates historic temple and mosque as statutory monuments",
-      "brief": "Hong Kong's Antiquities and Monuments Office has recommended that Hung Shing Temple in Wan Chai and Stanley Mosque receive statutory monument status, the city's highest level of heritage protection. Both buildings currently hold Grade 1 historic building status. The designation reflects Hong Kong's efforts to preserve culturally and historically significant structures.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": [
-        "Hong Kong - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356213/wan-chai-temple-and-stanley-mosque-set-highest-level-heritage-protection?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 10:34:46 +0000",
-      "raw_source": "Hong Kong - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong transport subsidy revamp saves HK$69 million monthly",
-      "brief": "Hong Kong's revised public transport subsidy scheme, affecting 2.7 million users, generated HK$69 million in government savings during its first month of implementation in April. Lawmakers have called for future reviews to ensure fiscal sustainability as the aging population increases demand for such programs. The changes represent efforts to balance social welfare provisions with long-term budget constraints.",
-      "category": "economy",
-      "severity": "low",
-      "sources_used": [
-        "Hong Kong - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356211/hong-kong-saves-hk69-million-first-month-after-hk2-fare-scheme-revamp?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 10:11:38 +0000",
-      "raw_source": "Hong Kong - South China Morning Post"
-    },
-    {
-      "headline": "Hong Kong dancer Mo Li honors deceased father at funeral service",
-      "brief": "Mo Li, a Hong Kong dancer paralyzed in a 2022 Mirror concert accident, delivered a video tribute at his father Reverend Derek Li's funeral service. Reverend Li spent nearly four years advocating for his son's recovery and welfare. The incident reflects ongoing public interest in accountability surrounding the 2022 concert accident that caused significant injury.",
-      "category": "foreign_relations",
-      "severity": "low",
-      "sources_used": [
-        "Hong Kong - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356208/injured-mirror-dancer-mo-li-honours-late-father-reverend-derek-li-funeral?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 09:56:24 +0000",
-      "raw_source": "Hong Kong - South China Morning Post"
     }
   ],
   "relations": [
     {
       "country": "United States",
       "status": "Tense",
-      "summary": "China-US relations remain strained due to ongoing trade tensions, technology competition, Taiwan concerns, and strategic rivalry in the Indo-Pacific."
+      "summary": "China-US relations remain strained by competition over technology, trade, Taiwan, and strategic influence in the Indo-Pacific despite ongoing diplomatic engagement."
     },
     {
       "country": "Russia",
       "status": "Cooperative",
-      "summary": "China and Russia maintain a strategic partnership with deepening economic and military cooperation, particularly since Russia's 2022 Ukraine invasion increased Western isolation of Moscow."
+      "summary": "China and Russia maintain a strategic partnership with deepening energy, trade, and military cooperation, though China calibrates its support amid Russia's international isolation."
     },
     {
       "country": "European Union",
       "status": "Neutral",
-      "summary": "EU-China relations are mixed, balancing economic interdependence with growing concerns over human rights, market access, and geopolitical alignment with the United States."
+      "summary": "EU-China relations are mixed, balancing economic interdependence with growing concerns over security, human rights, and alignment with US-led initiatives on technology and defense."
     },
     {
       "country": "Taiwan",
       "status": "Hostile",
-      "summary": "China views Taiwan as a breakaway province and has increased military pressure, while maintaining claims of eventual unification and opposing international support for Taiwan's independence."
+      "summary": "China views Taiwan as a renegade province and has increased military pressure, coercive measures, and rhetoric regarding reunification as cross-strait tensions remain at elevated levels."
     },
     {
       "country": "Japan",
       "status": "Tense",
-      "summary": "Sino-Japanese relations are strained due to historical grievances, territorial disputes over the Senkaku Islands, and Japan's security alignment with the United States."
+      "summary": "China-Japan relations are strained by historical grievances, territorial disputes over the Senkaku Islands, competition in East Asia, and differing security alignments."
     },
     {
       "country": "India",
       "status": "Tense",
-      "summary": "China-India relations remain tense following the 2020 border clash, unresolved border disputes in Ladakh, and competition for regional influence in South Asia."
+      "summary": "China-India relations remain tense following the 2020 border clash in Ladakh, with ongoing military deployments and unresolved border disputes preventing normalization."
     },
     {
       "country": "Saudi Arabia",
       "status": "Cooperative",
-      "summary": "China maintains cooperative relations with Saudi Arabia centered on energy security, economic investment, and shared interests in Middle Eastern stability."
+      "summary": "China and Saudi Arabia maintain strong economic and energy ties, with China being a major oil importer and investor, though strategic alignment remains selective."
     },
     {
       "country": "Philippines",
       "status": "Neutral",
-      "summary": "Sino-Philippine relations are pragmatic but complicated, with China providing economic support while tensions persist over South China Sea territorial claims and resource disputes."
+      "summary": "China-Philippines relations fluctuate between cooperation on economic projects and tensions over South China Sea maritime disputes and Chinese coast guard actions."
     },
     {
       "country": "Brazil",
-      "status": "Cooperative",
-      "summary": "China-Brazil relations are strong and cooperative, driven by significant trade ties, Chinese investment in Brazilian infrastructure and resources, and shared interests in multipolar global order."
+      "status": "Neutral",
+      "summary": "China and Brazil maintain pragmatic economic and trade relations as major partners, though Brazil increasingly balances engagement with China against alignment with democratic allies."
     },
     {
       "country": "Australia",
       "status": "Tense",
-      "summary": "Sino-Australian relations remain strained after Australia's 2020 calls for COVID-19 inquiry led to Chinese trade restrictions, though recent dialogue has shown modest signs of improvement."
+      "summary": "China-Australia relations remain strained following Australia's security concerns over Chinese influence, intelligence activities, and trade disputes, though some recent diplomatic thaw has emerged."
     }
   ]
 }
