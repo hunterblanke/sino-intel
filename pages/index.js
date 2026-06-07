@@ -13,7 +13,7 @@ const SEV_COLOR    = { high: "#A32D2D", medium: "#854F0B", low: "#185FA5" };
 const STATUS_COLOR = { Cooperative: "#3B6D11", Neutral: "#185FA5", Tense: "#854F0B", Hostile: "#A32D2D" };
 
 export default function Home() {
-  const { date, metrics, articles, relations } = articlesData;
+  const { date, metrics, articles, relations, deep_dive } = articlesData;
   const [active, setActive] = useState("all");
   const [dark, setDark] = useState(false);
 
@@ -73,6 +73,9 @@ export default function Home() {
           <MetricCard label="Last Updated"    value={new Date(metrics.updated_at).toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" })} />
         </div>
 
+        {/* ── Deep Dive Section ── */}
+        {deep_dive && <DeepDive dive={deep_dive} />}
+
         <nav className={styles.tabs}>
           {[["all","All"],["economy","Economy"],["military","Military"],["foreign_relations","Diplomacy"]].map(([key, label]) => (
             <button
@@ -128,6 +131,111 @@ export default function Home() {
         </footer>
       </div>
     </>
+  );
+}
+
+function DeepDive({ dive }) {
+  const meta = CATEGORY_META[dive.category] || CATEGORY_META.foreign_relations;
+  return (
+    <div style={{
+      border: `1.5px solid ${meta.color}`,
+      borderRadius: "12px",
+      padding: "1.5rem 1.75rem",
+      marginBottom: "1.5rem",
+      background: "transparent",
+    }}>
+      <div style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "10px",
+        marginBottom: "12px",
+      }}>
+        <span style={{
+          fontFamily: "'Courier New', monospace",
+          fontSize: "0.6rem",
+          letterSpacing: "0.15em",
+          textTransform: "uppercase",
+          background: meta.color,
+          color: "#fff",
+          padding: "3px 10px",
+          borderRadius: "4px",
+        }}>
+          ★ Daily Deep Dive
+        </span>
+        <span style={{
+          fontFamily: "'Courier New', monospace",
+          fontSize: "0.6rem",
+          letterSpacing: "0.1em",
+          textTransform: "uppercase",
+          color: meta.color,
+        }}>
+          {meta.label}
+        </span>
+        <span style={{
+          fontFamily: "'Courier New', monospace",
+          fontSize: "0.6rem",
+          color: "#888",
+          marginLeft: "auto",
+        }}>
+          {dive.source} · AI ANALYSIS
+        </span>
+      </div>
+
+      <h2 style={{
+        fontSize: "1.2rem",
+        fontWeight: "700",
+        marginBottom: "1.25rem",
+        lineHeight: "1.4",
+        color: "inherit",
+      }}>
+        {dive.headline}
+      </h2>
+
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "1fr 1fr",
+        gap: "1rem",
+      }}>
+        <DeepDiveBlock label="Overview"        text={dive.overview} color={meta.color} />
+        <DeepDiveBlock label="Background"      text={dive.background} color={meta.color} />
+        <DeepDiveBlock label="Key Players"     text={dive.key_players} color={meta.color} />
+        <DeepDiveBlock label="Implications"    text={dive.implications} color={meta.color} />
+      </div>
+
+      <div style={{ marginTop: "1rem" }}>
+        <DeepDiveBlock label="⚠ Risk Assessment" text={dive.risk_assessment} color="#A32D2D" wide />
+      </div>
+    </div>
+  );
+}
+
+function DeepDiveBlock({ label, text, color, wide }) {
+  return (
+    <div style={{
+      borderLeft: `3px solid ${color}`,
+      paddingLeft: "12px",
+      gridColumn: wide ? "span 2" : "span 1",
+    }}>
+      <div style={{
+        fontFamily: "'Courier New', monospace",
+        fontSize: "0.58rem",
+        letterSpacing: "0.1em",
+        textTransform: "uppercase",
+        color: color,
+        marginBottom: "5px",
+      }}>
+        {label}
+      </div>
+      <p style={{
+        fontSize: "0.85rem",
+        lineHeight: "1.6",
+        color: "inherit",
+        margin: 0,
+        opacity: 0.85,
+      }}>
+        {text}
+      </p>
+    </div>
   );
 }
 
