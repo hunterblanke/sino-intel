@@ -36,7 +36,7 @@ export default function Home() {
       <div className={styles.root}>
         <header className={styles.header}>
           <div className={styles.headerLeft}>
-            <img src="/logo.svg" alt="Great Wall Dispatch" style={{ height: "80px", width: "auto" }} />
+            <h1 className={styles.logo}>Great Wall Dispatch</h1>
             <p className={styles.logoSub}>AI-curated · Updated daily · Cross-referenced sources</p>
           </div>
           <div className={styles.headerRight}>
