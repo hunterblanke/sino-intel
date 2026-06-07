@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sino Intelligence — Daily China Briefing</title>
+        <title>Great Wall Dispatch — Daily China Briefing</title>
         <meta name="description" content="AI-curated daily intelligence on China's economy, military, and foreign relations." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -36,7 +36,7 @@ export default function Home() {
       <div className={styles.root}>
         <header className={styles.header}>
           <div className={styles.headerLeft}>
-            <h1 className={styles.logo}>Sino Intelligence</h1>
+            <h1 className={styles.logo}>Great Wall Dispatch</h1>
             <p className={styles.logoSub}>AI-curated · Updated daily · Cross-referenced sources</p>
           </div>
           <div className={styles.headerRight}>
@@ -105,7 +105,7 @@ export default function Home() {
 
         <footer className={styles.footer}>
           <span>All summaries AI-generated &amp; cross-referenced. Not a substitute for primary-source analysis.</span>
-          <span>Sino Intelligence · {new Date().getFullYear()}</span>
+          <span>Great Wall Dispatch · {new Date().getFullYear()}</span>
         </footer>
       </div>
     </>
