@@ -46,7 +46,7 @@ def is_china_relevant(title, summary):
 
 def fetch_articles(max_per_feed=15):
     raw = []
-    feedparser.USER_AGENT = "Mozilla/5.0 (compatible; SinoIntelBot/1.0)"
+    feedparser.USER_AGENT = "Mozilla/5.0 (compatible; GreatWallDispatchBot/1.0)"
     for category, feeds in RSS_FEEDS.items():
         for url in feeds:
             try:
@@ -177,7 +177,7 @@ def generate_metrics(articles):
 
 def main():
     today = datetime.date.today().isoformat()
-    print(f"\n=== Sino Intelligence Pipeline · {today} ===\n")
+    print(f"\n=== Great Wall Dispatch Pipeline · {today} ===\n")
 
     print("Step 1: Fetching RSS feeds...")
     raw_articles = fetch_articles(max_per_feed=15)
