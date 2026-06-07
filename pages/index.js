@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import articlesData from "../public/data/articles.json";
 import styles from "../styles/Home.module.css";
 
@@ -16,6 +16,18 @@ const STATUS_COLOR = { Cooperative: "#3B6D11", Neutral: "#185FA5", Tense: "#854F
 export default function Home() {
   const { date, metrics, articles, relations } = articlesData;
   const [active, setActive] = useState("all");
+  const [dark, setDark] = useState(false);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("gwd-theme");
+    if (saved === "dark") setDark(true);
+  }, []);
+
+  const toggleDark = () => {
+    const next = !dark;
+    setDark(next);
+    localStorage.setItem("gwd-theme", next ? "dark" : "light");
+  };
 
   const filtered = active === "all"
     ? articles
@@ -33,12 +45,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className={styles.root}>
+      <div className={`${styles.root} ${dark ? styles.rootDark : ""}`}>
         <header className={styles.header}>
           <div className={styles.headerLeft}>
             <img src="/logo.svg" alt="Great Wall Dispatch" style={{ height: "90px", width: "auto" }} />
           </div>
           <div className={styles.headerRight}>
+            <button className={styles.themeToggle} onClick={toggleDark}>
+              {dark ? "☀ Light" : "☾ Dark"}
+            </button>
             <span className={styles.liveDot} />
             <span className={styles.dateLabel}>{dateLabel}</span>
           </div>
