@@ -1,9 +1,0 @@
-<svg width="600" height="150" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <text x="40" y="155" font-family="Georgia,'Times New Roman',serif" font-size="148" font-weight="700" fill="#E8E4DC" letter-spacing="-4">GW</text>
-  <line x1="318" y1="25" x2="318" y2="175" stroke="#555" stroke-width="1.2"/>
-  <line x1="338" y1="62" x2="680" y2="62" stroke="#A32D2D" stroke-width="1"/>
-  <text x="338" y="56" font-family="'Courier New',Courier,monospace" font-size="13" fill="#E8E4DC" letter-spacing="6">GREAT WALL</text>
-  <text x="330" y="138" font-family="Georgia,'Times New Roman',serif" font-size="78" font-weight="700" fill="#E8E4DC" letter-spacing="-1">Dispatch</text>
-  <line x1="338" y1="152" x2="680" y2="152" stroke="#A32D2D" stroke-width="1"/>
-  <text x="338" y="170" font-family="'Courier New',Courier,monospace" font-size="13" fill="#E8E4DC" letter-spacing="6">CHINA INTELLIGENCE</text>
-</svg>
