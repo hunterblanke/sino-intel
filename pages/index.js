@@ -7,7 +7,6 @@ const CATEGORY_META = {
   economy:           { label: "Economy",           color: "#185FA5" },
   military:          { label: "Military",           color: "#A32D2D" },
   foreign_relations: { label: "Foreign Relations",  color: "#3B6D11" },
-  cross_reference:   { label: "Cross-Reference",    color: "#854F0B" },
 };
 
 const SEV_COLOR    = { high: "#A32D2D", medium: "#854F0B", low: "#185FA5" };
@@ -75,7 +74,7 @@ export default function Home() {
         </div>
 
         <nav className={styles.tabs}>
-          {[["all","All"],["economy","Economy"],["military","Military"],["foreign_relations","Diplomacy"],["cross_reference","Cross-Reference"]].map(([key, label]) => (
+          {[["all","All"],["economy","Economy"],["military","Military"],["foreign_relations","Diplomacy"]].map(([key, label]) => (
             <button
               key={key}
               className={`${styles.tab} ${active === key ? styles.tabActive : ""}`}
@@ -142,7 +141,7 @@ function MetricCard({ label, value, accent }) {
 }
 
 function ArticleCard({ article }) {
-  const meta = CATEGORY_META[article.category] || CATEGORY_META.cross_reference;
+  const meta = CATEGORY_META[article.category] || CATEGORY_META.economy;
   return (
     <article className={styles.articleCard}>
       <div className={styles.cardTag} style={{ color: meta.color }}>
