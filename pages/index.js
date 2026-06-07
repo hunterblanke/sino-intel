@@ -36,7 +36,7 @@ export default function Home() {
       <div className={styles.root}>
         <header className={styles.header}>
           <div className={styles.headerLeft}>
-            <h1 className={styles.logo}>Great Wall Dispatch</h1>
+            <img src="/logo.svg" alt="Great Wall Dispatch" style={{ height: "80px", width: "auto" }} />
             <p className={styles.logoSub}>AI-curated · Updated daily · Cross-referenced sources</p>
           </div>
           <div className={styles.headerRight}>
@@ -73,7 +73,6 @@ export default function Home() {
           </div>
 
           <aside className={styles.sidebar}>
-
             <SidebarSection title="Priority Alerts">
               {(articles || []).filter(a => a.severity === "high").slice(0, 4).map((a, i) => (
                 <AlertItem key={i} article={a} />
@@ -99,7 +98,6 @@ export default function Home() {
                 ))}
               </div>
             </SidebarSection>
-
           </aside>
         </main>
 
