@@ -5,16 +5,28 @@
     "articles_total": 25,
     "high_priority": 6,
     "by_category": {
-      "foreign_relations": 19,
-      "military": 2,
+      "foreign_relations": 17,
+      "military": 4,
       "economy": 4
     },
-    "updated_at": "2026-06-07T15:15:48.288133Z"
+    "updated_at": "2026-06-07T15:43:59.482749Z"
   },
   "articles": [
     {
-      "headline": "Regional Powers Mirror China's Land Reclamation Strategy in South China Sea",
-      "brief": "Following China's years of artificial island construction to support territorial claims in the South China Sea, other regional actors are now undertaking similar land reclamation projects. This escalating pattern of infrastructure development by multiple claimants reflects a competitive dynamic aimed at strengthening respective territorial positions. The development signals increased militarization potential and reduced diplomatic flexibility among regional powers.",
+      "headline": "Xi Jinping visits North Korea, reinforcing China-Russia-DPRK alignment",
+      "brief": "Chinese President Xi Jinping will visit Pyongyang on June 8, marking his first trip to North Korea in seven years, occurring shortly after separate summits with U.S. and Russian leaders. The visit signals deepening coordination among China, Russia, and North Korea, potentially strengthening their strategic alignment amid ongoing geopolitical tensions. The timing suggests China is consolidating relationships with key allies while managing its great power diplomacy.",
+      "category": "foreign_relations",
+      "severity": "high",
+      "sources_used": [
+        "The Diplomat"
+      ],
+      "original_link": "https://thediplomat.com/2026/06/xi-jinping-to-visit-north-korea-amid-deepening-three-way-alliance/",
+      "published": "Fri, 05 Jun 2026 21:13:00 +0900",
+      "raw_source": "The Diplomat"
+    },
+    {
+      "headline": "Regional Powers Mirror China's South China Sea Land Reclamation Strategy",
+      "brief": "Multiple countries are now engaged in land reclamation projects in the South China Sea, mirroring China's years-long practice of creating artificial islands to support territorial claims. This escalation represents a significant shift in regional competition, as other nations adopt similar tactics to strengthen their own maritime positions. The development signals intensifying military and strategic competition for control of contested waters and resources.",
       "category": "military",
       "severity": "high",
       "sources_used": [
@@ -26,7 +38,7 @@
     },
     {
       "headline": "Beijing Integrates Taiwan, South China Sea in U.S. Strategic Competition",
-      "brief": "Recent Xi-Trump discussions have highlighted China's strategic approach to both Taiwan and the South China Sea as interconnected elements of its competition with the United States. Analysts assess that Beijing views control and influence over these maritime domains as critical to its long-term geopolitical positioning. This integrated strategic perspective suggests potential implications for regional stability and U.S.-China relations across multiple theaters.",
+      "brief": "Recent Xi-Trump discussions have highlighted Beijing's strategic approach linking Taiwan and South China Sea control as central to great power competition with the United States. Chinese analysts characterize both territories as integral to Beijing's maritime strategy and regional dominance objectives. This framing suggests China views these issues as interconnected elements of broader geopolitical rivalry rather than separate concerns.",
       "category": "foreign_relations",
       "severity": "high",
       "sources_used": [
@@ -37,8 +49,8 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "U.S. Arms Sales to Taiwan Remain Central to Security Relationship",
-      "brief": "Recent delays in a U.S. arms package to Taiwan have highlighted the ongoing security arrangement whereby Washington provides military equipment to support Taipei's defense capabilities. The U.S. maintains this controversial arms supply relationship despite Beijing's objections, reflecting Washington's strategic commitment to Taiwan's security and the complex three-way dynamic between the United States, Taiwan, and China. These weapons transfers remain a persistent point of tension in U.S.-China relations and a key mechanism for preserving the military balance across the Taiwan Strait.",
+      "headline": "U.S. Arms Sales to Taiwan Remain Central to Cross-Strait Security",
+      "brief": "Delayed U.S. military assistance to Taiwan has highlighted the ongoing security relationship between Washington and Taipei, which serves as a counterbalance to Beijing's military capabilities across the Taiwan Strait. The arms sales reflect Washington's commitment under the Taiwan Relations Act while maintaining strategic ambiguity regarding direct military intervention. This dynamic remains a key point of friction in U.S.-China relations.",
       "category": "foreign_relations",
       "severity": "high",
       "sources_used": [
@@ -49,8 +61,8 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "Filipino national admits espionage for China, military confirms additional agents",
-      "brief": "A Filipino individual identified as \"Danny\" has confessed to selling intelligence to Chinese authorities, with Philippine military officials stating additional Chinese agents are operating within the country. Intelligence allegedly provided by this individual may have contributed to the 2024 Sabina Shoal ramming incident, suggesting direct operational impact from the espionage network. The disclosure indicates an active Chinese intelligence collection effort targeting Philippine military and maritime operations.",
+      "headline": "Filipino man admits spying for China; military warns of broader network",
+      "brief": "A Filipino national identified as \"Danny\" has disclosed to Radio Free Asia that he sold intelligence to Chinese officials, with Philippine military officials suggesting additional operatives remain active. Information provided by the source may have facilitated China's 2024 Sabina Shoal ramming incident, indicating potential security vulnerabilities in Philippine military operations and heightened espionage activity in the South China Sea region.",
       "category": "foreign_relations",
       "severity": "high",
       "sources_used": [
@@ -61,8 +73,8 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "Analysts warn U.S.-China rivalry risks dominating global politics",
-      "brief": "The Diplomat reports that preventing armed conflict between the United States and China remains a critical concern during the Trump-Xi era. Beyond military confrontation, analysts identify a more systemic risk: that U.S.-China competition could become the primary organizing principle of international relations, potentially marginalizing other global issues and reshaping the international system.",
+      "headline": "U.S.-China Rivalry Risk of Dominating Global International Politics",
+      "brief": "According to The Diplomat, the primary challenge in U.S.-China relations extends beyond preventing direct military conflict to preventing their bilateral rivalry from becoming the dominant framework organizing international politics. The article implies that allowing great power competition to supersede other global governance priorities could reshape international order and constrain multilateral cooperation on transnational issues.",
       "category": "foreign_relations",
       "severity": "high",
       "sources_used": [
@@ -73,20 +85,8 @@
       "raw_source": "The Diplomat"
     },
     {
-      "headline": "Hong Kong cancels Tiananmen anniversary vigil under security law",
-      "brief": "Hong Kong's Victoria Park remained silent on the Tiananmen crackdown anniversary as the government effectively halted the annual commemorative gathering that previously attracted up to 180,000 participants. The cancellation follows implementation of the National Security Law, which has enabled authorities to suppress public expressions of political dissent. This represents a significant erosion of Hong Kong's civil liberties and further consolidation of Beijing's control over the territory's political space.",
-      "category": "foreign_relations",
-      "severity": "high",
-      "sources_used": [
-        "Radio Free Asia"
-      ],
-      "original_link": "https://rfa.org/english/china/2026/06/03/hong-kong-victoria-park-tiananmen-square-china/",
-      "published": "Wed, 03 Jun 2026 21:16:48 +0000",
-      "raw_source": "Radio Free Asia"
-    },
-    {
-      "headline": "Xi Jinping to visit North Korea amid great power diplomacy",
-      "brief": "Chinese President Xi Jinping is undertaking a rare visit to North Korea, occurring shortly after separate meetings with US and Russian leaders. The timing suggests China is actively engaging in diplomatic positioning with key actors influencing North Korean foreign policy. This visit underscores Beijing's efforts to maintain strategic influence over Pyongyang amid broader great power competition.",
+      "headline": "Xi Jinping to conduct rare visit to North Korea",
+      "brief": "Chinese President Xi Jinping is visiting North Korea, an uncommon diplomatic engagement occurring shortly after Xi's meetings with US and Russian leaders. The timing suggests potential coordination of regional foreign policy among major powers with significant influence over North Korean affairs. This visit underscores China's continued strategic interest in maintaining its relationship with North Korea amid broader great power competition.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -97,20 +97,8 @@
       "raw_source": "BBC News"
     },
     {
-      "headline": "Xi Jinping visits North Korea first time in seven years",
-      "brief": "Chinese President Xi Jinping will visit Pyongyang on June 8, marking his first trip to North Korea in seven years, following separate summits with U.S. and Russian leaders. The visit signals strengthened coordination among China, Russia, and North Korea, potentially indicating closer strategic alignment among the three nations. This development suggests China is consolidating partnerships with key regional allies amid broader geopolitical tensions.",
-      "category": "foreign_relations",
-      "severity": "medium",
-      "sources_used": [
-        "The Diplomat"
-      ],
-      "original_link": "https://thediplomat.com/2026/06/xi-jinping-to-visit-north-korea-amid-deepening-three-way-alliance/",
-      "published": "Fri, 05 Jun 2026 21:13:00 +0900",
-      "raw_source": "The Diplomat"
-    },
-    {
-      "headline": "North Korea-Russia bridge nearing completion amid deepening ties",
-      "brief": "Satellite imagery indicates a new bridge connecting North Korea and Russia is approaching completion, suggesting accelerated infrastructure development between the two nations. Experts interpret the rapid construction pace as evidence of Kim Jong Un's commitment to strengthening cooperation with Moscow. The bridge's completion would facilitate increased trade and military logistics between Pyongyang and Russia.",
+      "headline": "North Korea-Russia bridge construction nears completion, signals deepening ties",
+      "brief": "Satellite imagery indicates a new bridge connecting North Korea and Russia is approaching completion, suggesting intensified bilateral cooperation between Pyongyang and Moscow. Expert analysis attributes the accelerated construction timeline to Kim Jong Un's commitment to strengthening ties with Russia, potentially facilitating increased trade, military coordination, or other strategic exchanges between the two countries.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -121,8 +109,8 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "Philippines expands military infrastructure on disputed Spratly Islands",
-      "brief": "Satellite imagery reveals Philippine construction of runway and port facilities on two islands within the contested Spratly Islands. The expansion is intended to enhance military readiness in response to Chinese escalatory activities in the South China Sea. This development reflects intensifying strategic competition between regional claimants over disputed maritime territory.",
+      "headline": "Philippines expands military infrastructure in disputed Spratly Islands",
+      "brief": "Satellite imagery reveals Philippine construction projects including runway and port expansions on two islands within the disputed Spratly Islands. Analysts assess these improvements enhance Manila's operational readiness in response to increased Chinese activities in the South China Sea. The developments signal escalating military competition among claimants in the strategically significant region.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -133,20 +121,8 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "U.S. Defense Secretary Omits Taiwan Reference at Regional Security Forum",
-      "brief": "U.S. Defense Secretary Pete Hegseth did not mention Taiwan during his speech at the Shangri-La Dialogue, a major regional security forum. The omission represents a potential missed opportunity to publicly reaffirm U.S. commitment to Taiwan and deter Chinese military assertiveness in the Taiwan Strait. This silence may signal unclear U.S. messaging on Taiwan policy to both allies and adversaries in the Indo-Pacific region.",
-      "category": "military",
-      "severity": "medium",
-      "sources_used": [
-        "The Diplomat"
-      ],
-      "original_link": "https://thediplomat.com/2026/06/pete-hegseths-missed-chance-to-reassure-and-deter-on-taiwan/",
-      "published": "Fri, 05 Jun 2026 22:17:00 +0900",
-      "raw_source": "The Diplomat"
-    },
-    {
-      "headline": "Quad nations plan Fiji port project to counter China's Pacific influence",
-      "brief": "The United States, Japan, India, and Australia are pursuing a port development project in Fiji as part of efforts to challenge China's dominance in Pacific supply-chain infrastructure. The initiative signals to regional countries that the Quad coalition can provide alternative investment and partnership opportunities beyond Chinese offerings. This represents a strategic competition for influence and economic integration in the Indo-Pacific region.",
+      "headline": "Quad Powers Plan Fiji Port to Counter China's Pacific Influence",
+      "brief": "The United States, Japan, India, and Australia are pursuing a port development project in Fiji as part of efforts to compete with China's dominant position in Pacific supply chains and infrastructure. Analysts view the initiative as a strategic signal that the Quad alliance can provide alternative development opportunities to Pacific nations. This reflects growing great power competition in the Indo-Pacific region.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -157,32 +133,20 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "China Adopts Thucydides Trap Framework to Shift Stability Burden",
-      "brief": "Beijing is strategically embracing the Thucydides Trap concept\u2014the notion that conflict between a rising and established power is inevitable\u2014to reframe responsibility for maintaining stability and preventing escalation onto the United States. This rhetorical positioning allows China to present itself as a rational actor while characterizing American responses as the primary driver of potential conflict. The weaponization of this geopolitical construct represents a significant shift in Beijing's strategic communications regarding great power competition.",
-      "category": "foreign_relations",
+      "headline": "U.S. Defense Secretary Omits Taiwan from Regional Security Speech",
+      "brief": "U.S. Defense Secretary Pete Hegseth made no mention of Taiwan during his speech at the Shangri-La Dialogue, a closely-watched regional security forum. The omission represents a potential diplomatic missed opportunity to reinforce U.S. commitment to Taiwan's security and deter Chinese military ambitions in the region. This absence may signal shifts in U.S. defense messaging regarding one of the most sensitive geopolitical flashpoints in the Indo-Pacific.",
+      "category": "military",
       "severity": "medium",
       "sources_used": [
         "The Diplomat"
       ],
-      "original_link": "https://thediplomat.com/2026/06/why-china-weaponized-the-thucydides-trap/",
-      "published": "Fri, 05 Jun 2026 21:50:00 +0900",
+      "original_link": "https://thediplomat.com/2026/06/pete-hegseths-missed-chance-to-reassure-and-deter-on-taiwan/",
+      "published": "Fri, 05 Jun 2026 22:17:00 +0900",
       "raw_source": "The Diplomat"
     },
     {
-      "headline": "Chinese Activities in Bolivia Decline From Peak Under Leftist Leadership",
-      "brief": "Chinese engagement in Bolivia has significantly deteriorated from its elevated levels during the administrations of Evo Morales and Luis Arce. This decline reflects shifting dynamics in Beijing's Latin American strategic posture and potential reassessment of bilateral economic and political priorities in the region.",
-      "category": "foreign_relations",
-      "severity": "medium",
-      "sources_used": [
-        "The Diplomat"
-      ],
-      "original_link": "https://thediplomat.com/2026/06/bolivias-troubled-path-with-china/",
-      "published": "Sat, 06 Jun 2026 00:07:00 +0900",
-      "raw_source": "The Diplomat"
-    },
-    {
-      "headline": "China allegedly conducting unauthorized AI model distillation activities",
-      "brief": "China is reported to be engaging in unauthorized distillation of artificial intelligence models, a technique that extracts knowledge from proprietary AI systems to create competitive alternatives. This practice represents a significant intellectual property and economic concern for Western technology companies and governments developing advanced AI capabilities. The unauthorized distillation could accelerate China's AI development while undermining the competitive advantages of original developers.",
+      "headline": "China Employs AI Model Distillation to Access Advanced Technology",
+      "brief": "China is reportedly using unauthorized AI model distillation techniques to extract capabilities from advanced Western AI systems without licensing or payment. This practice allows Chinese entities to acquire sophisticated AI technology while circumventing intellectual property protections and export controls. The technique represents a significant economic and technological threat to U.S. and allied AI developers' competitive advantage and revenue models.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
@@ -193,8 +157,8 @@
       "raw_source": "FA RSS"
     },
     {
-      "headline": "Chinese AI firms reverse listing order, Hong Kong leads before mainland",
-      "brief": "Chinese artificial intelligence companies are reversing the traditional dual-listing sequence by listing in Hong Kong first before mainland China, departing from decades-old practice. This shift allows AI firms like MiniMax Group and Zhipu to establish market-based valuations from global investors and access more sophisticated capital sources. The trend reflects changing capital market dynamics and the strategic importance of international investor participation in China's AI sector growth.",
+      "headline": "Chinese AI firms reverse Hong Kong listing strategy for global valuations",
+      "brief": "Chinese artificial intelligence companies are reversing the traditional dual-listing sequence by listing in Hong Kong first before mainland China, rather than the conventional domestic-first approach. This shift allows AI firms like MiniMax Group and Zhipu to establish market-based valuations with global investors and access more sophisticated capital for growth. The trend reflects how high-growth AI companies are prioritizing access to international capital markets over traditional Chinese listing procedures.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
@@ -205,8 +169,8 @@
       "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "Stock Connect Restrictions Limit Investor Access to Mainland AI IPOs",
-      "brief": "Hong Kong and international investors have been unable to purchase mainland Chinese AI company stocks through the Stock Connect scheme, while mainland investors similarly lack access to Hong Kong-listed AI IPOs. This bidirectional trading restriction suggests regulatory constraints on cross-border capital flows for technology sector investments, potentially limiting liquidity and valuation opportunities for rapidly growing Chinese AI companies.",
+      "headline": "Stock Connect Restrictions Limit Investor Access to Mainland AI Listings",
+      "brief": "Hong Kong and international investors are unable to purchase mainland Chinese AI company stocks through the Stock Connect scheme, while mainland investors face similar restrictions on Hong Kong AI IPOs. This bilateral access limitation may constrain capital flows to China's high-growth artificial intelligence sector and reflects potential regulatory constraints on cross-border investment in strategically sensitive technologies.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
@@ -217,20 +181,8 @@
       "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "China's Foreign Minister to Discuss Beijing's Foreign Policy Strategy",
-      "brief": "China's Minister of Foreign Affairs Wang Yi participated in a CSIS Statesmen's Forum to discuss Chinese foreign policy and U.S.-China relations. The forum provided a platform for Beijing to articulate its strategic perspectives on bilateral and regional issues to American policy audiences.",
-      "category": "foreign_relations",
-      "severity": "medium",
-      "sources_used": [
-        "CSIS"
-      ],
-      "original_link": "https://www.csis.org/events/statesmens-forum-wang-yi-minister-foreign-affairs-prc",
-      "published": "Fri, 19 Feb 2016 22:13:26 +0000",
-      "raw_source": "CSIS"
-    },
-    {
-      "headline": "China Promotes Internet Sovereignty as Global Governing Concept",
-      "brief": "China is advancing an \"Internet sovereignty\" initiative to establish national control as a key principle for global internet governance. This approach prioritizes state authority over international internet standards, with significant implications for digital infrastructure, data control, and international cyber norms. The initiative represents China's effort to reshape global digital governance frameworks to align with its domestic regulatory model.",
+      "headline": "China Promotes Internet Sovereignty as Global Governance Model",
+      "brief": "China is advancing 'Internet sovereignty' as a key governing concept for the global Internet, challenging existing international norms around digital governance and data control. This initiative has significant implications for cybersecurity, information warfare capabilities, and China's ability to project power through digital and information domains. The concept prioritizes state control over internet infrastructure and content within national borders, potentially fragmenting the global internet into competing spheres of influence.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -241,32 +193,56 @@
       "raw_source": "CSIS"
     },
     {
-      "headline": "China to Strengthen Regulation of Algorithmic Programme Trading",
-      "brief": "Chinese securities regulators announced plans to enhance oversight of programme trading, the automated execution of large security orders increasingly used by hedge funds and institutional investors. The regulatory tightening aims to prevent market misconduct as algorithmic trading grows in prevalence. This move reflects Beijing's broader effort to maintain market stability and control systemic risks in China's financial system.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "Banking & Finance - South China Morning Post"
-      ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3356217/china-will-enhance-regulation-programme-trading-csrc-chairman?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 11:51:21 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
-    },
-    {
-      "headline": "Democratic Congressional Victory Could Destabilize U.S.-China Relations",
-      "brief": "A Democratic takeover of the House in midterm elections could introduce volatility into current U.S.-China policy, according to analysis from The Diplomat. The potential shift in congressional control may alter the trajectory of bilateral relations between the two powers.",
+      "headline": "Chinese Economic Influence in Bolivia Declines Significantly",
+      "brief": "Chinese activities and investments in Bolivia have substantially diminished from their peak during the administrations of Evo Morales and Luis Arce. This deterioration reflects shifting political dynamics and reduced engagement between Beijing and La Paz. The decline in Chinese economic presence in Bolivia may indicate broader shifts in China's Latin American strategy or changing bilateral relations.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
         "The Diplomat"
       ],
-      "original_link": "https://thediplomat.com/2026/06/could-a-democratic-mid-term-win-upset-the-china-us-detente/",
-      "published": "Fri, 05 Jun 2026 21:56:00 +0900",
+      "original_link": "https://thediplomat.com/2026/06/bolivias-troubled-path-with-china/",
+      "published": "Sat, 06 Jun 2026 00:07:00 +0900",
       "raw_source": "The Diplomat"
     },
     {
+      "headline": "China Employs Thucydides Trap Framework to Shift Stability Burden",
+      "brief": "Beijing is strategically leveraging the Thucydides Trap concept\u2014the theory that conflict between rising and established powers is inevitable\u2014to reframe great power competition dynamics. By embracing this construct, China appears to be attempting to transfer responsibility for maintaining stability and preventing escalation to the United States. This rhetorical shift has significant implications for how both powers manage their strategic competition and international messaging.",
+      "category": "military",
+      "severity": "medium",
+      "sources_used": [
+        "The Diplomat"
+      ],
+      "original_link": "https://thediplomat.com/2026/06/why-china-weaponized-the-thucydides-trap/",
+      "published": "Fri, 05 Jun 2026 21:50:00 +0900",
+      "raw_source": "The Diplomat"
+    },
+    {
+      "headline": "China's Foreign Minister to Discuss Beijing-Washington Relations",
+      "brief": "China's Foreign Minister Wang Yi participated in a CSIS Statesmen's Forum to discuss Chinese foreign policy and U.S.-China relations. The forum provided a platform for high-level dialogue on bilateral strategic issues between the two major powers. This engagement reflects ongoing diplomatic efforts to manage and communicate positions on key international matters.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "CSIS"
+      ],
+      "original_link": "https://www.csis.org/events/statesmens-forum-wang-yi-minister-foreign-affairs-prc",
+      "published": "Fri, 19 Feb 2016 22:13:26 +0000",
+      "raw_source": "CSIS"
+    },
+    {
+      "headline": "U.S. Pacific Command Discusses Indo-Asia-Pacific Strategic Priorities",
+      "brief": "Admiral Harry B. Harris, Commander of U.S. Pacific Command, participated in a CSIS discussion on strategic opportunities in the Indo-Asia-Pacific region. The forum provided analysis of U.S. military positioning and strategic interests in a region of increasing geopolitical significance.",
+      "category": "military",
+      "severity": "medium",
+      "sources_used": [
+        "CSIS"
+      ],
+      "original_link": "https://www.csis.org/events/strategic-opportunities-indo-asia-pacific-admiral-harry-b-harris",
+      "published": "Tue, 26 Jan 2016 16:20:53 +0000",
+      "raw_source": "CSIS"
+    },
+    {
       "headline": "Solomon Islands' new PM signals potential shift away from China",
-      "brief": "Matthew Wale's appointment as Solomon Islands Prime Minister is expected to result in a more moderate stance toward China compared to his predecessors. Experts anticipate this leadership change could reorient the nation's foreign policy closer to Australia's sphere of influence. The shift reflects broader regional realignment dynamics in the Pacific.",
+      "brief": "Matthew Wale's appointment as Solomon Islands Prime Minister is expected to result in a more moderate stance toward China compared to his predecessors. Experts assess this leadership change could realign the Pacific nation's foreign policy orientation, with implications for regional geopolitical balance in the Indo-Pacific.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -277,8 +253,8 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "Northern Marianas faces visa policy trade-offs between tourism and security",
-      "brief": "The U.S. territory's participation in the Enhanced Visitor Security and Status Verification Program (EVS-TAP) enables visa-free travel for Chinese nationals, boosting tourism revenue. However, the policy faces criticism over security concerns, presenting officials with competing economic and security interests in maintaining the program.",
+      "headline": "Northern Marianas faces tourism-security tradeoff over Chinese visa exemption",
+      "brief": "The U.S. territory's participation in the Enhanced Security Vetting-Trusted Traveler Program (EVS-TAP) allows Chinese citizens visa-free entry but raises security concerns among critics. Local residents report potential economic impacts from the program's termination, highlighting tensions between tourism revenue and security protocols in the strategic Pacific territory.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -289,80 +265,115 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "China accused of misrepresenting foreign officials' statements",
-      "brief": "Radio Free Asia reports that Beijing has a pattern of twisting statements by visiting dignitaries to suggest support for its domestic policies. The concern is particularly relevant ahead of potential summits, where China may selectively interpret comments to legitimize its governance approach internationally. This practice undermines diplomatic communication and could affect bilateral relations through manufactured consensus.",
+      "headline": "China positioned to expand health assistance role in East Africa",
+      "brief": "As Ebola spreads in East Africa, China is well-positioned to provide medical and humanitarian assistance, potentially filling a gap created by reduced U.S. engagement in the region. Chinese involvement in disease containment efforts could expand Beijing's influence and soft power in East Africa while addressing a significant public health crisis.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
-        "Radio Free Asia"
+        "NYT > World News"
       ],
-      "original_link": "https://rfa.org/english/uyghur/2026/05/12/trump-xi-china-meeting-uyghur/",
-      "published": "Tue, 12 May 2026 15:26:55 +0000",
-      "raw_source": "Radio Free Asia"
+      "original_link": "https://www.nytimes.com/2026/06/06/world/asia/as-ebola-spreads-in-east-africa-will-china-step-up.html",
+      "published": "Sun, 07 Jun 2026 07:02:36 +0000",
+      "raw_source": "NYT > World News"
     },
     {
-      "headline": "Hong Kong signs 96 deals with Central Asia, plans direct flights",
-      "brief": "Hong Kong Chief Executive John Lee concluded a Central Asia visit with nearly 100 partnership agreements designed to facilitate business access for Hong Kong and mainland Chinese enterprises to the region. The trip successfully revived direct flight connections, though observers emphasize that substantive implementation challenges remain for realizing the economic benefits. This initiative represents China's strategic effort to deepen economic integration with Central Asia through Hong Kong as a financial hub.",
+      "headline": "Democratic midterm victory could destabilize U.S.-China relations",
+      "brief": "A Democratic victory in November's midterm elections could significantly increase volatility in U.S.-China policy, potentially disrupting current bilateral engagement. The shift in congressional control could introduce policy instability in the relationship between the two major powers.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
-        "Hong Kong - South China Morning Post"
+        "The Diplomat"
       ],
-      "original_link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356215/96-deals-signed-flights-planned-whats-next-hong-kong-and-central-asia?utm_source=rss_feed",
-      "published": "Sat, 06 Jun 2026 10:53:23 +0000",
-      "raw_source": "Hong Kong - South China Morning Post"
+      "original_link": "https://thediplomat.com/2026/06/could-a-democratic-mid-term-win-upset-the-china-us-detente/",
+      "published": "Fri, 05 Jun 2026 21:56:00 +0900",
+      "raw_source": "The Diplomat"
+    },
+    {
+      "headline": "Pacific Nations Establish Regional Framework for Climate-Driven Relocation",
+      "brief": "Pacific governments have adopted the world's first regional framework to manage planned climate relocation for communities threatened by rising sea levels, coastal erosion, and severe weather. The framework addresses displacement challenges affecting vulnerable island nations and represents a coordinated approach to climate-induced population movements. This development has significant implications for regional stability, sovereignty, and potential geopolitical shifts in the Pacific.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "The Diplomat"
+      ],
+      "original_link": "https://thediplomat.com/2026/06/pacific-nations-adopt-first-regional-climate-relocation-framework/",
+      "published": "Fri, 05 Jun 2026 22:39:00 +0900",
+      "raw_source": "The Diplomat"
+    },
+    {
+      "headline": "China increases censorship of popular micro drama content online",
+      "brief": "Chinese authorities are cracking down on viral micro dramas containing sexually explicit material, violence, and materialism. This regulatory action reflects Beijing's broader effort to control digital media and content consumption among its population. The measure signals intensified state oversight of social media platforms and user-generated content.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/clypy34pj6yo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 05 Jun 2026 05:16:54 GMT",
+      "raw_source": "BBC News"
     }
   ],
+  "deep_dive": {
+    "headline": "Xi's North Korea visit signals strategic realignment amid great power competition",
+    "category": "foreign_relations",
+    "overview": "Xi Jinping's planned visit to North Korea represents a significant diplomatic move occurring in the context of recent high-level meetings with US and Russian leadership. The timing suggests Beijing is actively managing its relationships across major powers while reasserting influence over its closest ally in Northeast Asia. This visit carries substantial implications for regional stability and the balance of power in East Asia.",
+    "background": "Xi's last visit to North Korea was in 2013, making this a rare occurrence that underscores the strategic importance China places on the relationship. North Korea's foreign policy has historically been constrained by its dependence on Chinese economic and military support, while simultaneously balancing relations with Russia. The convergence of these high-level diplomatic engagements reflects intensifying great power competition in the Indo-Pacific region.",
+    "key_players": "Xi Jinping represents China's interests in maintaining regional stability and its sphere of influence, while Kim Jong Un seeks to preserve regime security and extract maximum benefit from China's strategic rivalry with the West. The US and Russia, as competing powers with interests in Korean Peninsula dynamics, form the broader geopolitical context for this engagement.",
+    "implications": "China appears to be consolidating its position amid US-China tensions and reinforcing the China-Russia-North Korea alignment as a counterweight to Western influence. The visit may signal coordination on sanctions evasion, technology transfer, or military cooperation that could complicate US diplomatic efforts in Northeast Asia. Long-term, this reassertion of Beijing's primacy over Pyongyang could reduce space for independent North Korean action and deepen tripartite coordination.",
+    "risk_assessment": "Risk level is moderate-to-high; monitor for post-visit statements regarding sanctions cooperation, military exercises, or unified messaging on US policy. Watch for any agreements on economic assistance or military support that could trigger US countermeasures and accelerate regional militarization.",
+    "source": "BBC News",
+    "original_link": "https://www.bbc.com/news/articles/clypym3q7p1o?at_medium=RSS&at_campaign=rss"
+  },
   "relations": [
     {
       "country": "United States",
       "status": "Tense",
-      "summary": "U.S.-China relations remain competitive and adversarial across trade, technology, and security issues, with ongoing tensions over Taiwan, the South China Sea, and strategic competition."
+      "summary": "China-US relations remain strained due to competition over technology, trade disputes, geopolitical differences on Taiwan and the South China Sea, and mutual strategic distrust."
     },
     {
       "country": "Russia",
       "status": "Cooperative",
-      "summary": "China and Russia maintain strategic partnership with deepening energy, trade, and military cooperation, though with underlying pragmatic rather than ideological alignment."
+      "summary": "China and Russia maintain a strategic partnership characterized by alignment on opposing Western dominance, though China maintains measured neutrality on the Ukraine conflict."
     },
     {
       "country": "European Union",
       "status": "Neutral",
-      "summary": "EU-China relations balance economic interdependence with growing strategic concerns over human rights, intellectual property, and competition for technological dominance."
+      "summary": "EU-China relations are mixed, balancing economic interdependence with growing concerns over human rights, market access, and geopolitical competition."
     },
     {
       "country": "Taiwan",
       "status": "Hostile",
-      "summary": "China views Taiwan as a breakaway province and maintains military pressure and diplomatic isolation, refusing to renounce use of force for reunification."
+      "summary": "China views Taiwan as a breakaway province and continues military pressure and diplomatic isolation while opposing any independence moves."
     },
     {
       "country": "Japan",
       "status": "Tense",
-      "summary": "Sino-Japanese relations are strained by historical disputes, competing interests in the East China Sea, territorial disagreements over the Senkaku Islands, and diverging security alignments."
+      "summary": "China-Japan relations are strained by territorial disputes over the Senkaku Islands, historical grievances, and strategic competition in East Asia."
     },
     {
       "country": "India",
       "status": "Tense",
-      "summary": "China-India relations remain adversarial following border clashes in 2020, unresolved border disputes in the Himalayas, and strategic competition in Asia."
+      "summary": "China-India relations remain tense following the 2020 border clash in Ladakh, with unresolved territorial disputes and strategic rivalry in Asia."
     },
     {
       "country": "Saudi Arabia",
       "status": "Cooperative",
-      "summary": "China and Saudi Arabia maintain pragmatic partnership centered on energy trade, investment, and arms sales with limited political friction."
+      "summary": "China maintains pragmatic cooperative relations with Saudi Arabia centered on energy trade, Belt and Road investments, and alignment on regional issues."
     },
     {
       "country": "Philippines",
       "status": "Neutral",
-      "summary": "Philippines-China relations fluctuate between economic cooperation and tensions over South China Sea disputes, with Manila balancing Beijing's influence against security concerns."
+      "summary": "China-Philippines relations oscillate between cooperation on economic ties and tension over South China Sea territorial disputes and the Scarborough Shoal."
     },
     {
       "country": "Brazil",
-      "status": "Neutral",
-      "summary": "China-Brazil relations are primarily economic and trade-focused, with Brazil as a major commodity supplier to China, though limited deep political alignment."
+      "status": "Cooperative",
+      "summary": "China-Brazil relations are cooperative, driven by substantial trade in commodities and Brazilian participation in Chinese development initiatives like BRICS."
     },
     {
       "country": "Australia",
       "status": "Tense",
-      "summary": "Sino-Australian relations have deteriorated significantly due to Australian calls for COVID-19 investigations, national security concerns, technology restrictions, and Chinese trade sanctions."
+      "summary": "China-Australia relations remain tense following Australia's 2021 pivot toward security partnerships with the US and lingering trade restrictions imposed by China."
     }
   ]
 }
