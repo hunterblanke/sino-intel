@@ -92,6 +92,70 @@ def fetch_articles(max_per_feed=15):
     return unique
 
 
+def ai_rank_articles(articles):
+    """
+    Ask AI to rank all fetched articles by geopolitical importance
+    and return only the top 25 most significant ones.
+    """
+    if len(articles) <= 25:
+        return articles
+
+    titles_list = "\n".join([f"{i+1}. {a['title']}" for i, a in enumerate(articles)])
+
+    prompt = f"""You are a senior intelligence analyst. Below is a list of news article headlines about China.
+Your job is to select the 25 most geopolitically significant articles — prioritizing:
+- Military movements, conflicts, or escalations
+- Major diplomatic developments or breakdowns
+- Significant economic policy shifts or crises
+- Taiwan Strait, South China Sea, or nuclear developments
+- High-level leadership decisions or power shifts
+- Sanctions, trade wars, or technology restrictions
+
+Deprioritize: celebrity news, sports, minor local stories, routine business earnings.
+
+Articles:
+{titles_list}
+
+Respond ONLY with valid JSON, no extra text, no markdown:
+{{
+  "top_indices": [1, 4, 7, 12, ...]
+}}
+
+Return exactly 25 index numbers from the list above (1-based). Order them from most to least important."""
+
+    try:
+        message = ANTHROPIC_CLIENT.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=400,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        text = message.content[0].text.strip()
+        if "```" in text:
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
+        parsed = json.loads(text.strip())
+        indices = parsed.get("top_indices", [])
+        # Convert 1-based to 0-based, filter valid indices
+        selected = []
+        for idx in indices:
+            i = int(idx) - 1
+            if 0 <= i < len(articles):
+                selected.append(articles[i])
+        # Ensure we have exactly 25
+        if len(selected) < 25:
+            for a in articles:
+                if a not in selected:
+                    selected.append(a)
+                if len(selected) == 25:
+                    break
+        print(f"  AI ranked and selected top 25 from {len(articles)} articles.")
+        return selected[:25]
+    except Exception as e:
+        print(f"  [WARN] Ranking failed, falling back to first 25: {e}")
+        return articles[:25]
+
+
 def ai_summarize(article):
     prompt = f"""You are an intelligence analyst. Summarize the following news article
 about China in 2-3 sentences for a professional intelligence briefing website.
@@ -207,22 +271,25 @@ def main():
             json.dump(output, f, indent=2)
         return
 
-    print(f"\nStep 2: AI summarization ({min(len(raw_articles), 50)} articles)...")
+    print(f"\nStep 2: AI ranking top 25 most important articles from {len(raw_articles)} candidates...")
+    top_articles = ai_rank_articles(raw_articles)
+
+    print(f"\nStep 3: AI summarization (25 articles)...")
     processed = []
-    for i, article in enumerate(raw_articles[:50]):
-        print(f"  [{i+1}/{min(len(raw_articles),50)}] {article['title'][:60]}...")
+    for i, article in enumerate(top_articles):
+        print(f"  [{i+1}/25] {article['title'][:60]}...")
         result = ai_summarize(article)
         if result:
             processed.append(result)
 
     print(f"\n  Processed {len(processed)} articles successfully.")
 
-    print("\nStep 3: Building output JSON...")
+    print("\nStep 4: Building output JSON...")
     metrics = generate_metrics(processed)
     sev_order = {"high": 0, "medium": 1, "low": 2}
     processed.sort(key=lambda x: sev_order.get(x.get("severity", "low"), 2))
 
-    print("\nStep 4: Generating bilateral relations status...")
+    print("\nStep 5: Generating bilateral relations status...")
     relations = generate_bilateral_relations()
 
     output = {
