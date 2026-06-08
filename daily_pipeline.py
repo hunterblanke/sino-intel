@@ -6,6 +6,7 @@ import anthropic
 from pathlib import Path
 
 OUTPUT_FILE = "public/data/articles.json"
+ARCHIVE_FILE = "public/data/archive.json"
 
 RSS_FEEDS = {
     "economy": [
@@ -61,8 +62,6 @@ def is_monday():
 
 
 def load_existing_data():
-    """Load the current articles.json to carry over the deep dive on non-Monday days
-    and to check yesterday's headlines for duplicate filtering."""
     try:
         with open(OUTPUT_FILE, "r") as f:
             data = json.load(f)
@@ -72,10 +71,45 @@ def load_existing_data():
         )
         existing_deep_dive = data.get("deep_dive", None)
         print(f"  Loaded {len(yesterday_headlines)} existing headlines for duplicate filtering.")
-        return yesterday_headlines, existing_deep_dive
+        return yesterday_headlines, existing_deep_dive, data
     except Exception:
         print("  No existing data found — starting fresh.")
-        return set(), None
+        return set(), None, None
+
+
+def save_to_archive(existing_data):
+    """Save yesterday's articles into the archive before overwriting."""
+    if not existing_data:
+        return
+    date = existing_data.get("date", "")
+    articles = existing_data.get("articles", [])
+    if not date or not articles:
+        return
+    try:
+        # Load existing archive
+        try:
+            with open(ARCHIVE_FILE, "r") as f:
+                archive = json.load(f)
+        except Exception:
+            archive = {"entries": []}
+
+        # Check if this date is already archived
+        existing_dates = [e["date"] for e in archive.get("entries", [])]
+        if date not in existing_dates:
+            archive["entries"].insert(0, {
+                "date":     date,
+                "articles": articles,
+                "metrics":  existing_data.get("metrics", {}),
+            })
+            # Keep only last 90 days
+            archive["entries"] = archive["entries"][:90]
+            with open(ARCHIVE_FILE, "w") as f:
+                json.dump(archive, f, indent=2)
+            print(f"  Archived {len(articles)} articles from {date}.")
+        else:
+            print(f"  Date {date} already in archive — skipping.")
+    except Exception as e:
+        print(f"  [WARN] Archive save failed: {e}")
 
 
 def fetch_articles(max_per_feed=15):
@@ -103,7 +137,6 @@ def fetch_articles(max_per_feed=15):
             except Exception as e:
                 print(f"  [WARN] Failed to fetch {url}: {e}")
 
-    # Remove duplicates by title
     seen = set()
     unique = []
     for a in raw:
@@ -175,12 +208,10 @@ Return exactly 25 index numbers (1-based), ordered from most to least important.
 
 
 def remove_duplicate_articles(processed, yesterday_headlines):
-    """Remove articles whose headlines are too similar to yesterday's."""
     fresh = []
     skipped = 0
     for article in processed:
         headline = article.get("headline", "").lower().strip()
-        # Check if any word overlap is too high with yesterday's headlines
         is_duplicate = False
         headline_words = set(headline.split())
         for old in yesterday_headlines:
@@ -242,12 +273,9 @@ For severity use only one of: high, medium, low"""
 
 
 def generate_deep_dive(articles):
-    """Generate a full analytical deep dive on the most important article of the week."""
     if not articles:
         return None
-
     article = articles[0]
-
     prompt = f"""You are a senior China intelligence analyst writing a weekly deep dive briefing.
 Analyze the following article in depth for a professional intelligence audience.
 
@@ -346,12 +374,14 @@ def main():
     today = datetime.date.today().isoformat()
     monday = is_monday()
     print(f"\n=== Great Wall Dispatch Pipeline · {today} ===")
-    print(f"  Deep dive update: {'YES (Monday)' if monday else 'NO (carrying over from last week)'}\n")
+    print(f"  Deep dive update: {'YES (Monday)' if monday else 'NO (carrying over)'}\n")
 
-    # Load existing data for duplicate filtering and deep dive carry-over
-    yesterday_headlines, existing_deep_dive = load_existing_data()
+    yesterday_headlines, existing_deep_dive, existing_data = load_existing_data()
 
-    print("Step 1: Fetching RSS feeds...")
+    print("Step 1: Archiving yesterday's articles...")
+    save_to_archive(existing_data)
+
+    print("\nStep 2: Fetching RSS feeds...")
     raw_articles = fetch_articles(max_per_feed=15)
 
     if not raw_articles:
@@ -368,10 +398,10 @@ def main():
             json.dump(output, f, indent=2)
         return
 
-    print(f"\nStep 2: AI ranking top 25 most important articles...")
+    print(f"\nStep 3: AI ranking top 25 most important articles...")
     top_articles = ai_rank_articles(raw_articles)
 
-    print(f"\nStep 3: AI summarization (up to 25 articles)...")
+    print(f"\nStep 4: AI summarization (up to 25 articles)...")
     processed = []
     for i, article in enumerate(top_articles):
         print(f"  [{i+1}/{len(top_articles)}] {article['title'][:60]}...")
@@ -381,23 +411,22 @@ def main():
 
     print(f"\n  Processed {len(processed)} articles successfully.")
 
-    print("\nStep 4: Removing duplicate articles from yesterday...")
+    print("\nStep 5: Removing duplicate articles from yesterday...")
     processed = remove_duplicate_articles(processed, yesterday_headlines)
 
-    print("\nStep 5: Building output JSON...")
+    print("\nStep 6: Building output JSON...")
     metrics = generate_metrics(processed)
     sev_order = {"high": 0, "medium": 1, "low": 2}
     processed.sort(key=lambda x: sev_order.get(x.get("severity", "low"), 2))
 
-    # Only regenerate deep dive on Mondays — carry over existing the rest of the week
     if monday or existing_deep_dive is None:
-        print("\nStep 6: Generating weekly deep dive (Monday refresh)...")
+        print("\nStep 7: Generating weekly deep dive (Monday refresh)...")
         deep_dive = generate_deep_dive(top_articles)
     else:
-        print("\nStep 6: Carrying over existing deep dive (not Monday)...")
+        print("\nStep 7: Carrying over existing deep dive (not Monday)...")
         deep_dive = existing_deep_dive
 
-    print("\nStep 7: Generating bilateral relations status...")
+    print("\nStep 8: Generating bilateral relations status...")
     relations = generate_bilateral_relations()
 
     output = {
