@@ -42,8 +42,8 @@ CHINA_KEYWORDS = [
     "ccp", "yuan", "renminbi", "taiwan", "south china sea",
     "belt and road", "pboc", "bri", "sino", "hong kong",
     "shanghai", "shenzhen", "politburo", "people's republic",
-    "people's liberation", "mao", "deng", "zhao", "uyghur",
-    "xinjiang", "tibet", "macau", "huawei", "tiktok", "bytedance"
+    "people's liberation", "uyghur", "xinjiang", "tibet",
+    "macau", "huawei", "tiktok", "bytedance"
 ]
 
 api_key = os.environ.get("ANTHROPIC_API_KEY", "NOT_FOUND")
@@ -54,6 +54,28 @@ ANTHROPIC_CLIENT = anthropic.Anthropic(api_key=api_key)
 def is_china_relevant(title, summary):
     text = (title + " " + summary).lower()
     return any(kw in text for kw in CHINA_KEYWORDS)
+
+
+def is_monday():
+    return datetime.date.today().weekday() == 0
+
+
+def load_existing_data():
+    """Load the current articles.json to carry over the deep dive on non-Monday days
+    and to check yesterday's headlines for duplicate filtering."""
+    try:
+        with open(OUTPUT_FILE, "r") as f:
+            data = json.load(f)
+        yesterday_headlines = set(
+            a.get("headline", "").lower().strip()
+            for a in data.get("articles", [])
+        )
+        existing_deep_dive = data.get("deep_dive", None)
+        print(f"  Loaded {len(yesterday_headlines)} existing headlines for duplicate filtering.")
+        return yesterday_headlines, existing_deep_dive
+    except Exception:
+        print("  No existing data found — starting fresh.")
+        return set(), None
 
 
 def fetch_articles(max_per_feed=15):
@@ -81,6 +103,7 @@ def fetch_articles(max_per_feed=15):
             except Exception as e:
                 print(f"  [WARN] Failed to fetch {url}: {e}")
 
+    # Remove duplicates by title
     seen = set()
     unique = []
     for a in raw:
@@ -99,7 +122,7 @@ def ai_rank_articles(articles):
     titles_list = "\n".join([f"{i+1}. {a['title']}" for i, a in enumerate(articles)])
 
     prompt = f"""You are a senior intelligence analyst. Below is a list of news article headlines about China.
-Your job is to select the 25 most geopolitically significant articles — prioritizing:
+Select the 25 most geopolitically significant articles — prioritizing:
 - Military movements, conflicts, or escalations
 - Major diplomatic developments or breakdowns
 - Significant economic policy shifts or crises
@@ -108,6 +131,7 @@ Your job is to select the 25 most geopolitically significant articles — priori
 - Sanctions, trade wars, or technology restrictions
 
 Deprioritize: celebrity news, sports, minor local stories, routine business earnings.
+Avoid selecting multiple articles about the exact same story — prefer diversity of topics.
 
 Articles:
 {titles_list}
@@ -117,7 +141,7 @@ Respond ONLY with valid JSON, no extra text, no markdown:
   "top_indices": [1, 4, 7, 12]
 }}
 
-Return exactly 25 index numbers from the list above (1-based). Order them from most to least important."""
+Return exactly 25 index numbers (1-based), ordered from most to least important."""
 
     try:
         message = ANTHROPIC_CLIENT.messages.create(
@@ -148,6 +172,30 @@ Return exactly 25 index numbers from the list above (1-based). Order them from m
     except Exception as e:
         print(f"  [WARN] Ranking failed, falling back to first 25: {e}")
         return articles[:25]
+
+
+def remove_duplicate_articles(processed, yesterday_headlines):
+    """Remove articles whose headlines are too similar to yesterday's."""
+    fresh = []
+    skipped = 0
+    for article in processed:
+        headline = article.get("headline", "").lower().strip()
+        # Check if any word overlap is too high with yesterday's headlines
+        is_duplicate = False
+        headline_words = set(headline.split())
+        for old in yesterday_headlines:
+            old_words = set(old.split())
+            if len(headline_words) > 3 and len(old_words) > 3:
+                overlap = len(headline_words & old_words) / max(len(headline_words), len(old_words))
+                if overlap > 0.6:
+                    is_duplicate = True
+                    break
+        if not is_duplicate:
+            fresh.append(article)
+        else:
+            skipped += 1
+    print(f"  Removed {skipped} duplicate articles. {len(fresh)} fresh articles remain.")
+    return fresh
 
 
 def ai_summarize(article):
@@ -193,9 +241,14 @@ For severity use only one of: high, medium, low"""
         return None
 
 
-def generate_deep_dive(article):
-    """Generate a full analytical deep dive on the most important article of the day."""
-    prompt = f"""You are a senior China intelligence analyst writing a daily deep dive briefing.
+def generate_deep_dive(articles):
+    """Generate a full analytical deep dive on the most important article of the week."""
+    if not articles:
+        return None
+
+    article = articles[0]
+
+    prompt = f"""You are a senior China intelligence analyst writing a weekly deep dive briefing.
 Analyze the following article in depth for a professional intelligence audience.
 
 Source: {article['source']}
@@ -205,13 +258,14 @@ Text: {article['summary']}
 Respond ONLY with valid JSON, no extra text, no markdown:
 {{
   "headline": "Deep dive headline under 12 words",
-  "category": "military",
-  "overview": "2-3 sentence overview of the situation and why it matters today.",
-  "background": "2-3 sentences of essential historical or political context a reader needs to understand this story.",
-  "key_players": "1-2 sentences identifying the main actors and their positions or interests.",
-  "implications": "2-3 sentences analyzing the short and long term geopolitical implications.",
+  "category": "foreign_relations",
+  "overview": "2-3 sentence overview of the situation and why it matters this week.",
+  "background": "2-3 sentences of essential historical or political context.",
+  "key_players": "1-2 sentences identifying the main actors and their interests.",
+  "implications": "2-3 sentences analyzing short and long term geopolitical implications.",
   "risk_assessment": "1-2 sentences rating the risk level and what to watch for next.",
-  "source": "{article['source']}"
+  "source": "{article['source']}",
+  "week_of": "{datetime.date.today().isoformat()}"
 }}
 
 For category use only one of: economy, military, foreign_relations"""
@@ -229,7 +283,7 @@ For category use only one of: economy, military, foreign_relations"""
                 text = text[4:]
         parsed = json.loads(text.strip())
         parsed["original_link"] = article.get("link", "")
-        print(f"  Generated deep dive: {parsed['headline'][:60]}")
+        print(f"  Generated weekly deep dive: {parsed['headline'][:60]}")
         return parsed
     except Exception as e:
         print(f"  [WARN] Deep dive generation failed: {e}")
@@ -290,7 +344,12 @@ def generate_metrics(articles):
 
 def main():
     today = datetime.date.today().isoformat()
-    print(f"\n=== Great Wall Dispatch Pipeline · {today} ===\n")
+    monday = is_monday()
+    print(f"\n=== Great Wall Dispatch Pipeline · {today} ===")
+    print(f"  Deep dive update: {'YES (Monday)' if monday else 'NO (carrying over from last week)'}\n")
+
+    # Load existing data for duplicate filtering and deep dive carry-over
+    yesterday_headlines, existing_deep_dive = load_existing_data()
 
     print("Step 1: Fetching RSS feeds...")
     raw_articles = fetch_articles(max_per_feed=15)
@@ -298,40 +357,47 @@ def main():
     if not raw_articles:
         print("  No articles found. Writing empty output.")
         output = {
-            "date": today,
-            "metrics": generate_metrics([]),
-            "articles": [],
+            "date":      today,
+            "metrics":   generate_metrics([]),
+            "articles":  [],
+            "deep_dive": existing_deep_dive,
             "relations": [],
-            "deep_dive": None,
         }
         Path(OUTPUT_FILE).parent.mkdir(parents=True, exist_ok=True)
         with open(OUTPUT_FILE, "w") as f:
             json.dump(output, f, indent=2)
         return
 
-    print(f"\nStep 2: AI ranking top 25 most important articles from {len(raw_articles)} candidates...")
+    print(f"\nStep 2: AI ranking top 25 most important articles...")
     top_articles = ai_rank_articles(raw_articles)
 
-    print(f"\nStep 3: AI summarization (25 articles)...")
+    print(f"\nStep 3: AI summarization (up to 25 articles)...")
     processed = []
     for i, article in enumerate(top_articles):
-        print(f"  [{i+1}/25] {article['title'][:60]}...")
+        print(f"  [{i+1}/{len(top_articles)}] {article['title'][:60]}...")
         result = ai_summarize(article)
         if result:
             processed.append(result)
 
     print(f"\n  Processed {len(processed)} articles successfully.")
 
-    print("\nStep 4: Generating daily deep dive...")
-    # Use the first (highest ranked) article for the deep dive
-    deep_dive = generate_deep_dive(top_articles[0]) if top_articles else None
+    print("\nStep 4: Removing duplicate articles from yesterday...")
+    processed = remove_duplicate_articles(processed, yesterday_headlines)
 
     print("\nStep 5: Building output JSON...")
     metrics = generate_metrics(processed)
     sev_order = {"high": 0, "medium": 1, "low": 2}
     processed.sort(key=lambda x: sev_order.get(x.get("severity", "low"), 2))
 
-    print("\nStep 6: Generating bilateral relations status...")
+    # Only regenerate deep dive on Mondays — carry over existing the rest of the week
+    if monday or existing_deep_dive is None:
+        print("\nStep 6: Generating weekly deep dive (Monday refresh)...")
+        deep_dive = generate_deep_dive(top_articles)
+    else:
+        print("\nStep 6: Carrying over existing deep dive (not Monday)...")
+        deep_dive = existing_deep_dive
+
+    print("\nStep 7: Generating bilateral relations status...")
     relations = generate_bilateral_relations()
 
     output = {
