@@ -63,6 +63,17 @@ export default function Home() {
             />
           </div>
           <div className={styles.headerRight}>
+            <a href="/archive" style={{
+              fontFamily: "'Courier New', monospace",
+              fontSize: "0.65rem",
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              color: "#A32D2D",
+              textDecoration: "none",
+              marginRight: "8px",
+            }}>
+              Archive
+            </a>
             <button className={styles.themeToggle} onClick={toggleDark}>
               {dark ? "☀ Light" : "☾ Dark"}
             </button>
@@ -164,7 +175,7 @@ function DeepDive({ dive }) {
           padding: "3px 10px",
           borderRadius: "4px",
         }}>
-          ★ Daily Deep Dive
+          ★ Weekly Deep Dive
         </span>
         <span style={{
           fontFamily: "'Courier New', monospace",
