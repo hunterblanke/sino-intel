@@ -1,3 +1,212 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "date": "2026-06-09",
+      "articles": [
+        {
+          "headline": "U.S. Arms Sales to Taiwan Remain Central to Cross-Strait Security",
+          "brief": "Delayed U.S. weapons shipments to Taiwan have highlighted the ongoing military support arrangement between Washington and Taipei, which serves as a counterbalance to Chinese military capabilities across the Taiwan Strait. The relationship reflects broader U.S. strategic interests in maintaining stability in the Indo-Pacific region amid rising cross-strait tensions. Taiwan's dependence on American military aid underscores the complex three-way security dynamics involving Washington, Beijing, and Taipei.",
+          "category": "foreign_relations",
+          "severity": "high",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/southchinasea/2026/05/26/usa-taiwan-weapons-sales-china/",
+          "published": "Tue, 26 May 2026 03:18:46 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Beijing Integrates Taiwan, South China Sea in US Strategic Competition",
+          "brief": "Recent Xi-Trump discussions have highlighted China's strategic approach to Taiwan and the South China Sea as interconnected elements of its competition with the United States. Analysts assess that Beijing views control over both areas as critical to countering American influence in the Indo-Pacific region. This positioning suggests potential flashpoints in US-China relations centered on maritime territorial claims and Taiwan's status.",
+          "category": "foreign_relations",
+          "severity": "high",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/southchinasea/2026/05/19/xi-trump-taiwan-five-year-plan/",
+          "published": "Tue, 19 May 2026 22:22:38 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Hong Kong expands national security law to cover pre-2020 offenses",
+          "brief": "Hong Kong's new subsidiary legislation enables retroactive application of national security procedures to criminal cases occurring before the 2020 national security law was enacted, through a chief executive certification mechanism for offenses endangering national security. This expansion significantly broadens the scope and temporal reach of national security enforcement in Hong Kong, potentially affecting historical cases and increasing uncertainty regarding legal liability for past conduct.",
+          "category": "foreign_relations",
+          "severity": "high",
+          "sources_used": [
+            "Hong Kong - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3356542/new-hong-kong-law-allows-national-security-procedures-extend-older-cases?utm_source=rss_feed",
+          "published": "Tue, 09 Jun 2026 13:44:08 +0000",
+          "raw_source": "Hong Kong - South China Morning Post"
+        },
+        {
+          "headline": "China Expands Military Reach Beyond First Island Chain",
+          "brief": "China is extending its military capabilities and operational reach beyond the First Island Chain, prompting Japan to reassess its security posture and defense strategy. This development indicates China's growing ability to project power into the Pacific and represents a significant shift in regional military balance that Japan considers strategically significant.",
+          "category": "military",
+          "severity": "high",
+          "sources_used": [
+            "The Diplomat"
+          ],
+          "original_link": "https://thediplomat.com/2026/06/japans-security-focus-shift/",
+          "published": "Tue, 09 Jun 2026 08:07:00 +0900",
+          "raw_source": "The Diplomat"
+        },
+        {
+          "headline": "Hong Kong silences annual Tiananmen crackdown memorial",
+          "brief": "Hong Kong's Victoria Park, which historically hosted mass vigils commemorating the 1989 Tiananmen Square crackdown with up to 180,000 participants, remained silent this year following implementation of the National Security Law. The government's effective suppression of this annual protest represents Beijing's consolidation of control over public dissent in Hong Kong and signals diminished space for independent political expression in the territory.",
+          "category": "foreign_relations",
+          "severity": "high",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/china/2026/06/03/hong-kong-victoria-park-tiananmen-square-china/",
+          "published": "Wed, 03 Jun 2026 21:16:48 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "North Korea-Russia bridge construction nears completion",
+          "brief": "Satellite imagery indicates a new bridge connecting North Korea and Russia is approaching completion, with experts interpreting the accelerated timeline as evidence of Kim Jong Un's commitment to strengthening ties with Moscow. The infrastructure project represents a significant deepening of bilateral cooperation between Pyongyang and Moscow, potentially facilitating increased trade and military coordination between the two nations.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/korea/2026/05/21/tumen-river-bridge-russia-north-korea-putin/",
+          "published": "Thu, 21 May 2026 00:44:51 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Philippines expands military infrastructure in disputed Spratly Islands",
+          "brief": "Satellite imagery reveals Philippine construction of runway and port facilities on two islands in the contested Spratly archipelago. The expansion is intended to enhance military readiness in response to increased Chinese activities in the South China Sea. The development reflects escalating strategic competition and infrastructure investments by claimant states in the disputed region.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/southchinasea/2026/05/08/philippines-satellite-spratlys-infrastructure-upgrade/",
+          "published": "Fri, 08 May 2026 15:30:12 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "US blacklists Chinese companies including Alibaba and WuXi AppTec",
+          "brief": "The US Trump administration added several major Chinese companies across key sectors\u2014including e-commerce giant Alibaba and pharmaceutical contractor WuXi AppTec\u2014to a blacklist citing alleged military links. The move triggered immediate market volatility in Hong Kong, with Alibaba and WuXi AppTec declining 1.4% and 3.7% respectively, though other blacklisted firms like BYD and Baidu gained on the day. This escalation in US-China economic restrictions signals increasing targeting of Chinese firms in strategic industries and poses potential risks to their international operations and investor confidence.",
+          "category": "economy",
+          "severity": "medium",
+          "sources_used": [
+            "Banking & Finance - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/business/china-business/article/3356439/alibaba-and-wuxi-apptec-decline-hong-kong-after-addition-us-blacklist?utm_source=rss_feed",
+          "published": "Tue, 09 Jun 2026 02:49:59 +0000",
+          "raw_source": "Banking & Finance - South China Morning Post"
+        },
+        {
+          "headline": "Quad Plans Fiji Port Project to Counter China's Pacific Influence",
+          "brief": "The Quad alliance (US, Japan, India, Australia) is pursuing a port development project in Fiji as part of efforts to challenge China's dominant position in Pacific supply-chain infrastructure. The initiative signals to regional states that the Quad partners can offer alternative economic partnerships and development models beyond Beijing's offerings. This represents a strategic competition for influence in the Indo-Pacific region through infrastructure investment.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/pacific/2026/05/29/quad-port-fiji-supply-chain-us-japan-india/",
+          "published": "Fri, 29 May 2026 20:35:15 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Solomon Islands' New PM Expected to Reduce China Alignment",
+          "brief": "Matthew Wale, the newly elected Prime Minister of the Solomon Islands, is expected to adopt a more moderate stance toward China compared to his predecessors, according to regional experts. This shift could represent a significant reorientation of the Pacific nation's foreign policy, potentially moving it closer to traditional Western partners including Australia. The change reflects broader geopolitical competition in the Indo-Pacific region regarding influence over strategically important island nations.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/pacific/2026/05/15/solomon-islands-matthew-wale-prime-minister-election/",
+          "published": "Fri, 15 May 2026 22:53:07 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Xi Jinping visits North Korea to reassert Chinese strategic influence",
+          "brief": "Chinese President Xi Jinping traveled to North Korea to strengthen Beijing's control over a strategically important but unpredictable ally. The visit reflects China's effort to maintain leverage over North Korea amid regional security concerns and geopolitical competition. This engagement underscores China's prioritization of its influence in Northeast Asia and the Korean Peninsula.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "BBC News"
+          ],
+          "original_link": "https://www.bbc.com/news/articles/cdep497r256o?at_medium=RSS&at_campaign=rss",
+          "published": "Mon, 08 Jun 2026 14:22:38 GMT",
+          "raw_source": "BBC News"
+        },
+        {
+          "headline": "China May Misrepresent Trump-Xi Summit Statements",
+          "brief": "Radio Free Asia warns that Beijing has a pattern of distorting statements from visiting dignitaries to falsely claim international support for its domestic policies. The publication cautions that similar misrepresentation could occur during a potential Trump-Xi summit, where Beijing might selectively interpret diplomatic statements to legitimize repressive practices. This tactic risks creating diplomatic complications and undermining the credibility of summit outcomes.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/uyghur/2026/05/12/trump-xi-china-meeting-uyghur/",
+          "published": "Tue, 12 May 2026 15:26:55 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Northern Marianas faces tourism-security tradeoff over Chinese visa exemptions",
+          "brief": "The U.S. territory of Northern Marianas benefits economically from the EVS-TAP visa exemption program that facilitates Chinese tourist travel, but faces security concerns from critics regarding the program's vetting procedures. Potential restrictions on Chinese visa-free access could significantly impact local tourism revenue while addressing security risks, presenting a strategic dilemma for territorial authorities.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/pacific/2026/05/13/cnmi-china-visa-waiver-evstap/",
+          "published": "Wed, 13 May 2026 13:22:41 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Stock Connect Restrictions Limit International Access to Chinese AI IPOs",
+          "brief": "Hong Kong and international investors face barriers accessing mainland Chinese AI company listings through the Stock Connect scheme, while mainland investors similarly cannot easily purchase Hong Kong-listed AI stocks. This market access asymmetry reflects regulatory constraints that may limit capital flows into China's high-growth AI sector and reduce cross-border investment opportunities for major trading hubs.",
+          "category": "economy",
+          "severity": "medium",
+          "sources_used": [
+            "Banking & Finance - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/business/markets/article/3356193/why-cant-investors-buy-mainlands-hottest-ai-stocks-stock-connect?utm_source=rss_feed",
+          "published": "Sun, 07 Jun 2026 02:30:07 +0000",
+          "raw_source": "Banking & Finance - South China Morning Post"
+        },
+        {
+          "headline": "Hong Kong Court Sentences Man for Distributing Seditious Messages",
+          "brief": "A Hong Kong court has sentenced a 55-year-old construction worker to 10 months in prison for throwing papers bearing seditious messages from his flat targeting police, judges, and mainland Chinese residents. The case reflects Hong Kong's continued enforcement of sedition laws and demonstrates the judicial system's approach to political speech. This sentencing underscores the tightening restrictions on expression in Hong Kong under the current legal framework.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Hong Kong - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3356533/man-jailed-10-months-over-seditious-messages-thrown-hong-kong-flat?utm_source=rss_feed",
+          "published": "Tue, 09 Jun 2026 12:01:27 +0000",
+          "raw_source": "Hong Kong - South China Morning Post"
+        },
+        {
+          "headline": "Hong Kong court reverses acquittal, convicts law student of 2019 riot",
+          "brief": "A Hong Kong District Court has overturned a former law student's 2019 riot acquittal, reconvicting Alice Tong Ka-yan based on circumstantial evidence nearly seven years after her arrest during anti-government protests. The reversal demonstrates Hong Kong's judicial recalibration regarding protest-related prosecutions and reflects ongoing implementation of the National Security Law framework. This case signals stricter interpretation of riot charges and presence-based culpability in protest contexts.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Hong Kong - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3356524/ex-law-student-convicted-after-court-reverses-acquittal-2019-riot-charge?utm_source=rss_feed",
+          "published": "Tue, 09 Jun 2026 10:50:10 +0000",
+          "raw_source": "Hong Kong - South China Morning Post"
+        }
+      ],
+      "metrics": {
+        "sources_scanned": 5,
+        "articles_total": 16,
+        "high_priority": 5,
+        "by_category": {
+          "foreign_relations": 13,
+          "economy": 2,
+          "military": 1
+        },
+        "updated_at": "2026-06-09T17:36:21.350567Z"
+      }
+    }
+  ]
 }
