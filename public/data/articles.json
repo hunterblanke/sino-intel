@@ -2,19 +2,18 @@
   "date": "2026-06-10",
   "metrics": {
     "sources_scanned": 6,
-    "articles_total": 18,
-    "high_priority": 2,
+    "articles_total": 21,
+    "high_priority": 3,
     "by_category": {
-      "economy": 9,
-      "foreign_relations": 8,
-      "military": 1
+      "economy": 10,
+      "foreign_relations": 11
     },
-    "updated_at": "2026-06-10T11:34:30.541163Z"
+    "updated_at": "2026-06-10T19:45:36.848624Z"
   },
   "articles": [
     {
-      "headline": "US adds BYD to Chinese military-linked companies list",
-      "brief": "The US Pentagon has added BYD, China's major electric vehicle and battery manufacturer, to its list of companies with alleged military connections. This designation warns American firms of compliance risks associated with business dealings with BYD. The move represents an escalation in US economic restrictions targeting Chinese technology firms and could significantly impact BYD's access to US markets and international supply chains.",
+      "headline": "US designates BYD as company with alleged Chinese military connections",
+      "brief": "The Pentagon added BYD, a major Chinese electric vehicle and battery manufacturer, to its list of companies with alleged military ties, warning US firms of compliance risks in doing business with the company. This designation reflects escalating US scrutiny of Chinese commercial entities and could significantly impact BYD's ability to engage in international transactions and partnerships, particularly with US-linked businesses. The move signals broader US efforts to restrict technology transfer and commercial relationships with Chinese firms deemed to have military connections.",
       "category": "economy",
       "severity": "high",
       "sources_used": [
@@ -25,8 +24,8 @@
       "raw_source": "BBC News"
     },
     {
-      "headline": "Beijing integrates Taiwan, South China Sea into U.S. strategic competition",
-      "brief": "Chinese analysts characterize Taiwan and the South China Sea as interconnected components of Beijing's strategic rivalry with the United States, a perspective that gained prominence during recent Xi-Trump discussions. This framing suggests China views these geopolitical flashpoints as part of a unified maritime strategy rather than separate issues. The integration of Taiwan into broader maritime strategy calculations carries significant implications for regional stability and U.S.-China competition.",
+      "headline": "China positions Taiwan and South China Sea as strategic priorities",
+      "brief": "Recent Xi-Trump discussions have highlighted Beijing's integrated strategic approach to Taiwan and the South China Sea as components of great power competition with the United States. Chinese analysts frame both territories as essential to China's maritime strategy and geopolitical positioning in the Indo-Pacific region. This positioning suggests potential escalation risks in both areas as U.S.-China rivalry intensifies.",
       "category": "foreign_relations",
       "severity": "high",
       "sources_used": [
@@ -37,20 +36,32 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "US blacklists Chinese firms including Alibaba, WuXi AppTec",
-      "brief": "The US Trump administration added Alibaba and WuXi AppTec to a blacklist over alleged military links, causing their Hong Kong-listed shares to decline by 1.4% and 3.7% respectively. The move targets Chinese companies in key emerging industries including pharmaceuticals, e-commerce, and electric vehicles, signaling escalating US-China technology and strategic competition. Market reaction was mixed, with other affected firms like BYD and Baidu gaining despite the sanctions announcement.",
-      "category": "economy",
-      "severity": "medium",
+      "headline": "Hong Kong's Tiananmen vigil silenced under National Security Law",
+      "brief": "Hong Kong's Victoria Park remained silent on the Tiananmen crackdown anniversary following implementation of the National Security Law, effectively ending the annual commemoration that previously drew up to 180,000 participants. The suppression of this longstanding public protest demonstrates the law's impact on constraining civil liberties and freedom of assembly in Hong Kong. This development reflects Beijing's tightened control over public discourse and collective memory regarding sensitive historical events.",
+      "category": "foreign_relations",
+      "severity": "high",
       "sources_used": [
-        "Banking & Finance - South China Morning Post"
+        "Radio Free Asia"
       ],
-      "original_link": "https://www.scmp.com/business/china-business/article/3356439/alibaba-and-wuxi-apptec-decline-hong-kong-after-addition-us-blacklist?utm_source=rss_feed",
-      "published": "Tue, 09 Jun 2026 02:49:59 +0000",
-      "raw_source": "Banking & Finance - South China Morning Post"
+      "original_link": "https://rfa.org/english/china/2026/06/03/hong-kong-victoria-park-tiananmen-square-china/",
+      "published": "Wed, 03 Jun 2026 21:16:48 +0000",
+      "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "China's South China Sea buildup could complicate Taiwan conflict response",
-      "brief": "Security experts assess that China's maritime infrastructure development in the South China Sea may be strategically linked to potential Taiwan contingencies, potentially dividing the attention of Taiwan's regional allies. However, analysts indicate that such a diversionary scenario would be unlikely to materialize if armed conflict over Taiwan erupts. The assessment highlights Beijing's multi-domain military positioning strategy in the Indo-Pacific region.",
+      "headline": "Xi Jinping makes first North Korea visit in seven years",
+      "brief": "Chinese President Xi Jinping visited Pyongyang, receiving an official reception during his first trip to North Korea since 2016. The visit signals renewed high-level engagement between Beijing and Pyongyang, potentially strengthening strategic coordination on the Korean Peninsula amid broader geopolitical tensions.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/videos/c5yzje727l5o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 08 Jun 2026 12:18:56 GMT",
+      "raw_source": "BBC News"
+    },
+    {
+      "headline": "China's South China Sea military buildup could challenge Taiwan's regional support",
+      "brief": "According to expert analysis, China's maritime infrastructure development in the South China Sea is strategically linked to potential Taiwan contingencies, with some analysts suggesting such outposts could complicate allied responses during a conflict. However, experts assess that Beijing's ability to leverage these positions to distract Taiwan's supporters would likely be limited in an actual military scenario. The assessment underscores China's ongoing efforts to establish strategic leverage across multiple contested maritime domains.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -61,20 +72,20 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "U.S. Arms Sales to Taiwan Remain Central to Security Strategy",
-      "brief": "Recent delays in U.S. arms deliveries to Taiwan have highlighted the strategic importance of American military support to the island's defense capabilities. The security relationship reflects Washington's commitment to maintaining cross-strait stability amid ongoing geopolitical tensions. Taiwan's reliance on U.S. weaponry underscores the critical role of American military assistance in regional security dynamics.",
+      "headline": "Vietnam accelerates Spratly construction but lags behind China",
+      "brief": "Satellite imagery shows Vietnam has undertaken extensive reclamation and construction activities on 27 features in the disputed Spratly Islands, yet experts assess that Hanoi remains significantly behind China's scale of development in the region. This asymmetry in construction capacity underscores the military and strategic imbalance in the South China Sea, with implications for regional territorial disputes and great power competition.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
         "Radio Free Asia"
       ],
-      "original_link": "https://rfa.org/english/southchinasea/2026/05/26/usa-taiwan-weapons-sales-china/",
-      "published": "Tue, 26 May 2026 03:18:46 +0000",
+      "original_link": "https://rfa.org/english/southchinasea/2026/06/08/vietnam-south-china-sea-spratly-island-construction/",
+      "published": "Mon, 08 Jun 2026 14:07:06 +0000",
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "Satellite imagery indicates North Korea-Russia bridge nearing completion",
-      "brief": "Satellite imagery shows a new bridge connecting North Korea and Russia is approaching completion, suggesting accelerated infrastructure development between the two countries. Expert analysis indicates Kim Jong Un's strong interest in deepening cooperation with Moscow. The bridge's opening would facilitate increased trade and strategic coordination between Pyongyang and Moscow.",
+      "headline": "New North Korea-Russia bridge nearing completion, signals deepening ties",
+      "brief": "Satellite imagery indicates a new bridge connecting North Korea and Russia is approaching completion, suggesting accelerated infrastructure development between the two countries. Expert analysis suggests Kim Jong Un's prioritization of the project reflects his commitment to strengthening cooperation with Moscow. The bridge's completion could facilitate increased trade, military coordination, and strategic alignment between Pyongyang and Moscow.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -85,68 +96,8 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "Philippine military infrastructure expansion detected in disputed Spratly Islands",
-      "brief": "Satellite imagery reveals the Philippines has expanded runway and port facilities on two islands within the contested Spratly Islands region. These improvements are assessed to enhance Philippine military readiness in response to increasing Chinese activities in the South China Sea. The development reflects escalating competition for control and strategic positioning among claimant states in this disputed maritime zone.",
-      "category": "foreign_relations",
-      "severity": "medium",
-      "sources_used": [
-        "Radio Free Asia"
-      ],
-      "original_link": "https://rfa.org/english/southchinasea/2026/05/08/philippines-satellite-spratlys-infrastructure-upgrade/",
-      "published": "Fri, 08 May 2026 15:30:12 +0000",
-      "raw_source": "Radio Free Asia"
-    },
-    {
-      "headline": "Analysis examines structural vulnerabilities in China's economic power",
-      "brief": "The article argues that the United States possesses untapped leverage points against China's economy, suggesting structural weaknesses exist within Beijing's economic system. Understanding these vulnerabilities could inform U.S. strategic policy formulation regarding economic competition and bilateral relations.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "FA RSS"
-      ],
-      "original_link": "https://www.foreignaffairs.com/china/fault-lines-chinas-power-ratner-danby",
-      "published": "Wed, 10 Jun 2026 00:00:00 -0400",
-      "raw_source": "FA RSS"
-    },
-    {
-      "headline": "Chinese leadership's misperceptions impede economic reform efforts",
-      "brief": "Beijing's internal blind spots regarding its economic challenges are preventing the implementation of necessary structural reforms. The Chinese government's limited self-awareness of systemic economic issues creates obstacles to addressing underlying problems and adapting policy accordingly. This disconnect between perception and reality could constrain China's ability to maintain long-term economic competitiveness.",
-      "category": "economy",
-      "severity": "medium",
-      "sources_used": [
-        "FA RSS"
-      ],
-      "original_link": "https://www.foreignaffairs.com/china/how-china-misperceives-itself",
-      "published": "Fri, 05 Jun 2026 00:00:00 -0400",
-      "raw_source": "FA RSS"
-    },
-    {
-      "headline": "Taiwan's Indigenous Communities Face Increased China Military Pressure",
-      "brief": "China's military activities are directly affecting Taiwan's indigenous populations in Hualien, creating localized security concerns beyond typical cross-strait tensions. The situation highlights how geopolitical competition impacts civilian communities and their historical relationships with their territory, representing a shift in how military pressure manifests at the community level.",
-      "category": "military",
-      "severity": "medium",
-      "sources_used": [
-        "The Diplomat"
-      ],
-      "original_link": "https://thediplomat.com/2026/06/long-night-over-hualien-the-china-threat-through-the-eyes-of-taiwans-indigenous-peoples/",
-      "published": "Wed, 10 Jun 2026 02:25:00 +0900",
-      "raw_source": "The Diplomat"
-    },
-    {
-      "headline": "Quad nations plan Fiji port project to counter Chinese Pacific influence",
-      "brief": "The United States, Japan, India, and Australia are pursuing a port development initiative in Fiji as part of efforts to provide alternative infrastructure and supply-chain options to countries in the Pacific region. The project represents a strategic response to China's growing economic dominance in the Pacific and signals to regional states that the Quad members can offer competitive development partnerships.",
-      "category": "foreign_relations",
-      "severity": "medium",
-      "sources_used": [
-        "Radio Free Asia"
-      ],
-      "original_link": "https://rfa.org/english/pacific/2026/05/29/quad-port-fiji-supply-chain-us-japan-india/",
-      "published": "Fri, 29 May 2026 20:35:15 +0000",
-      "raw_source": "Radio Free Asia"
-    },
-    {
-      "headline": "Solomon Islands PM Shift May Reduce China Influence",
-      "brief": "Matthew Wale's ascension to Solomon Islands Prime Minister is expected to represent a significant reorientation of the country's foreign policy away from China toward closer alignment with Australia. Analysts characterize Wale as more moderate and less enthusiastic about Chinese engagement compared to his predecessors. This development could substantially reshape regional geopolitical dynamics in the Pacific.",
+      "headline": "Solomon Islands' new PM signals potential shift away from China",
+      "brief": "Matthew Wale's appointment as Solomon Islands Prime Minister is expected to represent a more moderate approach to China compared to his predecessors, potentially reorienting the nation's strategic alignment. Experts assess this as a significant realignment in regional geopolitics, with implications for China's Pacific influence and Australia's regional positioning. The leadership change suggests Solomon Islands may reduce its enthusiastic engagement with Beijing.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
@@ -157,68 +108,128 @@
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "China accused of misrepresenting foreign leaders' statements",
-      "brief": "Radio Free Asia reports that Beijing has a pattern of twisting statements by visiting dignitaries to suggest endorsement of Chinese government policies. The article warns this practice may occur during high-level diplomatic meetings, potentially creating misunderstandings between nations. This pattern of selective representation could complicate future bilateral negotiations and undermine trust in official diplomatic communications.",
+      "headline": "Philippines expands military infrastructure on disputed Spratly Islands",
+      "brief": "Satellite imagery reveals Philippine construction activities including runway and port expansions on two islands in the contested Spratly Islands. The upgrades are intended to enhance operational readiness in response to recent Chinese military escalations in the South China Sea. This development reflects escalating strategic competition between regional claimants in one of the world's most disputed maritime areas.",
       "category": "foreign_relations",
       "severity": "medium",
       "sources_used": [
         "Radio Free Asia"
       ],
-      "original_link": "https://rfa.org/english/uyghur/2026/05/12/trump-xi-china-meeting-uyghur/",
-      "published": "Tue, 12 May 2026 15:26:55 +0000",
+      "original_link": "https://rfa.org/english/southchinasea/2026/05/08/philippines-satellite-spratlys-infrastructure-upgrade/",
+      "published": "Fri, 08 May 2026 15:30:12 +0000",
       "raw_source": "Radio Free Asia"
     },
     {
-      "headline": "Hong Kong debt market strengthens as major firms raise $5.2 billion",
-      "brief": "Major Chinese companies Tencent and Swire Pacific raised over US$5.2 billion through multi-currency bond offerings in Hong Kong, demonstrating the city's continued importance as an international financial hub. The diverse currency issuances\u2014in US dollars, offshore yuan, and Hong Kong dollars\u2014reflect Hong Kong's role in facilitating capital flows for Chinese enterprises and maintaining its position in global debt markets.",
+      "headline": "Analysis examines U.S. leverage points against China",
+      "brief": "The article discusses structural vulnerabilities and pressure points in China's economic and political system that the United States could potentially exploit. It emphasizes the importance of developing and deploying strategic leverage in U.S.-China relations. The analysis suggests that understanding these fault lines is critical for American policymakers seeking to improve negotiating position with Beijing.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "FA RSS"
+      ],
+      "original_link": "https://www.foreignaffairs.com/china/fault-lines-chinas-power-ratner-danby",
+      "published": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "raw_source": "FA RSS"
+    },
+    {
+      "headline": "China's Self-Perception Gaps Obstruct Economic Reform Efforts",
+      "brief": "According to Foreign Affairs, Beijing's misunderstanding of its own economic challenges and structural weaknesses is preventing necessary reforms. This cognitive gap between China's self-assessment and reality creates significant obstacles to addressing underlying economic vulnerabilities and implementing meaningful policy corrections.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "FA RSS"
+      ],
+      "original_link": "https://www.foreignaffairs.com/china/how-china-misperceives-itself",
+      "published": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "raw_source": "FA RSS"
+    },
+    {
+      "headline": "US blacklists Chinese firms including Alibaba over military concerns",
+      "brief": "The US Trump administration added Alibaba, WuXi AppTec, and other Chinese companies in strategic sectors to a blacklist citing alleged military links, triggering immediate market reactions in Hong Kong trading. Alibaba and WuXi AppTec shares declined 1.4% and 3.7% respectively, while other listed firms such as BYD and Baidu showed resilience and gains. This action reflects escalating US-China tensions targeting key emerging technology and pharmaceutical industries with potential implications for Chinese firms' international operations and valuations.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
         "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3356591/hong-kong-debt-market-heats-tencent-swire-raise-us52b-multi-currency-deals?utm_source=rss_feed",
-      "published": "Wed, 10 Jun 2026 06:00:56 +0000",
+      "original_link": "https://www.scmp.com/business/china-business/article/3356439/alibaba-and-wuxi-apptec-decline-hong-kong-after-addition-us-blacklist?utm_source=rss_feed",
+      "published": "Tue, 09 Jun 2026 02:49:59 +0000",
       "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "Chinese AI firms show divergent market performance post-Hong Kong listing",
-      "brief": "Zhipu AI and MiniMax, two Chinese artificial intelligence developers, listed on the Hong Kong stock exchange in January 2024 with MiniMax initially commanding a larger market capitalization of HK$106.7 billion versus Zhipu's HK$57.9 billion. However, five months later Zhipu has significantly outperformed MiniMax, signaling shifting investor confidence in China's competitive AI sector and the volatility of nascent technology stocks.",
+      "headline": "Chinese Foreign Minister to Discuss US-China Relations at CSIS",
+      "brief": "China's Foreign Minister Wang Yi participated in a CSIS Statesmen's Forum to discuss Chinese foreign policy and US-China relations. The forum provided a platform for dialogue on bilateral relations between the two major powers during a period of strategic competition.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "CSIS"
+      ],
+      "original_link": "https://www.csis.org/events/statesmens-forum-wang-yi-minister-foreign-affairs-prc",
+      "published": "Fri, 19 Feb 2016 22:13:26 +0000",
+      "raw_source": "CSIS"
+    },
+    {
+      "headline": "Hong Kong expands tax incentives for corporate treasury centers",
+      "brief": "Hong Kong has launched an action plan introducing tax breaks and pre-approval mechanisms to attract multinational corporations to establish treasury centers in the city. The initiative aims to strengthen Hong Kong's competitive position as a regional financial hub and facilitate capital flows for international businesses operating in Asia. This policy reflects Hong Kong's strategy to maintain its relevance as a major financial center amid regional competition.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
         "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://www.scmp.com/tech/big-tech/article/3356390/minimax-once-led-zhipu-hong-kongs-ai-stock-race-how-tables-have-turned?utm_source=rss_feed",
-      "published": "Tue, 09 Jun 2026 00:30:07 +0000",
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3356511/hong-kong-launches-tax-break-plan-strengthen-role-corporate-treasury-base?utm_source=rss_feed",
+      "published": "Tue, 09 Jun 2026 10:07:53 +0000",
       "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "Chinese AI firms added to Hong Kong's Hang Seng Tech Index",
-      "brief": "MiniMax Group and Zhipu (Knowledge Atlas Technology) became the first pure-play artificial intelligence companies included in Hong Kong's Hang Seng Tech Index, potentially attracting significant passive investment flows. The index additions signal growing investor confidence in Chinese AI firms, though trading showed mixed results with MiniMax declining 8.4 percent while Zhipu gained 1.3 percent amid broader regional market weakness.",
+      "headline": "China to tighten regulation of algorithmic programme trading",
+      "brief": "Chinese securities regulators announced plans to enhance oversight of programme trading, the automated execution of large securities orders used increasingly by hedge funds and institutional investors. The regulatory enhancement aims to prevent market misconduct as algorithmic trading has become a significant trading method in China's financial markets.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
         "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://www.scmp.com/business/banking-finance/article/3356344/hong-kongs-hang-seng-tech-index-welcomes-minimax-zhipu-ai-milestone-amid-slump?utm_source=rss_feed",
-      "published": "Mon, 08 Jun 2026 08:45:20 +0000",
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3356217/china-will-enhance-regulation-programme-trading-csrc-chairman?utm_source=rss_feed",
+      "published": "Sat, 06 Jun 2026 11:51:21 +0000",
       "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "Macau Small Businesses Struggle as Regional Integration Deepens",
-      "brief": "Macau residents are increasingly shopping in mainland China due to lower prices, greater product variety, and convenience, pressuring local small business sectors. This trend reflects the accelerating economic integration of the Greater Bay Area, which may reshape Macau's traditional retail economy and consumer patterns. The shift underscores broader structural changes in cross-border economic dynamics within the region.",
+      "headline": "Tencent plans $30 billion global note issuance for AI expansion",
+      "brief": "Chinese tech giant Tencent Holdings is launching an international note offering to professional investors, updating its global medium-term note programme to a maximum limit of $30 billion. This move reflects the company's strategy to fund artificial intelligence sector expansion, aligning with broader trends among Hong Kong-listed tech firms seeking capital for AI-related investments. The fundraising demonstrates continued confidence in China's tech sector growth despite ongoing economic pressures.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
-        "The Diplomat"
+        "Banking & Finance - South China Morning Post"
       ],
-      "original_link": "https://thediplomat.com/2026/06/as-integration-in-the-greater-bay-area-accelerates-small-businesses-in-macau-suffer/",
-      "published": "Tue, 09 Jun 2026 23:13:00 +0900",
-      "raw_source": "The Diplomat"
+      "original_link": "https://www.scmp.com/business/banking-finance/article/3356385/hong-kong-listed-tencent-eyes-global-note-issuance-amid-ai-investment-surge?utm_source=rss_feed",
+      "published": "Mon, 08 Jun 2026 11:00:21 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
     },
     {
-      "headline": "Hong Kong doubles tech hub size in Northern Metropolis development",
-      "brief": "Hong Kong authorities have proposed expanding a planned digital technology hub in Lau Fau Shan from 15 to 30 hectares as part of the Northern Metropolis megaproject, with buildings permitted to reach up to 250 meters in height. This expansion reflects Hong Kong's strategic effort to position itself as a regional technology and innovation center, potentially strengthening its economic competitiveness amid broader efforts to integrate with Greater Bay Area development initiatives.",
+      "headline": "Foreign investors return to Chinese markets via IPOs and convertibles",
+      "brief": "Foreign investors are increasing exposure to Chinese assets through convertible bonds and IPOs, with Chinese companies raising US$43 billion in Hong Kong equity capital markets during the first five months of 2026, a 54% increase year-over-year. This capital reflow is driven by investor interest in China's artificial intelligence, semiconductor, and advanced manufacturing sectors. The trend indicates renewed international confidence in Chinese equity markets and diversified fundraising mechanisms.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Banking & Finance - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/business/china-business/article/3356097/china-sees-revival-foreign-investors-through-ipos-convertibles-ubs?utm_source=rss_feed",
+      "published": "Fri, 05 Jun 2026 10:00:16 +0000",
+      "raw_source": "Banking & Finance - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong imposes strict requirements for cross-border tech park development",
+      "brief": "Hong Kong's government has established stringent bidding criteria for its innovation hub near the mainland border, requiring HK$100 million construction bonds and 30-month completion deadlines. These requirements, departing from standard government land sales, indicate official prioritization of well-capitalized developers to ensure project completion. The initiative reflects Hong Kong's strategic emphasis on cross-border technological collaboration and infrastructure development.",
+      "category": "economy",
+      "severity": "medium",
+      "sources_used": [
+        "Hong Kong - South China Morning Post"
+      ],
+      "original_link": "https://www.scmp.com/news/hong-kong/society/article/3356670/hong-kong-tech-park-tender-targets-strong-bidders-hk100m-bond-rule?utm_source=rss_feed",
+      "published": "Wed, 10 Jun 2026 15:16:31 +0000",
+      "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Hong Kong doubles tech hub size despite environmental concerns",
+      "brief": "Hong Kong is proposing to expand its digital technology hub in the Northern Metropolis from 15 to 30 hectares, with structures reaching 250 meters in height. The expansion has raised environmental concerns from activists about potential impacts on migratory bird populations along the flyway. The proposal signals Hong Kong's continued economic development ambitions in technology infrastructure despite sustainability considerations.",
       "category": "economy",
       "severity": "medium",
       "sources_used": [
@@ -227,6 +238,30 @@
       "original_link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356625/hong-kong-authorities-propose-doubling-size-planned-lau-fau-shan-tech-hub?utm_source=rss_feed",
       "published": "Wed, 10 Jun 2026 08:58:55 +0000",
       "raw_source": "Hong Kong - South China Morning Post"
+    },
+    {
+      "headline": "Northern Marianas faces tourism-security tradeoff over Chinese visa exemption",
+      "brief": "The U.S. territory's participation in the EVS-TAP visa exemption program facilitates Chinese tourism but raises security concerns among critics. Ending the program could significantly impact the region's tourism-dependent economy while potentially addressing security vulnerabilities. The issue reflects broader tensions between economic interests and security considerations in U.S.-China relations.",
+      "category": "foreign_relations",
+      "severity": "medium",
+      "sources_used": [
+        "Radio Free Asia"
+      ],
+      "original_link": "https://rfa.org/english/pacific/2026/05/13/cnmi-china-visa-waiver-evstap/",
+      "published": "Wed, 13 May 2026 13:22:41 +0000",
+      "raw_source": "Radio Free Asia"
+    },
+    {
+      "headline": "Air India crash aftermath examined one year later",
+      "brief": "This BBC News article examines the human impact of an Air India crash on ground victims and survivors one year after the incident. The reporting focuses on personal narratives of those affected rather than aviation or military implications. No significant military-related implications are evident from the available content.",
+      "category": "foreign_relations",
+      "severity": "low",
+      "sources_used": [
+        "BBC News"
+      ],
+      "original_link": "https://www.bbc.com/news/articles/cwy2y9n11pyo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 07 Jun 2026 22:01:06 GMT",
+      "raw_source": "BBC News"
     }
   ],
   "deep_dive": {
@@ -245,52 +280,52 @@
     {
       "country": "United States",
       "status": "Tense",
-      "summary": "Relations remain strained over trade, technology competition, Taiwan, and South China Sea disputes, with limited cooperation on climate and health issues."
+      "summary": "China-US relations remain strained due to trade disputes, technology competition, geopolitical rivalry, and disagreements over Taiwan and South China Sea issues."
     },
     {
       "country": "Russia",
       "status": "Cooperative",
-      "summary": "China and Russia maintain close strategic partnership with shared interests in counterbalancing Western influence, though China maintains careful neutrality on Ukraine conflict."
+      "summary": "China and Russia maintain a strategic partnership with increased military cooperation, energy ties, and alignment on opposing Western-led international order despite remaining differences."
     },
     {
       "country": "European Union",
       "status": "Neutral",
-      "summary": "EU-China relations are mixed, balancing economic interdependence against concerns over human rights, technology standards, and strategic autonomy, with increased wariness since 2022."
+      "summary": "EU-China relations are mixed, combining economic interdependence with growing concerns about human rights, market access, and security competition, resulting in a pragmatic but cautious engagement."
     },
     {
       "country": "Taiwan",
       "status": "Hostile",
-      "summary": "China views Taiwan as a breakaway province and maintains military pressure through increased exercises, while opposing any moves toward independence or international recognition."
+      "summary": "China views Taiwan as a renegade province and maintains military pressure through increased aerial incursions while refusing to renounce force to achieve unification."
     },
     {
       "country": "Japan",
       "status": "Tense",
-      "summary": "Relations are strained over the Senkaku Islands dispute, history issues, and security concerns, though significant economic ties and regional cooperation mechanisms persist."
+      "summary": "China-Japan relations are strained by historical disputes, competing claims in the East China Sea, and strategic rivalry over regional influence."
     },
     {
       "country": "India",
       "status": "Tense",
-      "summary": "Border tensions, unresolved territorial disputes in Ladakh, and strategic competition in the Indo-Pacific region create ongoing friction despite trade relationships."
+      "summary": "China-India relations remain tense following the 2020 Galwan Valley clash and ongoing border disputes in Ladakh, with limited military communication and strategic competition in Asia."
     },
     {
       "country": "Saudi Arabia",
       "status": "Cooperative",
-      "summary": "China and Saudi Arabia maintain strong energy and economic ties, with growing strategic alignment on regional issues and Belt and Road Initiative projects."
+      "summary": "China and Saudi Arabia maintain strong economic and energy ties, with growing defense cooperation and Chinese investment in the kingdom's economic diversification initiatives."
     },
     {
       "country": "Philippines",
-      "status": "Tense",
-      "summary": "Relations fluctuate between cooperation and tension, with South China Sea territorial disputes and fishing rights conflicts offset by economic engagement and infrastructure investments."
+      "status": "Neutral",
+      "summary": "China-Philippines relations are pragmatic despite South China Sea disputes, with the Philippine government balancing economic ties and security concerns under shifting diplomatic approaches."
     },
     {
       "country": "Brazil",
       "status": "Cooperative",
-      "summary": "Brazil and China maintain robust economic and trade relations centered on commodities and investment, with aligned positions in BRICS and developing world coalitions."
+      "summary": "China-Brazil relations are cooperative, centered on trade in commodities and agricultural products, though with some friction over intellectual property and market access issues."
     },
     {
       "country": "Australia",
       "status": "Tense",
-      "summary": "Relations remain strained following Australia's security concerns about Chinese influence, trade restrictions, and alignment with the US-led regional security framework."
+      "summary": "China-Australia relations remain tense following Australia's security concerns, calls for investigations into COVID-19 origins, and trade restrictions imposed by China on Australian goods."
     }
   ]
 }
