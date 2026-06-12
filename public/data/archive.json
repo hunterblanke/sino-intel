@@ -1,6 +1,250 @@
 {
   "entries": [
     {
+      "date": "2026-06-11",
+      "articles": [
+        {
+          "headline": "China views Taiwan, South China Sea as strategic rivalry assets",
+          "brief": "Analysts indicate Beijing considers both Taiwan and the South China Sea as critical components of its strategic competition with the United States, as highlighted during recent Xi-Trump discussions. This perspective underscores China's integrated approach to regional maritime dominance and territorial claims. The positioning of these issues together suggests China may leverage multiple pressure points in its competition with Washington.",
+          "category": "foreign_relations",
+          "severity": "high",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/southchinasea/2026/05/19/xi-trump-taiwan-five-year-plan/",
+          "published": "Tue, 19 May 2026 22:22:38 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Xi Jinping visits North Korea after seven-year diplomatic gap",
+          "brief": "Chinese President Xi Jinping traveled to North Korea, marking his first visit in seven years and suggesting a potential warming of bilateral relations after a period of cooling ties. The trip carries significant implications for China-North Korea strategic alignment and regional security dynamics in Northeast Asia.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "The Diplomat"
+          ],
+          "original_link": "https://thediplomat.com/2026/06/why-was-xi-jinping-in-north-korea/",
+          "published": "Thu, 11 Jun 2026 22:30:00 +0900",
+          "raw_source": "The Diplomat"
+        },
+        {
+          "headline": "North Korea-Russia bridge construction nears completion amid deepening ties",
+          "brief": "Satellite imagery indicates a new bridge connecting North Korea and Russia is approaching completion, suggesting accelerated infrastructure development between the two countries. Experts assess the rapid construction pace reflects Kim Jong Un's strategic interest in strengthening cooperation with Moscow. The bridge completion would facilitate increased trade and military coordination between Pyongyang and Moscow.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/korea/2026/05/21/tumen-river-bridge-russia-north-korea-putin/",
+          "published": "Thu, 21 May 2026 00:44:51 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Philippines Demands China Remove Platform at Disputed Shoal",
+          "brief": "The Philippine coast guard has called for China to remove a newly constructed movable platform that appeared at a disputed South China Sea shoal in late May, alleging it supports unauthorized marine research activities. The structure's presence represents continued Chinese operational expansion in contested waters and escalates maritime tensions in a strategically vital region. This incident underscores ongoing territorial disputes and challenges to freedom of navigation in the South China Sea.",
+          "category": "military",
+          "severity": "medium",
+          "sources_used": [
+            "The Diplomat"
+          ],
+          "original_link": "https://thediplomat.com/2026/06/philippines-urges-china-to-remove-movable-platform-at-disputed-south-china-sea-shoal/",
+          "published": "Thu, 11 Jun 2026 12:59:00 +0900",
+          "raw_source": "The Diplomat"
+        },
+        {
+          "headline": "China's South China Sea buildup could complicate Taiwan contingency responses",
+          "brief": "Experts assess that China's maritime infrastructure expansion in the South China Sea is strategically linked to Taiwan contingencies, potentially forcing Taiwan's allies to address multiple simultaneous threats. However, analysts note that such a diversionary scenario would be unlikely to materialize in an actual armed conflict over Taiwan. The assessment underscores Beijing's multi-domain strategic positioning in the region.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/southchinasea/2026/06/08/south-china-sea-outpost-taiwan/",
+          "published": "Mon, 08 Jun 2026 18:53:18 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "U.S. Arms Supplies to Taiwan Remain Central to Cross-Strait Security",
+          "brief": "Recent delays in U.S. military aid packages to Taiwan have highlighted the ongoing strategic importance of American weapons transfers to the island. The U.S. maintains this security relationship despite China's objections, viewing Taiwan's defensive capabilities as essential to regional stability. This dynamic reflects Washington's commitment to the Taiwan Relations Act while managing broader U.S.-China relations.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/southchinasea/2026/05/26/usa-taiwan-weapons-sales-china/",
+          "published": "Tue, 26 May 2026 03:18:46 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Quad nations plan Fiji port project to counter China's Pacific influence",
+          "brief": "The United States, Japan, India, and Australia are pursuing a port development initiative in Fiji as part of their broader strategy to compete with China's growing economic and logistical dominance in the Pacific region. The project demonstrates the Quad's commitment to offering alternative infrastructure and supply-chain partnerships to Pacific island nations. This development reflects intensifying great power competition for influence and strategic positioning in the Indo-Pacific.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/pacific/2026/05/29/quad-port-fiji-supply-chain-us-japan-india/",
+          "published": "Fri, 29 May 2026 20:35:15 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Taiwan Faces Marine Insurance Challenges for Energy Deliveries",
+          "brief": "Taiwan's energy security is threatened not by supply shortages but by insurers' reluctance to cover vessels transporting energy through the Strait of Hormuz amid regional tensions. This insurance gap creates a critical vulnerability in Taiwan's ability to receive essential energy imports despite adequate supply availability. The situation highlights how non-military factors can significantly impact national energy security and supply chain resilience.",
+          "category": "economy",
+          "severity": "medium",
+          "sources_used": [
+            "The Diplomat"
+          ],
+          "original_link": "https://thediplomat.com/2026/06/what-the-hormuz-energy-crisis-is-teaching-taiwan-about-marine-insurance/",
+          "published": "Wed, 10 Jun 2026 23:53:00 +0900",
+          "raw_source": "The Diplomat"
+        },
+        {
+          "headline": "Chinese Foreign Minister Wang Yi Discusses US-China Relations",
+          "brief": "China's Minister of Foreign Affairs Wang Yi participated in a CSIS Statesmen's Forum to discuss Chinese foreign policy and US-China bilateral relations. The forum provided a platform for high-level dialogue on strategic issues between the two powers during a period of significant geopolitical tension.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "CSIS"
+          ],
+          "original_link": "https://www.csis.org/events/statesmens-forum-wang-yi-minister-foreign-affairs-prc",
+          "published": "Fri, 19 Feb 2016 22:13:26 +0000",
+          "raw_source": "CSIS"
+        },
+        {
+          "headline": "CCP Leverages Taiwan-Linked Criminal Networks in Okinawa",
+          "brief": "According to The Diplomat, Beijing is increasingly utilizing organized crime groups with Taiwanese origins as proxy instruments for advancing its interests both across the Taiwan Strait and in foreign territories, including Okinawa. This represents an expansion of the CCP's use of non-state actors for intelligence, coercion, and influence operations beyond mainland China. The development underscores Beijing's sophisticated approach to extending its strategic reach while maintaining operational deniability.",
+          "category": "military",
+          "severity": "medium",
+          "sources_used": [
+            "The Diplomat"
+          ],
+          "original_link": "https://thediplomat.com/2026/06/beijings-shadow-networks-in-okinawa/",
+          "published": "Sat, 06 Jun 2026 00:58:00 +0900",
+          "raw_source": "The Diplomat"
+        },
+        {
+          "headline": "China may misrepresent Trump-Xi summit statements",
+          "brief": "Intelligence analysts warn that Beijing has a documented pattern of mischaracterizing statements from visiting dignitaries to suggest endorsement of its domestic policies. This practice could extend to any Trump-Xi summit, where Beijing might selectively quote or reframe discussions to legitimize repressive actions. Such misrepresentation could complicate U.S. diplomatic messaging and create confusion about actual policy positions.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/uyghur/2026/05/12/trump-xi-china-meeting-uyghur/",
+          "published": "Tue, 12 May 2026 15:26:55 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "Uyghur activist questions legal process in Bangkok bombing case",
+          "brief": "Rebiya Kadeer, a prominent Uyghur human rights activist, has called for scrutiny of the legal proceedings and evidence in death sentences related to the 2015 Erawan Shrine bombing in Bangkok. Her intervention suggests ongoing concerns within Uyghur advocacy circles regarding judicial transparency in cases with potential connections to Uyghur individuals. The case may reflect broader tensions between China-related human rights advocacy and Southeast Asian legal proceedings.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/uyghur/2026/06/11/uyghur-thailand-bombing-verdict/",
+          "published": "Thu, 11 Jun 2026 18:16:57 +0000",
+          "raw_source": "Radio Free Asia"
+        },
+        {
+          "headline": "China Advances Internet Sovereignty Initiative as Global Governance Framework",
+          "brief": "China is promoting 'Internet sovereignty' as a key governing principle for the global Internet, representing a shift toward state-controlled digital frameworks rather than open, international governance models. This initiative has significant implications for cybersecurity policy, digital governance standards, and potential great power competition over information infrastructure control. The concept could reshape international norms around data protection, content regulation, and state authority over digital communications.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "CSIS"
+          ],
+          "original_link": "https://www.csis.org/events/china-reality-check-chinas-internet-sovereignty-initiative-origins-and-consequences",
+          "published": "Tue, 16 Feb 2016 16:49:43 +0000",
+          "raw_source": "CSIS"
+        },
+        {
+          "headline": "Analysis: U.S. Seeks Strategic Leverage Over Chinese Economy",
+          "brief": "The article examines structural vulnerabilities in China's economic and political system that the United States could potentially exploit to enhance its negotiating position. The analysis suggests that identifying and leveraging these 'fault lines' represents a strategic opportunity for American policymakers to strengthen U.S. bargaining power in bilateral economic and geopolitical competition.",
+          "category": "economy",
+          "severity": "medium",
+          "sources_used": [
+            "FA RSS"
+          ],
+          "original_link": "https://www.foreignaffairs.com/china/fault-lines-chinas-power-ratner-danby",
+          "published": "Wed, 10 Jun 2026 00:00:00 -0400",
+          "raw_source": "FA RSS"
+        },
+        {
+          "headline": "Chinese memory maker secures $1.86B chip supply deal amid AI demand surge",
+          "brief": "Biwin, a Chinese memory module manufacturer, has signed a two-year agreement worth $1.86 billion to secure enterprise-grade flash memory chips\u2014a sum exceeding its annual revenue. The locked-price deal reflects intense competition for chip supplies driven by surging demand from AI servers and data centers, highlighting China's vulnerability in securing critical semiconductor components amid global supply constraints.",
+          "category": "economy",
+          "severity": "medium",
+          "sources_used": [
+            "Banking & Finance - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/tech/tech-trends/article/3356752/beat-chip-crunch-chinese-firm-inks-memory-deal-bigger-its-sales?utm_source=rss_feed",
+          "published": "Thu, 11 Jun 2026 10:00:28 +0000",
+          "raw_source": "Banking & Finance - South China Morning Post"
+        },
+        {
+          "headline": "China, Hong Kong, Indonesia establish yuan-rupiah currency framework",
+          "brief": "The People's Bank of China, Hong Kong Monetary Authority, and Bank Indonesia signed an agreement to enable direct bilateral transactions in yuan and rupiah for cross-border trade and investment. This framework facilitates currency exchange and settlement between Indonesian and Hong Kong companies, reducing reliance on third currencies. The initiative reflects China's broader strategy to internationalize the yuan and deepen economic ties with Southeast Asian partners.",
+          "category": "economy",
+          "severity": "medium",
+          "sources_used": [
+            "Hong Kong - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/business/money/article/3356792/hong-kong-indonesia-move-towards-direct-transactions-yuan-rupiah?utm_source=rss_feed",
+          "published": "Thu, 11 Jun 2026 12:42:02 +0000",
+          "raw_source": "Hong Kong - South China Morning Post"
+        },
+        {
+          "headline": "Hong Kong positions itself as premier tech listing hub in Asia",
+          "brief": "Hong Kong Exchanges and Clearing reports that the city has become the top listing choice for technology firms, capitalizing on Asia's rising role in global innovation. HKEX is reviewing its listing regime to better accommodate high-growth and pre-profit technology and biotech companies seeking international capital access. This strategic pivot supports Hong Kong's capital markets momentum amid broader competitive pressures in the regional financial services sector.",
+          "category": "economy",
+          "severity": "medium",
+          "sources_used": [
+            "Banking & Finance - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/business/markets/article/3356704/hong-kongs-pivot-emerging-sectors-secures-its-spot-top-choice-tech-firms-hkex?utm_source=rss_feed",
+          "published": "Thu, 11 Jun 2026 04:55:16 +0000",
+          "raw_source": "Banking & Finance - South China Morning Post"
+        },
+        {
+          "headline": "Hong Kong Implements New National Security Procedural Regulation",
+          "brief": "Hong Kong's Legislative Council has finalized a new regulation allowing certain criminal cases to be handled under national security procedures, with officials stating the measure will be used sparingly. The regulation grants the chief executive authority to certify cases for national security processing prior to trial. This procedural mechanism represents a refinement of Hong Kong's national security framework and may affect judicial processes and foreign perceptions of Hong Kong's legal independence.",
+          "category": "foreign_relations",
+          "severity": "medium",
+          "sources_used": [
+            "Hong Kong - South China Morning Post"
+          ],
+          "original_link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3356787/hong-kongs-new-national-security-regulation-be-used-rarely-ministers-say?utm_source=rss_feed",
+          "published": "Thu, 11 Jun 2026 12:21:08 +0000",
+          "raw_source": "Hong Kong - South China Morning Post"
+        },
+        {
+          "headline": "Dalai Lama undergoes left knee surgery in New Delhi",
+          "brief": "The Tibetan spiritual leader underwent left knee replacement surgery in New Delhi, following a right knee replacement procedure in New York in 2024. The surgery highlights the aging Dalai Lama's ongoing health management and his continued residence in India, which remains strategically significant given China's claims over Tibet and the geopolitical implications of his physical presence outside Chinese territory.",
+          "category": "foreign_relations",
+          "severity": "low",
+          "sources_used": [
+            "Radio Free Asia"
+          ],
+          "original_link": "https://rfa.org/english/tibet/2026/06/08/dalai-lama-knee-surgery/",
+          "published": "Mon, 08 Jun 2026 18:09:19 +0000",
+          "raw_source": "Radio Free Asia"
+        }
+      ],
+      "metrics": {
+        "sources_scanned": 6,
+        "articles_total": 19,
+        "high_priority": 1,
+        "by_category": {
+          "foreign_relations": 12,
+          "military": 2,
+          "economy": 5
+        },
+        "updated_at": "2026-06-11T19:45:58.493269Z"
+      }
+    },
+    {
       "date": "2026-06-10",
       "articles": [
         {
